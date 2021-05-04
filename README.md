@@ -8,6 +8,9 @@ Nicolas Palix
 ## Professeur référent
 Vincent Danjean
 
+## Note de compréhension
+Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
+
 ## Suivi de stage
 ### 04/05/2021
 Rendez-vous en visio-conférence avec Victor Malod et Monsieur Palix : 
