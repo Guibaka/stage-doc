@@ -30,16 +30,32 @@ Le langage Ipanema est un *event-based language* séparé en 2 partie :
 * thread event
 
 Utilisation Ipanema : 
-* Définie attribut thread et core
-* Définie event handlers
+* Définit attribut thread et core
+* Définit les event handlers
 
 ### Politique d'ordonnancement
 #### CFS-like policy 
+Utilise un arbre bicolore (arbre binaire de recherche équilibré). Chaque noeud de l'arbre représente un processus. Chaque noeud a un *temps d'exécution* (nanoseconde) et un *temps max d'exécution* (= temps_attente/nb_processus). 
+
+1. noeud gauche est choisi (temps d'exécution plus faible)
+2. si processus terminé alors supprimé le noeud
+3. si processus atteind le *temps max d'exécution* interruption alors lui associ un *new temps exécution passé* et on l'insére dans l'abre
+4. sélectionne le nouveau noeud gauche
 
 #### ULE-like policy
 
+
 ### Propriété d'ordonnanceur
 Work conservation est une propriété importante : Si un coeur du processeur est surchargé alors il a plus de 1 thread. Si le coeur du processeur contient aucun thread alors il est dans l'état IDLE.
+
+## Polique implémenté en Bossa
+
+* **Round-Robin** 
+* **BVT** (Borrowed Virtual Time) : considére le temps de latence 
+* **Earliest Deadline First** : Attribue une priorité à chaque requête en fonction de l'échéance de cette dernière, les tâches dont l’échéance est proche recevant la priorité la plus élevée. 
+* **Rate Monotonic** :  attribut la priorité la plus forte à la tâche qui possède la plus petite période. Priorité avec une constanten statique.
+
+Lien vers la documentation de Bossa [ici](http://bossa.lip6.fr/)
 
 ## Gitlab
 **ipanema-kernel** : Répo contenant linux-kernel avec ipanema intégré. On pourra retrouver les intégrations [ici](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema).
@@ -52,4 +68,3 @@ On pourra se repérer dans le répertoire grâce au fichier *Documentation/00-In
 **ipanema-dbg** : Répo contenant le script *qemu-run-externKernel.sh* qui exécute **qemu-system-x86_64** avec les options et configurations corrects. 
 
 **nas-ipanema** : Répo contenant les résultats de tests ?
-

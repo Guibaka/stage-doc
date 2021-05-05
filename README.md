@@ -12,6 +12,12 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 05/05/2021
+* Obtention d'identifiant Grid5000 et premier abord sur le déploiement d'une image.
+* Compréhension des différentes politques d'ordonnancement implémentées avec Bossa ainsi que Ipanema 
+* Compréhension de l'utilisation du langage Ipanema sur la création d'une politque d'ordonnancement
+* Poursuite de la lecture de la documentation 
+
 ### 04/05/2021
 Rendez-vous en visio-conférence avec Victor Malod et Monsieur Palix : 
 * Eclaircissement sur le fonctionnement **IPANEMA** en particulier de la classe SaaKM.
@@ -20,7 +26,7 @@ Rendez-vous en visio-conférence avec Victor Malod et Monsieur Palix :
 * Poursuite de la lecture de la documentation
 
 Explication sur la partie SaaKM : 
-Le fonctionnement consiste à itérer sur un ensemble de politique d'ordonnancement afin de trouver un runnable thread. 
+Le fonctionnement consiste à itérer sur un ensemble de politique d'ordonnancement afin de trouver un runnable thread. Utilisé pour relier les modules généré par Ipanema au Linux-kernel.
 
 Concernant l'erreur récurente sur le déploiement d'image, il se peut que le nom du noyau soit modifié créant ainsi un problème d'incohérence avec la version du noyau utilisé. Il est alors nécéssaire de vérifier le nom du noyau dans les configurations de l'image avec : 
 ```bash=
