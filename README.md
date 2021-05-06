@@ -12,6 +12,15 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 06/05/2021
+* Lecture du code sur le compilateur en particulier le fichier main.ml ainsi que les AST utilisé (scheduler, event hanlder, ...)
+* Déploiement d'une image avec le script *deploy* de Monsieur Palix. Cependant je n'ai pas les droits d'installer les packages nécessaire pour la compilation. 
+* Lecture de la documentation sur comment créer son propre image sur Grid5000
+
+Concernant la compréhension du compilateur, j'ai du mal à comprendre ce qu'est le *Leon code* système de vérification pour le language Scala ?. Dans ce cas à quelle moment le language Scala intervient-il ? (hypothèse : La base du DSL Bossa ?).
+
+Dans la partie d'AST. Chaque *type* de notre AST est associé un identificateur définit dans le module Object de objects.ml. Il faudra que je regarde la partie compilateur et parser.
+
 ### 05/05/2021
 * Obtention d'identifiant Grid5000 et premier abord sur le déploiement d'une image.
 * Compréhension des différentes politques d'ordonnancement implémentées avec Bossa ainsi que Ipanema 

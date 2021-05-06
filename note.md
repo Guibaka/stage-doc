@@ -25,6 +25,13 @@ Abstraction : Définie les comportements des objets de l'ordonnanceur et facilit
 
 ![fonctionnement_ipanema](https://i.imgur.com/vlvZzKI.png).
 
+
+![automate_thread](https://i.imgur.com/17BadbB.png)
+
+![automate_core](https://i.imgur.com/FmKcLoi.png)
+
+
+
 Le langage Ipanema est un *event-based language* séparé en 2 partie : 
 * core event
 * thread event
@@ -68,3 +75,42 @@ On pourra se repérer dans le répertoire grâce au fichier *Documentation/00-In
 **ipanema-dbg** : Répo contenant le script *qemu-run-externKernel.sh* qui exécute **qemu-system-x86_64** avec les options et configurations corrects. 
 
 **nas-ipanema** : Répo contenant les résultats de tests ?
+
+### Compilateur
+Pour comprendre mieux commet le Compilateur Ipanema fonctionne. Voici la compréhension du main.ml : 
+
+* Définit les fonctions permettants de vérifier l'AST renvoyé lors du parsing 
+* Renvoie l'ast parsé par le parseur. Utilise aussi les parseurs de Bossa (de ce que j'ai compris)
+* Utilise ast (scheduler) et ast2 (Handlers, Interface, Attack, Detach) 
+* Génére du *Leon code* ? + *C code* + *WhyML code*
+* Génére le Makefile du code C généré
+* Fonction **pipeline build_ast** permet de réaliser les étapes mentionnés et retournent les ensembles d'ast.
+
+
+#### Ast
+* L'ast de l'ordonnanceur est déclaré [ici](https://gitlab.inria.fr/ipanema/compiler/-/blob/master/compiler/types/ast.ml). 
+* L'ast des *events handlers*, *interface*, *attach*, *detach* [ici](https://gitlab.inria.fr/ipanema/compiler/-/blob/master/compiler/generator_new/ast2c.ml)
+
+
+## Grid5000
+Connexion :
+```shell=
+ssh grenoble.g5k
+```
+
+Réserver un node : 
+```shell=
+oarsub -I
+```
+
+Exporter la valeur du Job_ID : 
+```shell=
+export OAR_JOB_ID
+```
+
+Déployer l'image : 
+```shell=
+kadeploy3 -f ~/nodes -e $IMAGE
+```
+
+Cf script *deploy*
