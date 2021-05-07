@@ -91,6 +91,161 @@ Pour comprendre mieux commet le Compilateur Ipanema fonctionne. Voici la compré
 * L'ast de l'ordonnanceur est déclaré [ici](https://gitlab.inria.fr/ipanema/compiler/-/blob/master/compiler/types/ast.ml). 
 * L'ast des *events handlers*, *interface*, *attach*, *detach* [ici](https://gitlab.inria.fr/ipanema/compiler/-/blob/master/compiler/generator_new/ast2c.ml)
 
+#### Parser 
+Exemple qui suit est tiré [ici](https://caml.inria.fr/pub/docs/oreilly-book/html/book-ora107.html)
+##### parser.mly 
+*Header* : Importe les types nécessaire pour la syntaxe : 
+```ocaml=
+%{
+open Basic_types ;;
+
+let phrase_of_cmd c =
+ match c with
+   "RUN" -> Run
+ | "LIST" -> List
+ | "END" -> End
+ | _ -> failwith "line : unexpected command"
+;;
+
+let bin_op_of_rel r =
+ match r with
+   "=" -> EQUAL
+ | "<" -> INF
+ | "<=" -> INFEQ
+ | ">" -> SUP
+ | ">=" -> SUPEQ
+ | "<>" -> DIFF
+ | _ -> failwith "line : unexpected relation symbol"
+;;
+
+%}
+```
+
+*Declaration* contient 3 sections : 
+* lexeme declaration 
+* precedente declaration 
+* declaration of the start symbol 
+
+```ocaml=
+(*lexical units*)
+ %token <int> Lint
+ %token <string> Lident
+ %token <string> Lstring
+ %token <string> Lcmd
+ %token Lplus Lminus Lmult Ldiv Lmod
+ %token <string> Lrel
+ %token Land Lor Lneg
+ %token Lpar Rpar
+ %token <string> Lrem 
+ %token Lrem Llet Lprint Linput Lif Lthen Lgoto
+ %token Lequal
+ %token Leol
+ 
+ (*operator rules*)
+ %right Lneg
+ %left Land Lor
+ %left Lequal Lrel
+ %left Lmod
+ %left Lplus Lminus
+ %left Lmult Ldiv
+ %nonassoc Lop
+ 
+ (*parsing of command line*)
+ %start line
+ %type <Basic_types.phrase> line
+```
+Dans le parser Bossa nous avons : 
+```ocaml=
+%start bossa_spec
+%type <Ast.scheduler * Objects.sched> bossa_spec
+```
+
+*Grammar rules* contient 3 sections : 
+```ocaml=
+ %%
+(*Rule for a line*)
+line : 
+   Lint inst Leol               { Line {num=$1; inst=$2} }
+ | Lcmd Leol                    { phrase_of_cmd $1 }
+ ;
+
+(*Rule for an instruction*)
+inst :
+   Lrem                         { Rem $1 }
+ | Lgoto Lint                   { Goto $2 }
+ | Lprint exp                   { Print $2 }
+ | Linput Lident                { Input $2 }
+ | Lif exp Lthen Lint           { If ($2, $4) }
+ | Llet Lident Lequal exp        { Let ($2, $4) }
+ ;
+
+(*Rule for an expression*)
+exp :
+   Lint                         { ExpInt $1 }
+ | Lident                       { ExpVar $1 }
+ | Lstring                      { ExpStr $1 }
+ | Lneg exp                     { ExpUnr (NOT, $2) }
+ | exp Lplus exp                { ExpBin ($1, PLUS, $3) }
+ | exp Lminus exp               { ExpBin ($1, MINUS, $3) }
+ | exp Lmult exp                { ExpBin ($1, MULT, $3) }
+ | exp Ldiv exp                 { ExpBin ($1, DIV, $3) }
+ | exp Lmod exp                 { ExpBin ($1, MOD, $3) }
+ | exp Lequal exp                { ExpBin ($1, EQUAL, $3) }
+ | exp Lrel exp                 { ExpBin ($1, (bin_op_of_rel $2), $3) }
+ | exp Land exp                 { ExpBin ($1, AND, $3) }
+ | exp Lor exp                  { ExpBin ($1, OR, $3) }
+ (*prec : use of unary with Lop, unary minus*)
+ | Lminus exp %prec Lop        { ExpUnr(OPPOSITE, $2) }
+ | Lpar exp Rpar                { $2 }
+ ;
+ %%
+```
+
+##### lexer.mll
+Reconnait les lexical unit définit : 
+```ocaml=
+rule lexer = parse
+   [' ' '\t']            { lexer lexbuf }
+
+ | '\n'                  { Leol }
+
+ | '!'                   { Lneg }
+ | '&'                   { Land }
+ | '|'                   { Lor }
+ | '='                   { Lequal }
+ | '%'                   { Lmod }
+ | '+'                   { Lplus }
+ | '-'                   { Lminus }
+ | '*'                   { Lmult }
+ | '/'                   { Ldiv }
+
+ | ['<' '>']             { Lrel (Lexing.lexeme lexbuf) }
+ | "<="                  { Lrel (Lexing.lexeme lexbuf) }
+ | ">="                  { Lrel (Lexing.lexeme lexbuf) }
+
+ | "REM" [^ '\n']*       { Lrem (Lexing.lexeme lexbuf) }
+ | "LET"                 { Llet }
+ | "PRINT"               { Lprint }
+ | "INPUT"               { Linput }
+ | "IF"                  { Lif }
+ | "THEN"                { Lthen }
+ | "GOTO"                { Lgoto }
+
+ | "RUN"                { Lcmd (Lexing.lexeme lexbuf) }
+ | "LIST"               { Lcmd (Lexing.lexeme lexbuf) }
+ | "END"                { Lcmd (Lexing.lexeme lexbuf) }
+ 
+ | ['0'-'9']+           { Lint (int_of_string (Lexing.lexeme lexbuf)) }
+ | ['A'-'z']+           { Lident (Lexing.lexeme lexbuf) }
+ | '"' [^ '"']* '"'     { Lstring (string_chars (Lexing.lexeme lexbuf)) }
+```
+## Ipanema-Kernel
+Pour que les fonctions générées par le compilateur d'ipanema soient intégrées dans le noyau, il est définit dans le répertoire include :  [inclule/linux/ipanema.h](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/blob/linux-4.19-ipanema/include/linux/ipanema.h), les structures généré en C par le compilateur Ipanema ainsi que l'architecture des fonctions qui seront générées. On notera que ce sont des **pointeur de fonction** permettant à l'ordonnanceur de choisir la politique d'ordonnancement implémenté par Ipanema selon la strucutre *struct ipanema_policy*. 
+Remarque : le fichier [sched/ipanema.h](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/blob/linux-4.19-ipanema/kernel/sched/ipanema.h) fait un include au fichier include/linux/ipanema.h.
+
+Pour la structure, il est important de savoir que *struct ipanema_policy* contient un champs *routines* qui est de type *struct ipanema_module_routines* où on retrouve tous les pointeurs de fonctions.
+
+Concernant l'implémentation des fonctions du ipenema.h se trouvent dans [sched/ipanema.c](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/blob/linux-4.19-ipanema/kernel/sched/ipanema.c). (**Important de comprendre les fonctions définient dans ce fichier**). 
 
 ## Grid5000
 Connexion :
