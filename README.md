@@ -12,6 +12,26 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 10/05/2021
+Rendez-vous en visio-conférence avec travaillant sur ipanema. Nous avons principalement discuter sur les optimisation implémenté sur la répertation des processus sur un processeur. Voici ce que nous avons abordé durant ce visio : 
+* Intra-socket algorithm sur Linux5.9. Il existe 2 façon. 1) Chercher tous les cores d'un socket à partir du target pour trouver le core et son hyperthread en état IDLE. 2) Chercher sur les N cores à partir du target pour trouver celui en état IDLE   (problem : N n'est pas work conserving)
+* Autre optimisation. Garde un flag sd_llc_sared par socket indiquant s'il existe un core ayant la propriété idle
+* Présentation des résultats avec NAS-benchmark 
+Grâce à cette séance, j'ai pu comprendre l'objectif de la recherche.
+
+Rendez-vous en visio-conférence avec Victor Malod et Monsieur Palix : 
+* Succès de la création d'une image à partir de l'image debian10-x64-nfs. 
+* Compilation de l'ipanema-kernel, cependant je n'ai pas sauvegarder l'image avec la commande *tgz-g5k*. Il va falloir que dans refaire les mêmes manipulation. 
+* Clarification des tâches à accomplir durant ce stage. 
+
+Concernant les tâches durant ce stage : 
+1. Il existe dans le répertoire [kernel/sched/ipanema](https://gitlab.inria.fr/ipanema-public/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema) des politque d'ordonnancement implémenté à la main. 
+2. Le compilateur Ipanema génére du code C selon la politique implémentée avec le DSL d'Ipanema.
+3. Effectuer des évaluations de performance sur 1 et 2 et montrer que le code du générateur est plus performant
+4. Effectuer une migration à linux-5.9 à partir de la branche linux-4.19-ipanema
+5. Ecrire d'autre politque d'ordonnancement avec le Ipanema
+
+Il est important pour demain de réussir d'installer kernel-ipanema pour tester la commande *ipastart*.
 ### 07/05/2021
 * Compréhensions sur le fonctionnement des fichiers parser.mly et lexeur.mll. La documentation est fourni [ici](https://caml.inria.fr/pub/docs/oreilly-book/html/book-ora107.html). Monsieur Palix nous a notamment donner plus d'explication sur ces derniers
 * Abord sur comment le code-C généré par le compilateur est relié avec linux-kernel. J'ai pu aussi comprendre comment l'ajout d'une nouvelle politque d'ordonnancement est gérer. Ceci utilise les pointeurs de fonctions définit dans la structure *struct ipanema_policy* de ipanema.h. Elle permet selon la politque choisis de choisir la bonne fonction lors d'une transition d'état.

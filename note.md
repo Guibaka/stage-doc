@@ -265,7 +265,21 @@ export OAR_JOB_ID
 
 Déployer l'image : 
 ```shell=
-kadeploy3 -f ~/nodes -e $IMAGE
+kadeploy3 -k -f ~/nodes -e $IMAGE
+```
+
+Connexion en root : 
+```shell=
+ssh root@dahu-xx
+```
+
+**Sauvegarde l'image** très important : 
+```shell=
+tgz-g5k
+```
+ou
+```shell=
+tgz-g5k -f gvacherias@fgrenoble:/home/gvacherias/ipanema/ipanema-image.tgz
 ```
 
 Cf script *deploy*
