@@ -12,10 +12,18 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 11/05/2021
+* Poursuite de l'installation de ipanema-kernel qui n'est pas encore terminé
+* Sauvegarde de l'envirionnement créé
+* Compréhension du code situé dans [tools/ipanema](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/tools/ipanema)
+* Modification du script *deploy* pour charger l'envirionnement
+
+
+
 ### 10/05/2021
 Rendez-vous en visio-conférence avec travaillant sur ipanema. Nous avons principalement discuter sur les optimisation implémenté sur la répertation des processus sur un processeur. Voici ce que nous avons abordé durant ce visio : 
 * Intra-socket algorithm sur Linux5.9. Il existe 2 façon. 1) Chercher tous les cores d'un socket à partir du target pour trouver le core et son hyperthread en état IDLE. 2) Chercher sur les N cores à partir du target pour trouver celui en état IDLE   (problem : N n'est pas work conserving)
-* Autre optimisation. Garde un flag sd_llc_sared par socket indiquant s'il existe un core ayant la propriété idle
+* Autre optimisation. Garde un flag sd_llc_shared par socket indiquant s'il existe un core ayant la propriété idle
 * Présentation des résultats avec NAS-benchmark 
 Grâce à cette séance, j'ai pu comprendre l'objectif de la recherche.
 

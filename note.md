@@ -281,5 +281,14 @@ ou
 ```shell=
 tgz-g5k -f gvacherias@fgrenoble:/home/gvacherias/ipanema/ipanema-image.tgz
 ```
+ou 
+```shell=
+frontend : tgz-g5k -m node -f ~/path_to_myimage.tgz
+```
+
+Déploie un environnement créé : 
+```shell=
+kadeploy3 -f $OAR_NODEFILE -a mydebian10-x64-nfs.env
+```
 
 Cf script *deploy*
