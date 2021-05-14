@@ -12,6 +12,15 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 12/05/2021
+Rendez-vous en viso-conférence avec Monsieur Palix, pour l'installation ipanema-kernel : 
+* Echec d'installation 
+* Utilisation du grub-reboot '1>2' pour rebooter sur le bon kernel version voulu
+* Problème lors du reboot : [FAILED] Failed to start Load Kernel Modules
+
+De mon côté j'ai tenté d'utiliser make menuconfig pour en sélectionnant les nouvelles paramètres d'ipanema ainsi que de forcer load modules.
+Cette journée n'a pas été productive car l'installation n'est toujours pas réussi
+
 ### 11/05/2021
 * Poursuite de l'installation de ipanema-kernel qui n'est pas encore terminé
 * Sauvegarde de l'envirionnement créé
