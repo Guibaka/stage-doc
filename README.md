@@ -12,6 +12,13 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 13/05/2021
+* Poursuite de l'installation de l'ipanema kernel (Lors du reboot, start load kernel modules ne fonctionne pas puisque le fichier /etc/selinux/targeted/policy/policy.31 n'existe pas ?)
+* Compréhension sur la génération du code-C par le compilateur
+* Le fichier config généré par make menuconfig prend pas les bonnes configuration
+
+
+
 ### 12/05/2021
 Rendez-vous en viso-conférence avec Monsieur Palix, pour l'installation ipanema-kernel : 
 * Echec d'installation 
