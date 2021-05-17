@@ -12,6 +12,22 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 17/05/2021
+* Compréhension des tests utilisés sur le compilateur
+* En attendant la réponse de Monsieur Palix, j'ai poursuivi l'installation de l'ipanema kernel
+
+
+Rendez-vous en visio-conférence avec l'équipe travaillant sur ipanema : 
+* Différent résultat sur les NAS-benchmark suite
+
+Lecture de la documentations : 
+* CFS is the vanilla CFS scheduler of Linux v4.19, used as a baselinecomparison. It is the only tested scheduler directly written in C.
+* CFS-CWC is  a  simplified  and  slightly  modified  version  of  thealgorithm of CFS proven to be work-conserving
+* CFS-CWC-FLAT is the same algorithm except that it does not ac-count for the hardware topology.
+* ULE and ULE-CWC are  simplified  versions  of  the  scheduler  ofFreeBSD, ULE. The latter is slightly modified and proven to bework-conserving
+
+
+
 ### 13/05/2021
 * Poursuite de l'installation de l'ipanema kernel (Lors du reboot, start load kernel modules ne fonctionne pas puisque le fichier /etc/selinux/targeted/policy/policy.31 n'existe pas ?)
 * Compréhension sur la génération du code-C par le compilateur
@@ -37,7 +53,7 @@ Cette journée n'a pas été productive car l'installation n'est toujours pas r�
 
 
 ### 10/05/2021
-Rendez-vous en visio-conférence avec travaillant sur ipanema. Nous avons principalement discuter sur les optimisation implémenté sur la répertation des processus sur un processeur. Voici ce que nous avons abordé durant ce visio : 
+Rendez-vous en visio-conférence avec l'équipe travaillant sur ipanema. Nous avons principalement discuter sur les optimisation implémenté sur la répertation des processus sur un processeur. Voici ce que nous avons abordé durant ce visio : 
 * Intra-socket algorithm sur Linux5.9. Il existe 2 façon. 1) Chercher tous les cores d'un socket à partir du target pour trouver le core et son hyperthread en état IDLE. 2) Chercher sur les N cores à partir du target pour trouver celui en état IDLE   (problem : N n'est pas work conserving)
 * Autre optimisation. Garde un flag sd_llc_shared par socket indiquant s'il existe un core ayant la propriété idle
 * Présentation des résultats avec NAS-benchmark 

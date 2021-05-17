@@ -77,7 +77,7 @@ On pourra se repérer dans le répertoire grâce au fichier *Documentation/00-In
 **nas-ipanema** : Répo contenant les résultats de tests ?
 
 ### Compilateur
-Pour comprendre mieux commet le Compilateur Ipanema fonctionne. Voici la compréhension du main.ml : 
+Pour comprendre mieux comment le Compilateur Ipanema fonctionne. Voici la compréhension du main.ml : 
 
 * Définit les fonctions permettants de vérifier l'AST renvoyé lors du parsing 
 * Renvoie l'ast parsé par le parseur. Utilise aussi les parseurs de Bossa (de ce que j'ai compris)
@@ -85,6 +85,7 @@ Pour comprendre mieux commet le Compilateur Ipanema fonctionne. Voici la compré
 * Génére du *Leon code* ? + *C code* + *WhyML code*
 * Génére le Makefile du code C généré
 * Fonction **pipeline build_ast** permet de réaliser les étapes mentionnés et retournent les ensembles d'ast.
+* Utilise la notion du voyageur (ast se complète au fur et à mesure de chaque appel de parsing)
 
 
 #### Ast
@@ -239,6 +240,14 @@ rule lexer = parse
  | ['A'-'z']+           { Lident (Lexing.lexeme lexbuf) }
  | '"' [^ '"']* '"'     { Lstring (string_chars (Lexing.lexeme lexbuf)) }
 ```
+
+#### Building
+Permet de faire des vérifications sur le contenu parsé : 
+* Combine module admission criteria into a single admission criteria. 
+* Renaming as may be useful in the module combining process
+* type check 
+* variable check
+
 ## Ipanema-Kernel
 Pour que les fonctions générées par le compilateur d'ipanema soient intégrées dans le noyau, il est définit dans le répertoire include :  [inclule/linux/ipanema.h](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/blob/linux-4.19-ipanema/include/linux/ipanema.h), les structures généré en C par le compilateur Ipanema ainsi que l'architecture des fonctions qui seront générées. On notera que ce sont des **pointeur de fonction** permettant à l'ordonnanceur de choisir la politique d'ordonnancement implémenté par Ipanema selon la strucutre *struct ipanema_policy*. 
 Remarque : le fichier [sched/ipanema.h](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/blob/linux-4.19-ipanema/kernel/sched/ipanema.h) fait un include au fichier include/linux/ipanema.h.
