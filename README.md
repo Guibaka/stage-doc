@@ -12,6 +12,11 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 18/05/2021
+* Lecture du code implémenté dans (sched/ipanema)[https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema]
+* Continuer l'installation. Cette fois j'ai utilisé l'image généré lors du make, mais cela ne fonctionne pas non plus
+
+
 ### 17/05/2021
 * Compréhension des tests utilisés sur le compilateur
 * En attendant la réponse de Monsieur Palix, j'ai poursuivi l'installation de l'ipanema kernel
