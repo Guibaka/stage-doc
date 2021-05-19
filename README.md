@@ -12,8 +12,15 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 19/05/2021
+Rendez-vous en visio-conférence avec Monsieur Palix et Victor : 
+* Installation ipanema-kernel réussi. Il fallait prendre le fichier config utilisé du debian10-x64-nfs pour ensuite faire un *make olddefconfig*. 
+* Premier abord sur la commande ipastart et comment charger les modules intégrés (politque d'ordonnancement)
+* Pour les politiques d'ordonnancement situés dans [sched/ipanema](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema), il n'est pas possible de toutes les intégrer lors du *make config* (problème : multiple function definition. Les autres politiques sont implémenté à partir du fichier [cfs.c](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema/cfs.c))
+* Il faudra pour la prochaine fois regarder comment fonctionne **kameleon** afin de créer mon propre environnement, regarder l'utilisation des benchmarks ainsi que de régler les multiple déclaration des fonctions
+
 ### 18/05/2021
-* Lecture du code implémenté dans (sched/ipanema)[https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema]
+* Lecture du code implémenté dans [sched/ipanema](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema)
 * Continuer l'installation. Cette fois j'ai utilisé l'image généré lors du make, mais cela ne fonctionne pas non plus
 
 

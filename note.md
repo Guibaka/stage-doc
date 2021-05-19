@@ -256,6 +256,20 @@ Pour la structure, il est important de savoir que *struct ipanema_policy* contie
 
 Concernant l'implémentation des fonctions du ipenema.h se trouvent dans [sched/ipanema.c](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/blob/linux-4.19-ipanema/kernel/sched/ipanema.c). (**Important de comprendre les fonctions définient dans ce fichier**). 
 
+### Installation 
+Pour l'installation à partir d'une image debian10-x64-nfs : 
+```shell=
+cp /boot/kernel_config ~/ipanema-kernel/.config
+make olddefconfig
+make menuconfig #choisir les bonnes options
+make -j 
+make modules_install
+make install
+less /boot/grub/grub.cfg #check si on reboot sur le bon kernel
+grub-reboot '1>2' #choisir le bon kernel
+reboot
+```
+
 ## Grid5000
 Connexion :
 ```shell=
