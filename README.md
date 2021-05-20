@@ -12,12 +12,17 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 20/05/2021
+* Premier abord sur la création d'environnement avec kameleon
+* On pourra retrouver la documentation [ici](https://www.grid5000.fr/w/Environments_creation_using_Kameleon_and_Puppet#Modifying_an_image)
+* Utiliation de la commande ipastart avec les modules généré par le compilateur
+* Il faudra regarder l''utilisation des benchmarks et régler les multiples déclaration des fonctions dans [sched/ipanema](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema
 ### 19/05/2021
 Rendez-vous en visio-conférence avec Monsieur Palix et Victor : 
 * Installation ipanema-kernel réussi. Il fallait prendre le fichier config utilisé du debian10-x64-nfs pour ensuite faire un *make olddefconfig*. 
 * Premier abord sur la commande ipastart et comment charger les modules intégrés (politque d'ordonnancement)
 * Pour les politiques d'ordonnancement situés dans [sched/ipanema](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema), il n'est pas possible de toutes les intégrer lors du *make config* (problème : multiple function definition. Les autres politiques sont implémenté à partir du fichier [cfs.c](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema/cfs.c))
-* Il faudra pour la prochaine fois regarder comment fonctionne **kameleon** afin de créer mon propre environnement, regarder l'utilisation des benchmarks ainsi que de régler les multiple déclaration des fonctions
+* Il faudra pour la prochaine fois regarder comment fonctionne **kameleon** afin de créer mon propre environnement, regarder l'utilisation des benchmarks ainsi que de régler les multiples déclaration des fonctions
 
 ### 18/05/2021
 * Lecture du code implémenté dans [sched/ipanema](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema)
