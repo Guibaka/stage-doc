@@ -12,11 +12,22 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 21/05/2021
+Rendez-vous avec Monsieur Palix et Victor à l'IMAG pour nous attribuer les badges ainsi que de faire une petite visite du laboratoire : 
+* J'ai poursuivi la création d'environnement avec kameleon. Cependant, kameleon utilise des package obsolète (polipo). Je pourrais suivre ces 2 liens pour continuer la création de l'environnement pour la prochaine fois : [lien1](https://www.grid5000.fr/w/User:Pneyron/PMEM-environment#Deploy_the_environment) [lien2](https://www.grid5000.fr/w/User:Pneyron/ARM64-custom-environment)
+* J'ai essayé de lancer les benchmarks fournis dans le répo [benchmark](https://gitlab.inria.fr/ipanema/benchmarks).  Le benchmark nécessite d'avoir toutes les potiliques d'ordonnancement dans le fichier /proc/ipanema/policies
+* Il faudra que je regarde comment fonctionne le benchmark 
+
+Note important : 
+* Pour les modules générés par le compilateur, il faut utilisé la commande insmod pour les intégrer.
+* Pour les modules compilé avec le ipanema-kernel, il suffit d'utiliser la commande modprobe pour les intégrer
+
+
 ### 20/05/2021
 * Premier abord sur la création d'environnement avec kameleon
 * On pourra retrouver la documentation [ici](https://www.grid5000.fr/w/Environments_creation_using_Kameleon_and_Puppet#Modifying_an_image)
 * Utiliation de la commande ipastart avec les modules généré par le compilateur
-* Il faudra regarder l''utilisation des benchmarks et régler les multiples déclaration des fonctions dans [sched/ipanema](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema
+* Il faudra regarder l''utilisation des benchmarks et régler les multiples déclaration des fonctions dans [sched/ipanema](https://gitlab.inria.fr/ipanema/ipanema-kernel/-/tree/linux-4.19-ipanema/kernel/sched/ipanema).
 ### 19/05/2021
 Rendez-vous en visio-conférence avec Monsieur Palix et Victor : 
 * Installation ipanema-kernel réussi. Il fallait prendre le fichier config utilisé du debian10-x64-nfs pour ensuite faire un *make olddefconfig*. 

@@ -315,3 +315,23 @@ kadeploy3 -f $OAR_NODEFILE -a mydebian10-x64-nfs.env
 ```
 
 Cf script *deploy*
+
+## Benchmark 
+**forever** : 
+```shell=
+#!/bin/bash
+set -x
+while :; do $@; done
+```
+Affiche les commandes exécuté et leurs arguments
+**steve** : 
+```shell=
+#!/bin/bash
+set -x -u
+find "$@" -type f -executable -name '*.sh' | sort -R |
+    while read job
+    do
+	${job}
+    done
+```
+Execute tous les .sh dans le répertoire benchmark
