@@ -12,6 +12,14 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 25/05/2021
+* Poursuite de la création d'envirionnement avec kameleon.
+* Le chargement de l'image ipanema.tar.zst ne fonctionne pas. Cependant, les images situant dans /grid5000/image/ chargent correctement
+
+Utilisation des liens : 
+* https://www.grid5000.fr/w/User:Pneyron/PMEM-environment
+* https://www.grid5000.fr/w/User:Pneyron/ARM64-custom-environment
+
 ### 21/05/2021
 Rendez-vous avec Monsieur Palix et Victor à l'IMAG pour nous attribuer les badges ainsi que de faire une petite visite du laboratoire : 
 * J'ai poursuivi la création d'environnement avec kameleon. Cependant, kameleon utilise des package obsolète (polipo). Je pourrais suivre ces 2 liens pour continuer la création de l'environnement pour la prochaine fois : [lien1](https://www.grid5000.fr/w/User:Pneyron/PMEM-environment#Deploy_the_environment) [lien2](https://www.grid5000.fr/w/User:Pneyron/ARM64-custom-environment)
