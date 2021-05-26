@@ -12,6 +12,14 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 26/06/2021
+* Poursuite de la création d'envirionnement avec kameleon. Le problème était sur les fichiers tarball il faut les placer dans le répertoire public de notre home. Avec un path : 
+```shell=
+http://public.site.grid5000.fr/~username/file
+```
+* J'ai regardé la partie src du benchmark (fork, idle, monitor_tests). Il faudra pour la prochaine fois que je fasse des benchmarks sur les poitiques
+* J'ai gardé une trace de l'installation dans le fichier [kameleon.md](https://github.com/Guibaka/stage-doc/blob/main/kameleon.md)
+
 ### 25/05/2021
 * Poursuite de la création d'envirionnement avec kameleon.
 * Le chargement de l'image ipanema.tar.zst ne fonctionne pas. Cependant, les images situant dans /grid5000/image/ chargent correctement
