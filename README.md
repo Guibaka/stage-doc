@@ -12,6 +12,10 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 27/06/2021
+* Lancement du nas-benchmark (NPB-3.3-OMP) sur les politiques généré par le compilateur. On pourra retrouver le code source du benchmark [ici](https://github.com/minsii/NPB-3.3/tree/master/NPB3.3-OMP). Cependant, il faudra que je regarde en détail les différents benchmarks (BT, SP, LU, CG, MG, FT, and EP) et à quoi correponsdent les *CLASS* lors de la compilation des benchs.
+* J'ai regardé comment fonctionne le fichier [trace.sh](https://gitlab.inria.fr/ipanema/exp-results/nas-ipanema/-/blob/master/trace.sh). J'ai effectué quelque changement pour exécuter toutes les potiques générés par le compilateur.
+* J'ai continuer sur la création d'environnement avec kameleon. Cependant, je rencontre une nouvelle erreur concernant l'étape *start_vm* lors du bootsrap.
 ### 26/06/2021
 * Poursuite de la création d'envirionnement avec kameleon. Le problème était sur les fichiers tarball il faut les placer dans le répertoire public de notre home. Avec un path : 
 ```shell=
