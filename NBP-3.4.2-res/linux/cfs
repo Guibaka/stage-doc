@@ -1,0 +1,5664 @@
+Running bt.A.x with policy cfs ()
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200       dt:   0.0008000
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+^CCPU0 data recorded at offset=0x57f000
+    28672 bytes in size
+CPU1 data recorded at offset=0x586000
+    24576 bytes in size
+CPU2 data recorded at offset=0x58c000
+    20480 bytes in size
+CPU3 data recorded at offset=0x591000
+    20480 bytes in size
+CPU4 data recorded at offset=0x596000
+    24576 bytes in size
+CPU5 data recorded at offset=0x59c000
+    20480 bytes in size
+CPU6 data recorded at offset=0x5a1000
+    24576 bytes in size
+CPU7 data recorded at offset=0x5a7000
+    20480 bytes in size
+CPU8 data recorded at offset=0x5ac000
+    28672 bytes in size
+CPU9 data recorded at offset=0x5b3000
+    24576 bytes in size
+CPU10 data recorded at offset=0x5b9000
+    20480 bytes in size
+CPU11 data recorded at offset=0x5be000
+    20480 bytes in size
+CPU12 data recorded at offset=0x5c3000
+    28672 bytes in size
+CPU13 data recorded at offset=0x5ca000
+    20480 bytes in size
+CPU14 data recorded at offset=0x5cf000
+    24576 bytes in size
+CPU15 data recorded at offset=0x5d5000
+    20480 bytes in size
+CPU16 data recorded at offset=0x5da000
+    20480 bytes in size
+CPU17 data recorded at offset=0x5df000
+    24576 bytes in size
+CPU18 data recorded at offset=0x5e5000
+    24576 bytes in size
+CPU19 data recorded at offset=0x5eb000
+    20480 bytes in size
+CPU20 data recorded at offset=0x5f0000
+    24576 bytes in size
+CPU21 data recorded at offset=0x5f6000
+    20480 bytes in size
+CPU22 data recorded at offset=0x5fb000
+    24576 bytes in size
+CPU23 data recorded at offset=0x601000
+    20480 bytes in size
+CPU24 data recorded at offset=0x606000
+    32768 bytes in size
+CPU25 data recorded at offset=0x60e000
+    20480 bytes in size
+CPU26 data recorded at offset=0x613000
+    20480 bytes in size
+CPU27 data recorded at offset=0x618000
+    20480 bytes in size
+CPU28 data recorded at offset=0x61d000
+    24576 bytes in size
+CPU29 data recorded at offset=0x623000
+    20480 bytes in size
+CPU30 data recorded at offset=0x628000
+    28672 bytes in size
+CPU31 data recorded at offset=0x62f000
+    28672 bytes in size
+CPU32 data recorded at offset=0x636000
+    20480 bytes in size
+CPU33 data recorded at offset=0x63b000
+    20480 bytes in size
+CPU34 data recorded at offset=0x640000
+    24576 bytes in size
+CPU35 data recorded at offset=0x646000
+    20480 bytes in size
+CPU36 data recorded at offset=0x64b000
+    20480 bytes in size
+CPU37 data recorded at offset=0x650000
+    20480 bytes in size
+CPU38 data recorded at offset=0x655000
+    20480 bytes in size
+CPU39 data recorded at offset=0x65a000
+    20480 bytes in size
+CPU40 data recorded at offset=0x65f000
+    24576 bytes in size
+CPU41 data recorded at offset=0x665000
+    20480 bytes in size
+CPU42 data recorded at offset=0x66a000
+    24576 bytes in size
+CPU43 data recorded at offset=0x670000
+    20480 bytes in size
+CPU44 data recorded at offset=0x675000
+    20480 bytes in size
+CPU45 data recorded at offset=0x67a000
+    20480 bytes in size
+CPU46 data recorded at offset=0x67f000
+    20480 bytes in size
+CPU47 data recorded at offset=0x684000
+    20480 bytes in size
+CPU48 data recorded at offset=0x689000
+    20480 bytes in size
+CPU49 data recorded at offset=0x68e000
+    20480 bytes in size
+CPU50 data recorded at offset=0x693000
+    20480 bytes in size
+CPU51 data recorded at offset=0x698000
+    20480 bytes in size
+CPU52 data recorded at offset=0x69d000
+    24576 bytes in size
+CPU53 data recorded at offset=0x6a3000
+    20480 bytes in size
+CPU54 data recorded at offset=0x6a8000
+    20480 bytes in size
+CPU55 data recorded at offset=0x6ad000
+    20480 bytes in size
+CPU56 data recorded at offset=0x6b2000
+    20480 bytes in size
+CPU57 data recorded at offset=0x6b7000
+    16384 bytes in size
+CPU58 data recorded at offset=0x6bb000
+    20480 bytes in size
+CPU59 data recorded at offset=0x6c0000
+    20480 bytes in size
+CPU60 data recorded at offset=0x6c5000
+    36864 bytes in size
+CPU61 data recorded at offset=0x6ce000
+    16384 bytes in size
+CPU62 data recorded at offset=0x6d2000
+    36864 bytes in size
+CPU63 data recorded at offset=0x6db000
+    16384 bytes in size
+Running bt.B.x with policy cfs ()
+^C
+gvacherias@dahu-28:~/ipanema/nas-ipanema$ find /lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/ule_wwc_2.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/cfs.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/10261.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/cfs_unblock_wwc.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/cfs_wwc_local_new_unblock.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/ule_rip.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/12300.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/ule_wwc.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/44530.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/ule.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/cfs_wwc_preempt_on_wakeup.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/cfs_wwc_flat.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/cfs_ticklike_wwc.ko
+/lib/modules/4.19.0-ipanema-g00d304b1a5a1/kernel/kernel/sched/ipanema/ule_wwc_rip.ko
+gvacherias@dahu-28:~/ipanema/nas-ipanema$ sudo modprobe cfs
+gvacherias@dahu-28:~/ipanema/nas-ipanema$ cat /proc/
+Display all 642 possibilities? (y or n)
+gvacherias@dahu-28:~/ipanema/nas-ipanema$ cat /proc/ipanema/policies 
+0 cfs 0
+gvacherias@dahu-28:~/ipanema/nas-ipanema$ vi trace.sh 
+gvacherias@dahu-28:~/ipanema/nas-ipanema$ ls
+ ADC.dat.0	    ADC.view.sz.0   cfs_cwc_flat_ipa   nas-run	  ule_bsd_rand_ipa
+ ADC.logf.0.0	    cfs		    Makefile	      '~npalix'   ule_cwc_ipa
+ ADC.view.dat.0.0   cfs_cwc_cache   nas-log	       trace.sh
+gvacherias@dahu-28:~/ipanema/nas-ipanema$ ./trace.sh 
+performance
+1
+~/ipanema/nas-ipanema/nas-run ~/ipanema/nas-ipanema
+Running bt.A.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200       dt:   0.0008000
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7101254243319E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.4707771381408E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3145888171195E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8106549417537E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1371673561714E-13
+ Comparison of RMS-norms of solution error
+           1 0.4234841604053E+01 0.4234841604053E+01 0.1048656009767E-14
+           2 0.4439028249700E+00 0.4439028249700E+00 0.6502729204800E-14
+           3 0.9669248013635E+00 0.9669248013635E+00 0.1263019963254E-14
+           4 0.8830206303977E+00 0.8830206303977E+00 0.1005841074517E-14
+           5 0.9737990177083E+01 0.9737990177083E+01 0.4560378494683E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                     2.09
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 80697.64
+ Mop/s/thread    =                  1260.90
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    45056 bytes in size
+CPU1 data recorded at offset=0x58a000
+    36864 bytes in size
+CPU2 data recorded at offset=0x593000
+    36864 bytes in size
+CPU3 data recorded at offset=0x59c000
+    36864 bytes in size
+CPU4 data recorded at offset=0x5a5000
+    36864 bytes in size
+CPU5 data recorded at offset=0x5ae000
+    36864 bytes in size
+CPU6 data recorded at offset=0x5b7000
+    36864 bytes in size
+CPU7 data recorded at offset=0x5c0000
+    32768 bytes in size
+CPU8 data recorded at offset=0x5c8000
+    36864 bytes in size
+CPU9 data recorded at offset=0x5d1000
+    32768 bytes in size
+CPU10 data recorded at offset=0x5d9000
+    36864 bytes in size
+CPU11 data recorded at offset=0x5e2000
+    36864 bytes in size
+CPU12 data recorded at offset=0x5eb000
+    36864 bytes in size
+CPU13 data recorded at offset=0x5f4000
+    36864 bytes in size
+CPU14 data recorded at offset=0x5fd000
+    36864 bytes in size
+CPU15 data recorded at offset=0x606000
+    36864 bytes in size
+CPU16 data recorded at offset=0x60f000
+    36864 bytes in size
+CPU17 data recorded at offset=0x618000
+    36864 bytes in size
+CPU18 data recorded at offset=0x621000
+    36864 bytes in size
+CPU19 data recorded at offset=0x62a000
+    36864 bytes in size
+CPU20 data recorded at offset=0x633000
+    36864 bytes in size
+CPU21 data recorded at offset=0x63c000
+    32768 bytes in size
+CPU22 data recorded at offset=0x644000
+    36864 bytes in size
+CPU23 data recorded at offset=0x64d000
+    32768 bytes in size
+CPU24 data recorded at offset=0x655000
+    40960 bytes in size
+CPU25 data recorded at offset=0x65f000
+    32768 bytes in size
+CPU26 data recorded at offset=0x667000
+    36864 bytes in size
+CPU27 data recorded at offset=0x670000
+    32768 bytes in size
+CPU28 data recorded at offset=0x678000
+    36864 bytes in size
+CPU29 data recorded at offset=0x681000
+    32768 bytes in size
+CPU30 data recorded at offset=0x689000
+    36864 bytes in size
+CPU31 data recorded at offset=0x692000
+    32768 bytes in size
+CPU32 data recorded at offset=0x69a000
+    36864 bytes in size
+CPU33 data recorded at offset=0x6a3000
+    36864 bytes in size
+CPU34 data recorded at offset=0x6ac000
+    36864 bytes in size
+CPU35 data recorded at offset=0x6b5000
+    32768 bytes in size
+CPU36 data recorded at offset=0x6bd000
+    36864 bytes in size
+CPU37 data recorded at offset=0x6c6000
+    32768 bytes in size
+CPU38 data recorded at offset=0x6ce000
+    36864 bytes in size
+CPU39 data recorded at offset=0x6d7000
+    36864 bytes in size
+CPU40 data recorded at offset=0x6e0000
+    36864 bytes in size
+CPU41 data recorded at offset=0x6e9000
+    36864 bytes in size
+CPU42 data recorded at offset=0x6f2000
+    36864 bytes in size
+CPU43 data recorded at offset=0x6fb000
+    32768 bytes in size
+CPU44 data recorded at offset=0x703000
+    36864 bytes in size
+CPU45 data recorded at offset=0x70c000
+    32768 bytes in size
+CPU46 data recorded at offset=0x714000
+    36864 bytes in size
+CPU47 data recorded at offset=0x71d000
+    32768 bytes in size
+CPU48 data recorded at offset=0x725000
+    36864 bytes in size
+CPU49 data recorded at offset=0x72e000
+    32768 bytes in size
+CPU50 data recorded at offset=0x736000
+    118784 bytes in size
+CPU51 data recorded at offset=0x753000
+    32768 bytes in size
+CPU52 data recorded at offset=0x75b000
+    36864 bytes in size
+CPU53 data recorded at offset=0x764000
+    36864 bytes in size
+CPU54 data recorded at offset=0x76d000
+    36864 bytes in size
+CPU55 data recorded at offset=0x776000
+    36864 bytes in size
+CPU56 data recorded at offset=0x77f000
+    36864 bytes in size
+CPU57 data recorded at offset=0x788000
+    36864 bytes in size
+CPU58 data recorded at offset=0x791000
+    40960 bytes in size
+CPU59 data recorded at offset=0x79b000
+    36864 bytes in size
+CPU60 data recorded at offset=0x7a4000
+    36864 bytes in size
+CPU61 data recorded at offset=0x7ad000
+    36864 bytes in size
+CPU62 data recorded at offset=0x7b6000
+    36864 bytes in size
+CPU63 data recorded at offset=0x7bf000
+    36864 bytes in size
+Running bt.B.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200       dt:   0.0003000
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.9744405422333E-14
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3719724944162E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9727447836926E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.8481098651866E-14
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.3353524571581E-14
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1193978204863E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.8663456073507E-14
+           4 0.1200692532356E+02 0.1200692532356E+02 0.9616383166343E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1186179106308E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                     9.20
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 76327.81
+ Mop/s/thread    =                  1192.62
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    163840 bytes in size
+CPU1 data recorded at offset=0x5a7000
+    204800 bytes in size
+CPU2 data recorded at offset=0x5d9000
+    147456 bytes in size
+CPU3 data recorded at offset=0x5fd000
+    143360 bytes in size
+CPU4 data recorded at offset=0x620000
+    147456 bytes in size
+CPU5 data recorded at offset=0x644000
+    139264 bytes in size
+CPU6 data recorded at offset=0x666000
+    147456 bytes in size
+CPU7 data recorded at offset=0x68a000
+    139264 bytes in size
+CPU8 data recorded at offset=0x6ac000
+    147456 bytes in size
+CPU9 data recorded at offset=0x6d0000
+    172032 bytes in size
+CPU10 data recorded at offset=0x6fa000
+    143360 bytes in size
+CPU11 data recorded at offset=0x71d000
+    143360 bytes in size
+CPU12 data recorded at offset=0x740000
+    147456 bytes in size
+CPU13 data recorded at offset=0x764000
+    139264 bytes in size
+CPU14 data recorded at offset=0x786000
+    147456 bytes in size
+CPU15 data recorded at offset=0x7aa000
+    139264 bytes in size
+CPU16 data recorded at offset=0x7cc000
+    147456 bytes in size
+CPU17 data recorded at offset=0x7f0000
+    167936 bytes in size
+CPU18 data recorded at offset=0x819000
+    147456 bytes in size
+CPU19 data recorded at offset=0x83d000
+    143360 bytes in size
+CPU20 data recorded at offset=0x860000
+    147456 bytes in size
+CPU21 data recorded at offset=0x884000
+    139264 bytes in size
+CPU22 data recorded at offset=0x8a6000
+    147456 bytes in size
+CPU23 data recorded at offset=0x8ca000
+    143360 bytes in size
+CPU24 data recorded at offset=0x8ed000
+    176128 bytes in size
+CPU25 data recorded at offset=0x918000
+    143360 bytes in size
+CPU26 data recorded at offset=0x93b000
+    217088 bytes in size
+CPU27 data recorded at offset=0x970000
+    147456 bytes in size
+CPU28 data recorded at offset=0x994000
+    147456 bytes in size
+CPU29 data recorded at offset=0x9b8000
+    143360 bytes in size
+CPU30 data recorded at offset=0x9db000
+    143360 bytes in size
+CPU31 data recorded at offset=0x9fe000
+    143360 bytes in size
+CPU32 data recorded at offset=0xa21000
+    147456 bytes in size
+CPU33 data recorded at offset=0xa45000
+    143360 bytes in size
+CPU34 data recorded at offset=0xa68000
+    147456 bytes in size
+CPU35 data recorded at offset=0xa8c000
+    143360 bytes in size
+CPU36 data recorded at offset=0xaaf000
+    147456 bytes in size
+CPU37 data recorded at offset=0xad3000
+    143360 bytes in size
+CPU38 data recorded at offset=0xaf6000
+    143360 bytes in size
+CPU39 data recorded at offset=0xb19000
+    143360 bytes in size
+CPU40 data recorded at offset=0xb3c000
+    143360 bytes in size
+CPU41 data recorded at offset=0xb5f000
+    147456 bytes in size
+CPU42 data recorded at offset=0xb83000
+    143360 bytes in size
+CPU43 data recorded at offset=0xba6000
+    143360 bytes in size
+CPU44 data recorded at offset=0xbc9000
+    143360 bytes in size
+CPU45 data recorded at offset=0xbec000
+    143360 bytes in size
+CPU46 data recorded at offset=0xc0f000
+    151552 bytes in size
+CPU47 data recorded at offset=0xc34000
+    143360 bytes in size
+CPU48 data recorded at offset=0xc57000
+    143360 bytes in size
+CPU49 data recorded at offset=0xc7a000
+    139264 bytes in size
+CPU50 data recorded at offset=0xc9c000
+    147456 bytes in size
+CPU51 data recorded at offset=0xcc0000
+    143360 bytes in size
+CPU52 data recorded at offset=0xce3000
+    147456 bytes in size
+CPU53 data recorded at offset=0xd07000
+    143360 bytes in size
+CPU54 data recorded at offset=0xd2a000
+    143360 bytes in size
+CPU55 data recorded at offset=0xd4d000
+    143360 bytes in size
+CPU56 data recorded at offset=0xd70000
+    151552 bytes in size
+CPU57 data recorded at offset=0xd95000
+    143360 bytes in size
+CPU58 data recorded at offset=0xdb8000
+    155648 bytes in size
+CPU59 data recorded at offset=0xdde000
+    143360 bytes in size
+CPU60 data recorded at offset=0xe01000
+    143360 bytes in size
+CPU61 data recorded at offset=0xe24000
+    143360 bytes in size
+CPU62 data recorded at offset=0xe47000
+    143360 bytes in size
+CPU63 data recorded at offset=0xe6a000
+    143360 bytes in size
+Running bt.C.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.1020297288481E-14
+           2 0.5079323919042E+03 0.5079323919042E+03 0.4476455509971E-15
+           3 0.1542353009301E+04 0.1542353009301E+04 0.5896799865453E-15
+           4 0.1330238792929E+04 0.1330238792929E+04 0.1196488733123E-14
+           5 0.1160408742844E+05 0.1160408742844E+05 0.1567541967228E-14
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.3453006315289E-15
+           2 0.1149710790382E+02 0.1149710790382E+02 0.7725233398955E-15
+           3 0.4120744620746E+02 0.4120744620746E+02 0.0000000000000E+00
+           4 0.3708765105969E+02 0.3708765105969E+02 0.3831694461407E-15
+           5 0.3621105305184E+03 0.3621105305184E+03 0.1412802795364E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                    37.51
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 76420.13
+ Mop/s/thread    =                  1194.06
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    651264 bytes in size
+CPU1 data recorded at offset=0x61e000
+    573440 bytes in size
+CPU2 data recorded at offset=0x6aa000
+    573440 bytes in size
+CPU3 data recorded at offset=0x736000
+    565248 bytes in size
+CPU4 data recorded at offset=0x7c0000
+    573440 bytes in size
+CPU5 data recorded at offset=0x84c000
+    573440 bytes in size
+CPU6 data recorded at offset=0x8d8000
+    581632 bytes in size
+CPU7 data recorded at offset=0x966000
+    573440 bytes in size
+CPU8 data recorded at offset=0x9f2000
+    573440 bytes in size
+CPU9 data recorded at offset=0xa7e000
+    573440 bytes in size
+CPU10 data recorded at offset=0xb0a000
+    569344 bytes in size
+CPU11 data recorded at offset=0xb95000
+    569344 bytes in size
+CPU12 data recorded at offset=0xc20000
+    585728 bytes in size
+CPU13 data recorded at offset=0xcaf000
+    565248 bytes in size
+CPU14 data recorded at offset=0xd39000
+    577536 bytes in size
+CPU15 data recorded at offset=0xdc6000
+    573440 bytes in size
+CPU16 data recorded at offset=0xe52000
+    593920 bytes in size
+CPU17 data recorded at offset=0xee3000
+    577536 bytes in size
+CPU18 data recorded at offset=0xf70000
+    638976 bytes in size
+CPU19 data recorded at offset=0x100c000
+    569344 bytes in size
+CPU20 data recorded at offset=0x1097000
+    573440 bytes in size
+CPU21 data recorded at offset=0x1123000
+    565248 bytes in size
+CPU22 data recorded at offset=0x11ad000
+    573440 bytes in size
+CPU23 data recorded at offset=0x1239000
+    569344 bytes in size
+CPU24 data recorded at offset=0x12c4000
+    679936 bytes in size
+CPU25 data recorded at offset=0x136a000
+    569344 bytes in size
+CPU26 data recorded at offset=0x13f5000
+    581632 bytes in size
+CPU27 data recorded at offset=0x1483000
+    569344 bytes in size
+CPU28 data recorded at offset=0x150e000
+    782336 bytes in size
+CPU29 data recorded at offset=0x15cd000
+    573440 bytes in size
+CPU30 data recorded at offset=0x1659000
+    581632 bytes in size
+CPU31 data recorded at offset=0x16e7000
+    569344 bytes in size
+CPU32 data recorded at offset=0x1772000
+    569344 bytes in size
+CPU33 data recorded at offset=0x17fd000
+    569344 bytes in size
+CPU34 data recorded at offset=0x1888000
+    573440 bytes in size
+CPU35 data recorded at offset=0x1914000
+    569344 bytes in size
+CPU36 data recorded at offset=0x199f000
+    569344 bytes in size
+CPU37 data recorded at offset=0x1a2a000
+    573440 bytes in size
+CPU38 data recorded at offset=0x1ab6000
+    589824 bytes in size
+CPU39 data recorded at offset=0x1b46000
+    581632 bytes in size
+CPU40 data recorded at offset=0x1bd4000
+    606208 bytes in size
+CPU41 data recorded at offset=0x1c68000
+    569344 bytes in size
+CPU42 data recorded at offset=0x1cf3000
+    593920 bytes in size
+CPU43 data recorded at offset=0x1d84000
+    565248 bytes in size
+CPU44 data recorded at offset=0x1e0e000
+    585728 bytes in size
+CPU45 data recorded at offset=0x1e9d000
+    565248 bytes in size
+CPU46 data recorded at offset=0x1f27000
+    716800 bytes in size
+CPU47 data recorded at offset=0x1fd6000
+    577536 bytes in size
+CPU48 data recorded at offset=0x2063000
+    573440 bytes in size
+CPU49 data recorded at offset=0x20ef000
+    569344 bytes in size
+CPU50 data recorded at offset=0x217a000
+    589824 bytes in size
+CPU51 data recorded at offset=0x220a000
+    569344 bytes in size
+CPU52 data recorded at offset=0x2295000
+    573440 bytes in size
+CPU53 data recorded at offset=0x2321000
+    573440 bytes in size
+CPU54 data recorded at offset=0x23ad000
+    581632 bytes in size
+CPU55 data recorded at offset=0x243b000
+    565248 bytes in size
+CPU56 data recorded at offset=0x24c5000
+    622592 bytes in size
+CPU57 data recorded at offset=0x255d000
+    569344 bytes in size
+CPU58 data recorded at offset=0x25e8000
+    573440 bytes in size
+CPU59 data recorded at offset=0x2674000
+    569344 bytes in size
+CPU60 data recorded at offset=0x26ff000
+    573440 bytes in size
+CPU61 data recorded at offset=0x278b000
+    569344 bytes in size
+CPU62 data recorded at offset=0x2816000
+    573440 bytes in size
+CPU63 data recorded at offset=0x28a2000
+    565248 bytes in size
+Running cg.A.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:    64
+
+ Initialization time =           0.227 seconds
+
+   iteration           ||r||                 zeta
+        1       0.25963189137500E-12    19.9997581277040
+        2       0.25500514844598E-14    17.1140495745506
+        3       0.25355975528902E-14    17.1296668946143
+        4       0.25424162210958E-14    17.1302113581192
+        5       0.25122974077742E-14    17.1302338856353
+        6       0.25261707370903E-14    17.1302349879482
+        7       0.25075045672552E-14    17.1302350498916
+        8       0.25063108262565E-14    17.1302350537510
+        9       0.24796745417831E-14    17.1302350540101
+       10       0.24697635856190E-14    17.1302350540284
+       11       0.24487938357441E-14    17.1302350540298
+       12       0.24405939313256E-14    17.1302350540299
+       13       0.24085808883466E-14    17.1302350540299
+       14       0.24135510098140E-14    17.1302350540299
+       15       0.23710351781428E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5205597766559E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.08
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 18184.49
+ Mop/s/thread    =                   284.13
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    8192 bytes in size
+CPU1 data recorded at offset=0x581000
+    8192 bytes in size
+CPU2 data recorded at offset=0x583000
+    8192 bytes in size
+CPU3 data recorded at offset=0x585000
+    8192 bytes in size
+CPU4 data recorded at offset=0x587000
+    8192 bytes in size
+CPU5 data recorded at offset=0x589000
+    8192 bytes in size
+CPU6 data recorded at offset=0x58b000
+    8192 bytes in size
+CPU7 data recorded at offset=0x58d000
+    8192 bytes in size
+CPU8 data recorded at offset=0x58f000
+    8192 bytes in size
+CPU9 data recorded at offset=0x591000
+    8192 bytes in size
+CPU10 data recorded at offset=0x593000
+    8192 bytes in size
+CPU11 data recorded at offset=0x595000
+    8192 bytes in size
+CPU12 data recorded at offset=0x597000
+    8192 bytes in size
+CPU13 data recorded at offset=0x599000
+    8192 bytes in size
+CPU14 data recorded at offset=0x59b000
+    8192 bytes in size
+CPU15 data recorded at offset=0x59d000
+    8192 bytes in size
+CPU16 data recorded at offset=0x59f000
+    8192 bytes in size
+CPU17 data recorded at offset=0x5a1000
+    8192 bytes in size
+CPU18 data recorded at offset=0x5a3000
+    8192 bytes in size
+CPU19 data recorded at offset=0x5a5000
+    8192 bytes in size
+CPU20 data recorded at offset=0x5a7000
+    8192 bytes in size
+CPU21 data recorded at offset=0x5a9000
+    8192 bytes in size
+CPU22 data recorded at offset=0x5ab000
+    8192 bytes in size
+CPU23 data recorded at offset=0x5ad000
+    8192 bytes in size
+CPU24 data recorded at offset=0x5af000
+    8192 bytes in size
+CPU25 data recorded at offset=0x5b1000
+    8192 bytes in size
+CPU26 data recorded at offset=0x5b3000
+    8192 bytes in size
+CPU27 data recorded at offset=0x5b5000
+    8192 bytes in size
+CPU28 data recorded at offset=0x5b7000
+    8192 bytes in size
+CPU29 data recorded at offset=0x5b9000
+    8192 bytes in size
+CPU30 data recorded at offset=0x5bb000
+    8192 bytes in size
+CPU31 data recorded at offset=0x5bd000
+    12288 bytes in size
+CPU32 data recorded at offset=0x5c0000
+    4096 bytes in size
+CPU33 data recorded at offset=0x5c1000
+    8192 bytes in size
+CPU34 data recorded at offset=0x5c3000
+    4096 bytes in size
+CPU35 data recorded at offset=0x5c4000
+    8192 bytes in size
+CPU36 data recorded at offset=0x5c6000
+    4096 bytes in size
+CPU37 data recorded at offset=0x5c7000
+    8192 bytes in size
+CPU38 data recorded at offset=0x5c9000
+    4096 bytes in size
+CPU39 data recorded at offset=0x5ca000
+    8192 bytes in size
+CPU40 data recorded at offset=0x5cc000
+    4096 bytes in size
+CPU41 data recorded at offset=0x5cd000
+    8192 bytes in size
+CPU42 data recorded at offset=0x5cf000
+    4096 bytes in size
+CPU43 data recorded at offset=0x5d0000
+    8192 bytes in size
+CPU44 data recorded at offset=0x5d2000
+    4096 bytes in size
+CPU45 data recorded at offset=0x5d3000
+    8192 bytes in size
+CPU46 data recorded at offset=0x5d5000
+    4096 bytes in size
+CPU47 data recorded at offset=0x5d6000
+    73728 bytes in size
+CPU48 data recorded at offset=0x5e8000
+    4096 bytes in size
+CPU49 data recorded at offset=0x5e9000
+    8192 bytes in size
+CPU50 data recorded at offset=0x5eb000
+    4096 bytes in size
+CPU51 data recorded at offset=0x5ec000
+    8192 bytes in size
+CPU52 data recorded at offset=0x5ee000
+    4096 bytes in size
+CPU53 data recorded at offset=0x5ef000
+    8192 bytes in size
+CPU54 data recorded at offset=0x5f1000
+    4096 bytes in size
+CPU55 data recorded at offset=0x5f2000
+    20480 bytes in size
+CPU56 data recorded at offset=0x5f7000
+    8192 bytes in size
+CPU57 data recorded at offset=0x5f9000
+    8192 bytes in size
+CPU58 data recorded at offset=0x5fb000
+    8192 bytes in size
+CPU59 data recorded at offset=0x5fd000
+    8192 bytes in size
+CPU60 data recorded at offset=0x5ff000
+    8192 bytes in size
+CPU61 data recorded at offset=0x601000
+    8192 bytes in size
+CPU62 data recorded at offset=0x603000
+    4096 bytes in size
+CPU63 data recorded at offset=0x604000
+    8192 bytes in size
+Running cg.B.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - CG Benchmark
+
+ Size:       75000
+ Iterations:                     75
+ Number of available threads:    64
+
+ Initialization time =           0.419 seconds
+
+   iteration           ||r||                 zeta
+        1       0.22762688539490E-12    59.9994751578754
+        2       0.84673421509184E-15    21.7627846142538
+        3       0.86383456840502E-15    22.2876617043225
+        4       0.85992499989153E-15    22.5230738188352
+        5       0.86961094678939E-15    22.6275390653890
+        6       0.86610488078623E-15    22.6740259189537
+        7       0.87606908843493E-15    22.6949056826253
+        8       0.88188359404713E-15    22.7044023166871
+        9       0.88344392477364E-15    22.7087834345616
+       10       0.88140166766750E-15    22.7108351397172
+       11       0.87772593200064E-15    22.7118107121337
+       12       0.88498123201816E-15    22.7122816240973
+       13       0.87883776737644E-15    22.7125122663245
+       14       0.88676602896845E-15    22.7126268007598
+       15       0.87363996715797E-15    22.7126844161817
+       16       0.88024276838869E-15    22.7127137461758
+       17       0.88093541267101E-15    22.7127288401997
+       18       0.88130056882963E-15    22.7127366848297
+       19       0.88140347186403E-15    22.7127407981220
+       20       0.87631340348124E-15    22.7127429721363
+       21       0.87687450442301E-15    22.7127441294028
+       22       0.87938127636091E-15    22.7127447493900
+       23       0.87737403046937E-15    22.7127450834529
+       24       0.87806882306338E-15    22.7127452643880
+       25       0.87519111169992E-15    22.7127453628459
+       26       0.87858756079935E-15    22.7127454166513
+       27       0.87983989497072E-15    22.7127454461692
+       28       0.87743272792537E-15    22.7127454624205
+       29       0.88204851986927E-15    22.7127454713971
+       30       0.87910112186849E-15    22.7127454763704
+       31       0.88127335852726E-15    22.7127454791336
+       32       0.87868682297129E-15    22.7127454806729
+       33       0.87442274778463E-15    22.7127454815324
+       34       0.87419325757051E-15    22.7127454820135
+       35       0.87233894016296E-15    22.7127454822834
+       36       0.87433307105581E-15    22.7127454824351
+       37       0.87258931180805E-15    22.7127454825205
+       38       0.87055498477613E-15    22.7127454825687
+       39       0.87595159154623E-15    22.7127454825960
+       40       0.87138016512531E-15    22.7127454826114
+       41       0.87397573943345E-15    22.7127454826201
+       42       0.87153818226935E-15    22.7127454826251
+       43       0.87187526956359E-15    22.7127454826279
+       44       0.87161317885490E-15    22.7127454826295
+       45       0.87484685129785E-15    22.7127454826304
+       46       0.86405269193939E-15    22.7127454826310
+       47       0.86720948993584E-15    22.7127454826313
+       48       0.86485728671322E-15    22.7127454826314
+       49       0.87041547600890E-15    22.7127454826316
+       50       0.87041599130814E-15    22.7127454826316
+       51       0.87252336712818E-15    22.7127454826316
+       52       0.87020879235911E-15    22.7127454826316
+       53       0.87072325284008E-15    22.7127454826317
+       54       0.86613602544268E-15    22.7127454826317
+       55       0.86703109198254E-15    22.7127454826317
+       56       0.86624895503224E-15    22.7127454826317
+       57       0.87229069255203E-15    22.7127454826317
+       58       0.86442986468627E-15    22.7127454826317
+       59       0.86194350581574E-15    22.7127454826317
+       60       0.86066999790501E-15    22.7127454826317
+       61       0.86374714578587E-15    22.7127454826317
+       62       0.86919163376139E-15    22.7127454826317
+       63       0.86164561379672E-15    22.7127454826317
+       64       0.86512067384697E-15    22.7127454826317
+       65       0.86397345653696E-15    22.7127454826317
+       66       0.85837028454237E-15    22.7127454826317
+       67       0.86198439456371E-15    22.7127454826317
+       68       0.86219990325585E-15    22.7127454826317
+       69       0.85417050972857E-15    22.7127454826317
+       70       0.86064785432534E-15    22.7127454826317
+       71       0.86011098637279E-15    22.7127454826317
+       72       0.86007072097509E-15    22.7127454826317
+       73       0.86387178085966E-15    22.7127454826317
+       74       0.86025239170553E-15    22.7127454826317
+       75       0.86041854273456E-15    22.7127454826317
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2271274548263E+02
+ Error is    0.2940684436962E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        B
+ Size            =                    75000
+ Iterations      =                       75
+ Time in seconds =                     2.42
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 22569.97
+ Mop/s/thread    =                   352.66
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    53248 bytes in size
+CPU1 data recorded at offset=0x58c000
+    45056 bytes in size
+CPU2 data recorded at offset=0x597000
+    45056 bytes in size
+CPU3 data recorded at offset=0x5a2000
+    45056 bytes in size
+CPU4 data recorded at offset=0x5ad000
+    45056 bytes in size
+CPU5 data recorded at offset=0x5b8000
+    45056 bytes in size
+CPU6 data recorded at offset=0x5c3000
+    45056 bytes in size
+CPU7 data recorded at offset=0x5ce000
+    45056 bytes in size
+CPU8 data recorded at offset=0x5d9000
+    45056 bytes in size
+CPU9 data recorded at offset=0x5e4000
+    45056 bytes in size
+CPU10 data recorded at offset=0x5ef000
+    49152 bytes in size
+CPU11 data recorded at offset=0x5fb000
+    180224 bytes in size
+CPU12 data recorded at offset=0x627000
+    45056 bytes in size
+CPU13 data recorded at offset=0x632000
+    45056 bytes in size
+CPU14 data recorded at offset=0x63d000
+    45056 bytes in size
+CPU15 data recorded at offset=0x648000
+    40960 bytes in size
+CPU16 data recorded at offset=0x652000
+    57344 bytes in size
+CPU17 data recorded at offset=0x660000
+    45056 bytes in size
+CPU18 data recorded at offset=0x66b000
+    45056 bytes in size
+CPU19 data recorded at offset=0x676000
+    40960 bytes in size
+CPU20 data recorded at offset=0x680000
+    45056 bytes in size
+CPU21 data recorded at offset=0x68b000
+    40960 bytes in size
+CPU22 data recorded at offset=0x695000
+    45056 bytes in size
+CPU23 data recorded at offset=0x6a0000
+    40960 bytes in size
+CPU24 data recorded at offset=0x6aa000
+    49152 bytes in size
+CPU25 data recorded at offset=0x6b6000
+    40960 bytes in size
+CPU26 data recorded at offset=0x6c0000
+    45056 bytes in size
+CPU27 data recorded at offset=0x6cb000
+    40960 bytes in size
+CPU28 data recorded at offset=0x6d5000
+    45056 bytes in size
+CPU29 data recorded at offset=0x6e0000
+    40960 bytes in size
+CPU30 data recorded at offset=0x6ea000
+    49152 bytes in size
+CPU31 data recorded at offset=0x6f6000
+    40960 bytes in size
+CPU32 data recorded at offset=0x700000
+    45056 bytes in size
+CPU33 data recorded at offset=0x70b000
+    45056 bytes in size
+CPU34 data recorded at offset=0x716000
+    45056 bytes in size
+CPU35 data recorded at offset=0x721000
+    45056 bytes in size
+CPU36 data recorded at offset=0x72c000
+    45056 bytes in size
+CPU37 data recorded at offset=0x737000
+    40960 bytes in size
+CPU38 data recorded at offset=0x741000
+    57344 bytes in size
+CPU39 data recorded at offset=0x74f000
+    40960 bytes in size
+CPU40 data recorded at offset=0x759000
+    45056 bytes in size
+CPU41 data recorded at offset=0x764000
+    40960 bytes in size
+CPU42 data recorded at offset=0x76e000
+    45056 bytes in size
+CPU43 data recorded at offset=0x779000
+    40960 bytes in size
+CPU44 data recorded at offset=0x783000
+    45056 bytes in size
+CPU45 data recorded at offset=0x78e000
+    40960 bytes in size
+CPU46 data recorded at offset=0x798000
+    45056 bytes in size
+CPU47 data recorded at offset=0x7a3000
+    45056 bytes in size
+CPU48 data recorded at offset=0x7ae000
+    45056 bytes in size
+CPU49 data recorded at offset=0x7b9000
+    40960 bytes in size
+CPU50 data recorded at offset=0x7c3000
+    49152 bytes in size
+CPU51 data recorded at offset=0x7cf000
+    40960 bytes in size
+CPU52 data recorded at offset=0x7d9000
+    45056 bytes in size
+CPU53 data recorded at offset=0x7e4000
+    40960 bytes in size
+CPU54 data recorded at offset=0x7ee000
+    45056 bytes in size
+CPU55 data recorded at offset=0x7f9000
+    40960 bytes in size
+CPU56 data recorded at offset=0x803000
+    45056 bytes in size
+CPU57 data recorded at offset=0x80e000
+    40960 bytes in size
+CPU58 data recorded at offset=0x818000
+    45056 bytes in size
+CPU59 data recorded at offset=0x823000
+    40960 bytes in size
+CPU60 data recorded at offset=0x82d000
+    45056 bytes in size
+CPU61 data recorded at offset=0x838000
+    40960 bytes in size
+CPU62 data recorded at offset=0x842000
+    45056 bytes in size
+CPU63 data recorded at offset=0x84d000
+    40960 bytes in size
+Running cg.C.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    64
+
+ Initialization time =           0.839 seconds
+
+   iteration           ||r||                 zeta
+        1       0.35314006009036E-12   109.9994423237398
+        2       0.80333162306985E-15    27.3920437146522
+        3       0.85385276367165E-15    28.0339761840269
+        4       0.87728143583213E-15    28.4191507551292
+        5       0.89339932010566E-15    28.6471670038896
+        6       0.89502075320599E-15    28.7812969418413
+        7       0.90077293243465E-15    28.8600458537347
+        8       0.90772503709996E-15    28.9063145572687
+        9       0.90932085329611E-15    28.9335649214617
+       10       0.91100681416850E-15    28.9496695448999
+       11       0.90965347151693E-15    28.9592263353752
+       12       0.90922796361720E-15    28.9649233484894
+       13       0.90896687125663E-15    28.9683359248931
+       14       0.91467589052805E-15    28.9703903960004
+       15       0.90652005534739E-15    28.9716336228372
+       16       0.91433436160477E-15    28.9723898600854
+       17       0.90883782336859E-15    28.9728522692227
+       18       0.91173529733732E-15    28.9731364797775
+       19       0.90660955355620E-15    28.9733120569287
+       20       0.91521027186627E-15    28.9734210663749
+       21       0.91569026204273E-15    28.9734890760554
+       22       0.91425628486226E-15    28.9735317064875
+       23       0.90930930885776E-15    28.9735585497254
+       24       0.91433304785217E-15    28.9735755256646
+       25       0.90882233876732E-15    28.9735863059384
+       26       0.90413678834948E-15    28.9735931787372
+       27       0.91471830908365E-15    28.9735975767372
+       28       0.91163109511766E-15    28.9736004009988
+       29       0.90659735668186E-15    28.9736022206773
+       30       0.90781042145133E-15    28.9736033967631
+       31       0.91294319008307E-15    28.9736041591152
+       32       0.90619010234548E-15    28.9736046546409
+       33       0.91542625605490E-15    28.9736049775619
+       34       0.91402297715925E-15    28.9736051885101
+       35       0.90904808953736E-15    28.9736053266249
+       36       0.90550049990938E-15    28.9736054172454
+       37       0.90812933342118E-15    28.9736054768225
+       38       0.90838408345869E-15    28.9736055160640
+       39       0.90751939699976E-15    28.9736055419568
+       40       0.90591328257055E-15    28.9736055590700
+       41       0.90929481922282E-15    28.9736055703980
+       42       0.90794075468744E-15    28.9736055779077
+       43       0.91117508515983E-15    28.9736055828932
+       44       0.90657488713161E-15    28.9736055862072
+       45       0.91130152256807E-15    28.9736055884128
+       46       0.90554632985998E-15    28.9736055898825
+       47       0.90757742988954E-15    28.9736055908630
+       48       0.90868702219761E-15    28.9736055915178
+       49       0.90595886376375E-15    28.9736055919555
+       50       0.90923954948939E-15    28.9736055922485
+       51       0.90694981351578E-15    28.9736055924445
+       52       0.90210001148625E-15    28.9736055925760
+       53       0.90329154391231E-15    28.9736055926643
+       54       0.90788250549033E-15    28.9736055927236
+       55       0.90373367193769E-15    28.9736055927634
+       56       0.90621997476036E-15    28.9736055927902
+       57       0.90360368519674E-15    28.9736055928082
+       58       0.90615625983184E-15    28.9736055928204
+       59       0.90561321793650E-15    28.9736055928286
+       60       0.90834906457967E-15    28.9736055928340
+       61       0.90726904824030E-15    28.9736055928378
+       62       0.90627740503859E-15    28.9736055928403
+       63       0.90835072102591E-15    28.9736055928420
+       64       0.90277988320597E-15    28.9736055928431
+       65       0.90749008791758E-15    28.9736055928439
+       66       0.91070887711878E-15    28.9736055928444
+       67       0.90580597735309E-15    28.9736055928448
+       68       0.90678582954062E-15    28.9736055928450
+       69       0.90971559968498E-15    28.9736055928452
+       70       0.90179666289328E-15    28.9736055928454
+       71       0.90813892618383E-15    28.9736055928454
+       72       0.90741774641042E-15    28.9736055928454
+       73       0.90299511628513E-15    28.9736055928455
+       74       0.90460741936975E-15    28.9736055928455
+       75       0.90191006456816E-15    28.9736055928455
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2897360559285E+02
+ Error is    0.1679879890806E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                     9.11
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 15736.14
+ Mop/s/thread    =                   245.88
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    172032 bytes in size
+CPU1 data recorded at offset=0x5a9000
+    151552 bytes in size
+CPU2 data recorded at offset=0x5ce000
+    151552 bytes in size
+CPU3 data recorded at offset=0x5f3000
+    151552 bytes in size
+CPU4 data recorded at offset=0x618000
+    155648 bytes in size
+CPU5 data recorded at offset=0x63e000
+    151552 bytes in size
+CPU6 data recorded at offset=0x663000
+    151552 bytes in size
+CPU7 data recorded at offset=0x688000
+    155648 bytes in size
+CPU8 data recorded at offset=0x6ae000
+    155648 bytes in size
+CPU9 data recorded at offset=0x6d4000
+    147456 bytes in size
+CPU10 data recorded at offset=0x6f8000
+    151552 bytes in size
+CPU11 data recorded at offset=0x71d000
+    147456 bytes in size
+CPU12 data recorded at offset=0x741000
+    159744 bytes in size
+CPU13 data recorded at offset=0x768000
+    151552 bytes in size
+CPU14 data recorded at offset=0x78d000
+    155648 bytes in size
+CPU15 data recorded at offset=0x7b3000
+    151552 bytes in size
+CPU16 data recorded at offset=0x7d8000
+    192512 bytes in size
+CPU17 data recorded at offset=0x807000
+    151552 bytes in size
+CPU18 data recorded at offset=0x82c000
+    155648 bytes in size
+CPU19 data recorded at offset=0x852000
+    147456 bytes in size
+CPU20 data recorded at offset=0x876000
+    151552 bytes in size
+CPU21 data recorded at offset=0x89b000
+    147456 bytes in size
+CPU22 data recorded at offset=0x8bf000
+    151552 bytes in size
+CPU23 data recorded at offset=0x8e4000
+    147456 bytes in size
+CPU24 data recorded at offset=0x908000
+    200704 bytes in size
+CPU25 data recorded at offset=0x939000
+    147456 bytes in size
+CPU26 data recorded at offset=0x95d000
+    151552 bytes in size
+CPU27 data recorded at offset=0x982000
+    147456 bytes in size
+CPU28 data recorded at offset=0x9a6000
+    159744 bytes in size
+CPU29 data recorded at offset=0x9cd000
+    151552 bytes in size
+CPU30 data recorded at offset=0x9f2000
+    155648 bytes in size
+CPU31 data recorded at offset=0xa18000
+    143360 bytes in size
+CPU32 data recorded at offset=0xa3b000
+    159744 bytes in size
+CPU33 data recorded at offset=0xa62000
+    147456 bytes in size
+CPU34 data recorded at offset=0xa86000
+    151552 bytes in size
+CPU35 data recorded at offset=0xaab000
+    147456 bytes in size
+CPU36 data recorded at offset=0xacf000
+    172032 bytes in size
+CPU37 data recorded at offset=0xaf9000
+    143360 bytes in size
+CPU38 data recorded at offset=0xb1c000
+    155648 bytes in size
+CPU39 data recorded at offset=0xb42000
+    147456 bytes in size
+CPU40 data recorded at offset=0xb66000
+    151552 bytes in size
+CPU41 data recorded at offset=0xb8b000
+    147456 bytes in size
+CPU42 data recorded at offset=0xbaf000
+    299008 bytes in size
+CPU43 data recorded at offset=0xbf8000
+    151552 bytes in size
+CPU44 data recorded at offset=0xc1d000
+    151552 bytes in size
+CPU45 data recorded at offset=0xc42000
+    147456 bytes in size
+CPU46 data recorded at offset=0xc66000
+    163840 bytes in size
+CPU47 data recorded at offset=0xc8e000
+    147456 bytes in size
+CPU48 data recorded at offset=0xcb2000
+    163840 bytes in size
+CPU49 data recorded at offset=0xcda000
+    147456 bytes in size
+CPU50 data recorded at offset=0xcfe000
+    151552 bytes in size
+CPU51 data recorded at offset=0xd23000
+    147456 bytes in size
+CPU52 data recorded at offset=0xd47000
+    208896 bytes in size
+CPU53 data recorded at offset=0xd7a000
+    147456 bytes in size
+CPU54 data recorded at offset=0xd9e000
+    155648 bytes in size
+CPU55 data recorded at offset=0xdc4000
+    151552 bytes in size
+CPU56 data recorded at offset=0xde9000
+    151552 bytes in size
+CPU57 data recorded at offset=0xe0e000
+    147456 bytes in size
+CPU58 data recorded at offset=0xe32000
+    151552 bytes in size
+CPU59 data recorded at offset=0xe57000
+    151552 bytes in size
+CPU60 data recorded at offset=0xe7c000
+    151552 bytes in size
+CPU61 data recorded at offset=0xea1000
+    147456 bytes in size
+CPU62 data recorded at offset=0xec5000
+    151552 bytes in size
+CPU63 data recorded at offset=0xeea000
+    143360 bytes in size
+Running dc.A.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - DC Benchmark
+
+ No Paramter file. Using compiled defaults
+********************* ADC paramters
+ id		0
+ attributes 	15
+ measures   	1
+ tuples     	1000000
+ class		A
+ filename       ADC
+***********************************
+
+GenerateADC: writing 1000000 tuples of 15 attributes and 1 measures to ADC.dat.0
+Prime 	Generator 	Seed
+ 421	 16		 211
+ 601	 151		 301
+ 631	 98		 316
+ 701	 581		 351
+ 883	 729		 442
+ 419	 334		 210
+ 443	 123		 222
+ 647	 300		 324
+ 21737	 14249		 10869
+ 31769	 21291		 15885
+ 1427	 489		 714
+ 18353	 8936		 9177
+ 22817	 4767		 11409
+ 34337	 6733		 17169
+ 98717	 14136		 49359
+Binary ADC file ADC.dat.0 have been generated.
+View sizes are written into ADC.view.sz.0
+Estimated rb-tree size = 125000000 
+
+Number of available threads:  64
+
+*** DC Benchmark Results:
+ Benchmark Time   =               17.509
+ Input Tuples     =              1000000
+ Number of Views  =                  512
+ Number of Tasks  =                   64
+ Tuples Generated =            454765673
+ Tuples/s         =          25973406.75
+ Checksum         =   7.141688178042e+12
+
+
+ DC Benchmark Completed
+ Class           =                        A
+ Size            =                  1000000
+ Iterations      =                        1
+ Time in seconds =                    17.51
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                    25.97
+ Mop/s/thread    =                     0.41
+ Operation type  =         Tuples generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    3997696 bytes in size
+CPU1 data recorded at offset=0x94f000
+    1290240 bytes in size
+CPU2 data recorded at offset=0xa8a000
+    4988928 bytes in size
+CPU3 data recorded at offset=0xf4c000
+    1507328 bytes in size
+CPU4 data recorded at offset=0x10bc000
+    5292032 bytes in size
+CPU5 data recorded at offset=0x15c8000
+    888832 bytes in size
+CPU6 data recorded at offset=0x16a1000
+    3710976 bytes in size
+CPU7 data recorded at offset=0x1a2b000
+    1765376 bytes in size
+CPU8 data recorded at offset=0x1bda000
+    5058560 bytes in size
+CPU9 data recorded at offset=0x20ad000
+    1236992 bytes in size
+CPU10 data recorded at offset=0x21db000
+    3100672 bytes in size
+CPU11 data recorded at offset=0x24d0000
+    1523712 bytes in size
+CPU12 data recorded at offset=0x2644000
+    4849664 bytes in size
+CPU13 data recorded at offset=0x2ae4000
+    1777664 bytes in size
+CPU14 data recorded at offset=0x2c96000
+    4759552 bytes in size
+CPU15 data recorded at offset=0x3120000
+    1581056 bytes in size
+CPU16 data recorded at offset=0x32a2000
+    4988928 bytes in size
+CPU17 data recorded at offset=0x3764000
+    1789952 bytes in size
+CPU18 data recorded at offset=0x3919000
+    4259840 bytes in size
+CPU19 data recorded at offset=0x3d29000
+    1253376 bytes in size
+CPU20 data recorded at offset=0x3e5b000
+    3219456 bytes in size
+CPU21 data recorded at offset=0x416d000
+    1392640 bytes in size
+CPU22 data recorded at offset=0x42c1000
+    3919872 bytes in size
+CPU23 data recorded at offset=0x467e000
+    1875968 bytes in size
+CPU24 data recorded at offset=0x4848000
+    5545984 bytes in size
+CPU25 data recorded at offset=0x4d92000
+    2183168 bytes in size
+CPU26 data recorded at offset=0x4fa7000
+    5185536 bytes in size
+CPU27 data recorded at offset=0x5499000
+    2322432 bytes in size
+CPU28 data recorded at offset=0x56d0000
+    5152768 bytes in size
+CPU29 data recorded at offset=0x5bba000
+    2199552 bytes in size
+CPU30 data recorded at offset=0x5dd3000
+    4853760 bytes in size
+CPU31 data recorded at offset=0x6274000
+    2375680 bytes in size
+CPU32 data recorded at offset=0x64b8000
+    5894144 bytes in size
+CPU33 data recorded at offset=0x6a57000
+    1945600 bytes in size
+CPU34 data recorded at offset=0x6c32000
+    5902336 bytes in size
+CPU35 data recorded at offset=0x71d3000
+    1634304 bytes in size
+CPU36 data recorded at offset=0x7362000
+    4874240 bytes in size
+CPU37 data recorded at offset=0x7808000
+    2613248 bytes in size
+CPU38 data recorded at offset=0x7a86000
+    5558272 bytes in size
+CPU39 data recorded at offset=0x7fd3000
+    2260992 bytes in size
+CPU40 data recorded at offset=0x81fb000
+    6180864 bytes in size
+CPU41 data recorded at offset=0x87e0000
+    1499136 bytes in size
+CPU42 data recorded at offset=0x894e000
+    4960256 bytes in size
+CPU43 data recorded at offset=0x8e09000
+    2977792 bytes in size
+CPU44 data recorded at offset=0x90e0000
+    4759552 bytes in size
+CPU45 data recorded at offset=0x956a000
+    2306048 bytes in size
+CPU46 data recorded at offset=0x979d000
+    6430720 bytes in size
+CPU47 data recorded at offset=0x9dbf000
+    1572864 bytes in size
+CPU48 data recorded at offset=0x9f3f000
+    4448256 bytes in size
+CPU49 data recorded at offset=0xa37d000
+    1183744 bytes in size
+CPU50 data recorded at offset=0xa49e000
+    4771840 bytes in size
+CPU51 data recorded at offset=0xa92b000
+    1486848 bytes in size
+CPU52 data recorded at offset=0xaa96000
+    5799936 bytes in size
+CPU53 data recorded at offset=0xb01e000
+    1372160 bytes in size
+CPU54 data recorded at offset=0xb16d000
+    5140480 bytes in size
+CPU55 data recorded at offset=0xb654000
+    1392640 bytes in size
+CPU56 data recorded at offset=0xb7a8000
+    5480448 bytes in size
+CPU57 data recorded at offset=0xbce2000
+    1814528 bytes in size
+CPU58 data recorded at offset=0xbe9d000
+    5517312 bytes in size
+CPU59 data recorded at offset=0xc3e0000
+    1585152 bytes in size
+CPU60 data recorded at offset=0xc563000
+    3899392 bytes in size
+CPU61 data recorded at offset=0xc91b000
+    1458176 bytes in size
+CPU62 data recorded at offset=0xca7f000
+    4702208 bytes in size
+CPU63 data recorded at offset=0xcefb000
+    958464 bytes in size
+Running dc.B.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - DC Benchmark
+
+ No Paramter file. Using compiled defaults
+********************* ADC paramters
+ id		0
+ attributes 	20
+ measures   	1
+ tuples     	10000000
+ class		B
+ filename       ADC
+***********************************
+
+GenerateADC: writing 10000000 tuples of 20 attributes and 1 measures to ADC.dat.0
+Prime 	Generator 	Seed
+ 421	 383		 211
+ 601	 151		 301
+ 631	 562		 316
+ 701	 210		 351
+ 883	 545		 442
+ 419	 334		 210
+ 443	 123		 222
+ 647	 300		 324
+ 21737	 14249		 10869
+ 31769	 21291		 15885
+ 1427	 965		 714
+ 18353	 13735		 9177
+ 22817	 10906		 11409
+ 34337	 7511		 17169
+ 98717	 68726		 49359
+ 3527	 1488		 1764
+ 8693	 16		 4347
+ 9677	 16		 4839
+ 11093	 6741		 5547
+ 18233	 1791		 9117
+Binary ADC file ADC.dat.0 have been generated.
+View sizes are written into ADC.view.sz.0
+Estimated rb-tree size = 1500000000 
+
+Number of available threads:  64
+
+*** DC Benchmark Results:
+ Benchmark Time   =               34.299
+ Input Tuples     =             10000000
+ Number of Views  =                   64
+ Number of Tasks  =                   64
+ Tuples Generated =            595267023
+ Tuples/s         =          17355269.03
+ Checksum         =   9.348365700453e+12
+
+
+ DC Benchmark Completed
+ Class           =                        B
+ Size            =                 10000000
+ Iterations      =                        1
+ Time in seconds =                    34.30
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                    17.36
+ Mop/s/thread    =                     0.27
+ Operation type  =         Tuples generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    10313728 bytes in size
+CPU1 data recorded at offset=0xf55000
+    5103616 bytes in size
+CPU2 data recorded at offset=0x1433000
+    10227712 bytes in size
+CPU3 data recorded at offset=0x1df4000
+    794624 bytes in size
+CPU4 data recorded at offset=0x1eb6000
+    6791168 bytes in size
+CPU5 data recorded at offset=0x2530000
+    4255744 bytes in size
+CPU6 data recorded at offset=0x293f000
+    4763648 bytes in size
+CPU7 data recorded at offset=0x2dca000
+    4050944 bytes in size
+CPU8 data recorded at offset=0x31a7000
+    2420736 bytes in size
+CPU9 data recorded at offset=0x33f6000
+    2691072 bytes in size
+CPU10 data recorded at offset=0x3687000
+    3985408 bytes in size
+CPU11 data recorded at offset=0x3a54000
+    929792 bytes in size
+CPU12 data recorded at offset=0x3b37000
+    5607424 bytes in size
+CPU13 data recorded at offset=0x4090000
+    4243456 bytes in size
+CPU14 data recorded at offset=0x449c000
+    9646080 bytes in size
+CPU15 data recorded at offset=0x4dcf000
+    2670592 bytes in size
+CPU16 data recorded at offset=0x505b000
+    6340608 bytes in size
+CPU17 data recorded at offset=0x5667000
+    729088 bytes in size
+CPU18 data recorded at offset=0x5719000
+    12578816 bytes in size
+CPU19 data recorded at offset=0x6318000
+    3117056 bytes in size
+CPU20 data recorded at offset=0x6611000
+    7364608 bytes in size
+CPU21 data recorded at offset=0x6d17000
+    1056768 bytes in size
+CPU22 data recorded at offset=0x6e19000
+    9715712 bytes in size
+CPU23 data recorded at offset=0x775d000
+    2056192 bytes in size
+CPU24 data recorded at offset=0x7953000
+    7385088 bytes in size
+CPU25 data recorded at offset=0x805e000
+    2084864 bytes in size
+CPU26 data recorded at offset=0x825b000
+    9940992 bytes in size
+CPU27 data recorded at offset=0x8bd6000
+    2842624 bytes in size
+CPU28 data recorded at offset=0x8e8c000
+    5869568 bytes in size
+CPU29 data recorded at offset=0x9425000
+    2678784 bytes in size
+CPU30 data recorded at offset=0x96b3000
+    8704000 bytes in size
+CPU31 data recorded at offset=0x9f00000
+    1806336 bytes in size
+CPU32 data recorded at offset=0xa0b9000
+    6660096 bytes in size
+CPU33 data recorded at offset=0xa713000
+    2908160 bytes in size
+CPU34 data recorded at offset=0xa9d9000
+    11358208 bytes in size
+CPU35 data recorded at offset=0xb4ae000
+    2904064 bytes in size
+CPU36 data recorded at offset=0xb773000
+    4554752 bytes in size
+CPU37 data recorded at offset=0xbbcb000
+    1081344 bytes in size
+CPU38 data recorded at offset=0xbcd3000
+    6164480 bytes in size
+CPU39 data recorded at offset=0xc2b4000
+    4001792 bytes in size
+CPU40 data recorded at offset=0xc685000
+    5586944 bytes in size
+CPU41 data recorded at offset=0xcbd9000
+    3100672 bytes in size
+CPU42 data recorded at offset=0xcece000
+    4128768 bytes in size
+CPU43 data recorded at offset=0xd2be000
+    1904640 bytes in size
+CPU44 data recorded at offset=0xd48f000
+    6881280 bytes in size
+CPU45 data recorded at offset=0xdb1f000
+    3436544 bytes in size
+CPU46 data recorded at offset=0xde66000
+    12357632 bytes in size
+CPU47 data recorded at offset=0xea2f000
+    3076096 bytes in size
+CPU48 data recorded at offset=0xed1e000
+    7266304 bytes in size
+CPU49 data recorded at offset=0xf40c000
+    2502656 bytes in size
+CPU50 data recorded at offset=0xf66f000
+    5165056 bytes in size
+CPU51 data recorded at offset=0xfb5c000
+    282624 bytes in size
+CPU52 data recorded at offset=0xfba1000
+    5390336 bytes in size
+CPU53 data recorded at offset=0x100c5000
+    1617920 bytes in size
+CPU54 data recorded at offset=0x10250000
+    2772992 bytes in size
+CPU55 data recorded at offset=0x104f5000
+    5140480 bytes in size
+CPU56 data recorded at offset=0x109dc000
+    7741440 bytes in size
+CPU57 data recorded at offset=0x1113e000
+    3686400 bytes in size
+CPU58 data recorded at offset=0x114c2000
+    8192000 bytes in size
+CPU59 data recorded at offset=0x11c92000
+    4231168 bytes in size
+CPU60 data recorded at offset=0x1209b000
+    9658368 bytes in size
+CPU61 data recorded at offset=0x129d1000
+    3940352 bytes in size
+CPU62 data recorded at offset=0x12d93000
+    6209536 bytes in size
+CPU63 data recorded at offset=0x1337f000
+    811008 bytes in size
+Running ep.A.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - EP Benchmark
+
+ Number of random numbers generated:       536870912
+ Number of available threads:                     64
+
+EP Benchmark Results:
+
+CPU Time =     0.470
+N = 2^   28
+No. Gaussian Pairs =     210832767.
+Sums =     1.682235632304701D+08    1.682195123368289D+08
+Counts:
+  0      98257395.
+  1      93827014.
+  2      17611549.
+  3       1110028.
+  4         26536.
+  5           245.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        A
+ Size            =                536870912
+ Iterations      =                        0
+ Time in seconds =                     0.47
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  1142.40
+ Mop/s/thread    =                    17.85
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    12288 bytes in size
+CPU1 data recorded at offset=0x582000
+    8192 bytes in size
+CPU2 data recorded at offset=0x584000
+    8192 bytes in size
+CPU3 data recorded at offset=0x586000
+    8192 bytes in size
+CPU4 data recorded at offset=0x588000
+    8192 bytes in size
+CPU5 data recorded at offset=0x58a000
+    8192 bytes in size
+CPU6 data recorded at offset=0x58c000
+    8192 bytes in size
+CPU7 data recorded at offset=0x58e000
+    8192 bytes in size
+CPU8 data recorded at offset=0x590000
+    8192 bytes in size
+CPU9 data recorded at offset=0x592000
+    8192 bytes in size
+CPU10 data recorded at offset=0x594000
+    77824 bytes in size
+CPU11 data recorded at offset=0x5a7000
+    8192 bytes in size
+CPU12 data recorded at offset=0x5a9000
+    16384 bytes in size
+CPU13 data recorded at offset=0x5ad000
+    8192 bytes in size
+CPU14 data recorded at offset=0x5af000
+    12288 bytes in size
+CPU15 data recorded at offset=0x5b2000
+    8192 bytes in size
+CPU16 data recorded at offset=0x5b4000
+    12288 bytes in size
+CPU17 data recorded at offset=0x5b7000
+    8192 bytes in size
+CPU18 data recorded at offset=0x5b9000
+    12288 bytes in size
+CPU19 data recorded at offset=0x5bc000
+    8192 bytes in size
+CPU20 data recorded at offset=0x5be000
+    12288 bytes in size
+CPU21 data recorded at offset=0x5c1000
+    8192 bytes in size
+CPU22 data recorded at offset=0x5c3000
+    12288 bytes in size
+CPU23 data recorded at offset=0x5c6000
+    8192 bytes in size
+CPU24 data recorded at offset=0x5c8000
+    12288 bytes in size
+CPU25 data recorded at offset=0x5cb000
+    8192 bytes in size
+CPU26 data recorded at offset=0x5cd000
+    12288 bytes in size
+CPU27 data recorded at offset=0x5d0000
+    8192 bytes in size
+CPU28 data recorded at offset=0x5d2000
+    12288 bytes in size
+CPU29 data recorded at offset=0x5d5000
+    8192 bytes in size
+CPU30 data recorded at offset=0x5d7000
+    12288 bytes in size
+CPU31 data recorded at offset=0x5da000
+    8192 bytes in size
+CPU32 data recorded at offset=0x5dc000
+    12288 bytes in size
+CPU33 data recorded at offset=0x5df000
+    8192 bytes in size
+CPU34 data recorded at offset=0x5e1000
+    8192 bytes in size
+CPU35 data recorded at offset=0x5e3000
+    8192 bytes in size
+CPU36 data recorded at offset=0x5e5000
+    12288 bytes in size
+CPU37 data recorded at offset=0x5e8000
+    8192 bytes in size
+CPU38 data recorded at offset=0x5ea000
+    8192 bytes in size
+CPU39 data recorded at offset=0x5ec000
+    8192 bytes in size
+CPU40 data recorded at offset=0x5ee000
+    8192 bytes in size
+CPU41 data recorded at offset=0x5f0000
+    8192 bytes in size
+CPU42 data recorded at offset=0x5f2000
+    8192 bytes in size
+CPU43 data recorded at offset=0x5f4000
+    8192 bytes in size
+CPU44 data recorded at offset=0x5f6000
+    12288 bytes in size
+CPU45 data recorded at offset=0x5f9000
+    8192 bytes in size
+CPU46 data recorded at offset=0x5fb000
+    8192 bytes in size
+CPU47 data recorded at offset=0x5fd000
+    8192 bytes in size
+CPU48 data recorded at offset=0x5ff000
+    12288 bytes in size
+CPU49 data recorded at offset=0x602000
+    4096 bytes in size
+CPU50 data recorded at offset=0x603000
+    12288 bytes in size
+CPU51 data recorded at offset=0x606000
+    4096 bytes in size
+CPU52 data recorded at offset=0x607000
+    12288 bytes in size
+CPU53 data recorded at offset=0x60a000
+    4096 bytes in size
+CPU54 data recorded at offset=0x60b000
+    12288 bytes in size
+CPU55 data recorded at offset=0x60e000
+    4096 bytes in size
+CPU56 data recorded at offset=0x60f000
+    12288 bytes in size
+CPU57 data recorded at offset=0x612000
+    8192 bytes in size
+CPU58 data recorded at offset=0x614000
+    12288 bytes in size
+CPU59 data recorded at offset=0x617000
+    8192 bytes in size
+CPU60 data recorded at offset=0x619000
+    12288 bytes in size
+CPU61 data recorded at offset=0x61c000
+    8192 bytes in size
+CPU62 data recorded at offset=0x61e000
+    16384 bytes in size
+CPU63 data recorded at offset=0x622000
+    8192 bytes in size
+Running ep.B.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of available threads:                     64
+
+EP Benchmark Results:
+
+CPU Time =     1.563
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     6.728927543422958D+08    6.728951822504267D+08
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                     1.56
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  1373.87
+ Mop/s/thread    =                    21.47
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    32768 bytes in size
+CPU1 data recorded at offset=0x587000
+    24576 bytes in size
+CPU2 data recorded at offset=0x58d000
+    36864 bytes in size
+CPU3 data recorded at offset=0x596000
+    24576 bytes in size
+CPU4 data recorded at offset=0x59c000
+    24576 bytes in size
+CPU5 data recorded at offset=0x5a2000
+    24576 bytes in size
+CPU6 data recorded at offset=0x5a8000
+    28672 bytes in size
+CPU7 data recorded at offset=0x5af000
+    24576 bytes in size
+CPU8 data recorded at offset=0x5b5000
+    28672 bytes in size
+CPU9 data recorded at offset=0x5bc000
+    24576 bytes in size
+CPU10 data recorded at offset=0x5c2000
+    28672 bytes in size
+CPU11 data recorded at offset=0x5c9000
+    24576 bytes in size
+CPU12 data recorded at offset=0x5cf000
+    28672 bytes in size
+CPU13 data recorded at offset=0x5d6000
+    24576 bytes in size
+CPU14 data recorded at offset=0x5dc000
+    24576 bytes in size
+CPU15 data recorded at offset=0x5e2000
+    24576 bytes in size
+CPU16 data recorded at offset=0x5e8000
+    28672 bytes in size
+CPU17 data recorded at offset=0x5ef000
+    20480 bytes in size
+CPU18 data recorded at offset=0x5f4000
+    28672 bytes in size
+CPU19 data recorded at offset=0x5fb000
+    20480 bytes in size
+CPU20 data recorded at offset=0x600000
+    28672 bytes in size
+CPU21 data recorded at offset=0x607000
+    20480 bytes in size
+CPU22 data recorded at offset=0x60c000
+    24576 bytes in size
+CPU23 data recorded at offset=0x612000
+    20480 bytes in size
+CPU24 data recorded at offset=0x617000
+    28672 bytes in size
+CPU25 data recorded at offset=0x61e000
+    20480 bytes in size
+CPU26 data recorded at offset=0x623000
+    28672 bytes in size
+CPU27 data recorded at offset=0x62a000
+    20480 bytes in size
+CPU28 data recorded at offset=0x62f000
+    28672 bytes in size
+CPU29 data recorded at offset=0x636000
+    20480 bytes in size
+CPU30 data recorded at offset=0x63b000
+    28672 bytes in size
+CPU31 data recorded at offset=0x642000
+    20480 bytes in size
+CPU32 data recorded at offset=0x647000
+    28672 bytes in size
+CPU33 data recorded at offset=0x64e000
+    24576 bytes in size
+CPU34 data recorded at offset=0x654000
+    36864 bytes in size
+CPU35 data recorded at offset=0x65d000
+    20480 bytes in size
+CPU36 data recorded at offset=0x662000
+    24576 bytes in size
+CPU37 data recorded at offset=0x668000
+    20480 bytes in size
+CPU38 data recorded at offset=0x66d000
+    28672 bytes in size
+CPU39 data recorded at offset=0x674000
+    20480 bytes in size
+CPU40 data recorded at offset=0x679000
+    32768 bytes in size
+CPU41 data recorded at offset=0x681000
+    20480 bytes in size
+CPU42 data recorded at offset=0x686000
+    28672 bytes in size
+CPU43 data recorded at offset=0x68d000
+    20480 bytes in size
+CPU44 data recorded at offset=0x692000
+    28672 bytes in size
+CPU45 data recorded at offset=0x699000
+    20480 bytes in size
+CPU46 data recorded at offset=0x69e000
+    32768 bytes in size
+CPU47 data recorded at offset=0x6a6000
+    24576 bytes in size
+CPU48 data recorded at offset=0x6ac000
+    28672 bytes in size
+CPU49 data recorded at offset=0x6b3000
+    24576 bytes in size
+CPU50 data recorded at offset=0x6b9000
+    36864 bytes in size
+CPU51 data recorded at offset=0x6c2000
+    20480 bytes in size
+CPU52 data recorded at offset=0x6c7000
+    28672 bytes in size
+CPU53 data recorded at offset=0x6ce000
+    20480 bytes in size
+CPU54 data recorded at offset=0x6d3000
+    28672 bytes in size
+CPU55 data recorded at offset=0x6da000
+    20480 bytes in size
+CPU56 data recorded at offset=0x6df000
+    24576 bytes in size
+CPU57 data recorded at offset=0x6e5000
+    20480 bytes in size
+CPU58 data recorded at offset=0x6ea000
+    24576 bytes in size
+CPU59 data recorded at offset=0x6f0000
+    20480 bytes in size
+CPU60 data recorded at offset=0x6f5000
+    28672 bytes in size
+CPU61 data recorded at offset=0x6fc000
+    16384 bytes in size
+CPU62 data recorded at offset=0x700000
+    28672 bytes in size
+CPU63 data recorded at offset=0x707000
+    20480 bytes in size
+Running ep.C.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - EP Benchmark
+
+ Number of random numbers generated:      8589934592
+ Number of available threads:                     64
+
+EP Benchmark Results:
+
+CPU Time =     5.500
+N = 2^   32
+No. Gaussian Pairs =    3373275903.
+Sums =     2.691444083862866D+09    2.691519118724559D+09
+Counts:
+  0    1572172634.
+  1    1501108549.
+  2     281805648.
+  3      17761221.
+  4        424017.
+  5          3821.
+  6            13.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        C
+ Size            =               8589934592
+ Iterations      =                        0
+ Time in seconds =                     5.50
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  1561.90
+ Mop/s/thread    =                    24.40
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    98304 bytes in size
+CPU1 data recorded at offset=0x597000
+    86016 bytes in size
+CPU2 data recorded at offset=0x5ac000
+    86016 bytes in size
+CPU3 data recorded at offset=0x5c1000
+    81920 bytes in size
+CPU4 data recorded at offset=0x5d5000
+    86016 bytes in size
+CPU5 data recorded at offset=0x5ea000
+    77824 bytes in size
+CPU6 data recorded at offset=0x5fd000
+    86016 bytes in size
+CPU7 data recorded at offset=0x612000
+    77824 bytes in size
+CPU8 data recorded at offset=0x625000
+    86016 bytes in size
+CPU9 data recorded at offset=0x63a000
+    77824 bytes in size
+CPU10 data recorded at offset=0x64d000
+    86016 bytes in size
+CPU11 data recorded at offset=0x662000
+    77824 bytes in size
+CPU12 data recorded at offset=0x675000
+    86016 bytes in size
+CPU13 data recorded at offset=0x68a000
+    77824 bytes in size
+CPU14 data recorded at offset=0x69d000
+    86016 bytes in size
+CPU15 data recorded at offset=0x6b2000
+    81920 bytes in size
+CPU16 data recorded at offset=0x6c6000
+    90112 bytes in size
+CPU17 data recorded at offset=0x6dc000
+    77824 bytes in size
+CPU18 data recorded at offset=0x6ef000
+    139264 bytes in size
+CPU19 data recorded at offset=0x711000
+    81920 bytes in size
+CPU20 data recorded at offset=0x725000
+    86016 bytes in size
+CPU21 data recorded at offset=0x73a000
+    77824 bytes in size
+CPU22 data recorded at offset=0x74d000
+    86016 bytes in size
+CPU23 data recorded at offset=0x762000
+    77824 bytes in size
+CPU24 data recorded at offset=0x775000
+    110592 bytes in size
+CPU25 data recorded at offset=0x790000
+    81920 bytes in size
+CPU26 data recorded at offset=0x7a4000
+    86016 bytes in size
+CPU27 data recorded at offset=0x7b9000
+    81920 bytes in size
+CPU28 data recorded at offset=0x7cd000
+    86016 bytes in size
+CPU29 data recorded at offset=0x7e2000
+    77824 bytes in size
+CPU30 data recorded at offset=0x7f5000
+    86016 bytes in size
+CPU31 data recorded at offset=0x80a000
+    77824 bytes in size
+CPU32 data recorded at offset=0x81d000
+    86016 bytes in size
+CPU33 data recorded at offset=0x832000
+    81920 bytes in size
+CPU34 data recorded at offset=0x846000
+    86016 bytes in size
+CPU35 data recorded at offset=0x85b000
+    77824 bytes in size
+CPU36 data recorded at offset=0x86e000
+    86016 bytes in size
+CPU37 data recorded at offset=0x883000
+    81920 bytes in size
+CPU38 data recorded at offset=0x897000
+    86016 bytes in size
+CPU39 data recorded at offset=0x8ac000
+    77824 bytes in size
+CPU40 data recorded at offset=0x8bf000
+    86016 bytes in size
+CPU41 data recorded at offset=0x8d4000
+    77824 bytes in size
+CPU42 data recorded at offset=0x8e7000
+    86016 bytes in size
+CPU43 data recorded at offset=0x8fc000
+    81920 bytes in size
+CPU44 data recorded at offset=0x910000
+    90112 bytes in size
+CPU45 data recorded at offset=0x926000
+    77824 bytes in size
+CPU46 data recorded at offset=0x939000
+    90112 bytes in size
+CPU47 data recorded at offset=0x94f000
+    77824 bytes in size
+CPU48 data recorded at offset=0x962000
+    86016 bytes in size
+CPU49 data recorded at offset=0x977000
+    81920 bytes in size
+CPU50 data recorded at offset=0x98b000
+    86016 bytes in size
+CPU51 data recorded at offset=0x9a0000
+    77824 bytes in size
+CPU52 data recorded at offset=0x9b3000
+    86016 bytes in size
+CPU53 data recorded at offset=0x9c8000
+    77824 bytes in size
+CPU54 data recorded at offset=0x9db000
+    86016 bytes in size
+CPU55 data recorded at offset=0x9f0000
+    77824 bytes in size
+CPU56 data recorded at offset=0xa03000
+    86016 bytes in size
+CPU57 data recorded at offset=0xa18000
+    81920 bytes in size
+CPU58 data recorded at offset=0xa2c000
+    86016 bytes in size
+CPU59 data recorded at offset=0xa41000
+    86016 bytes in size
+CPU60 data recorded at offset=0xa56000
+    86016 bytes in size
+CPU61 data recorded at offset=0xa6b000
+    77824 bytes in size
+CPU62 data recorded at offset=0xa7e000
+    86016 bytes in size
+CPU63 data recorded at offset=0xa93000
+    77824 bytes in size
+Running ep.D.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - EP Benchmark
+
+ Number of random numbers generated:    137438953472
+ Number of available threads:                     64
+
+EP Benchmark Results:
+
+CPU Time =    84.544
+N = 2^   36
+No. Gaussian Pairs =   53972171957.
+Sums =     4.306350280812264D+10    4.306347571858265D+10
+Counts:
+  0   25154622775.
+  1   24017899906.
+  2    4508609839.
+  3     284201296.
+  4       6776403.
+  5         61541.
+  6           197.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        D
+ Size            =             137438953472
+ Iterations      =                        0
+ Time in seconds =                    84.54
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  1625.65
+ Mop/s/thread    =                    25.40
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    1429504 bytes in size
+CPU1 data recorded at offset=0x6dc000
+    1286144 bytes in size
+CPU2 data recorded at offset=0x816000
+    1249280 bytes in size
+CPU3 data recorded at offset=0x947000
+    1249280 bytes in size
+CPU4 data recorded at offset=0xa78000
+    1249280 bytes in size
+CPU5 data recorded at offset=0xba9000
+    1249280 bytes in size
+CPU6 data recorded at offset=0xcda000
+    1327104 bytes in size
+CPU7 data recorded at offset=0xe1e000
+    1253376 bytes in size
+CPU8 data recorded at offset=0xf50000
+    1257472 bytes in size
+CPU9 data recorded at offset=0x1083000
+    1249280 bytes in size
+CPU10 data recorded at offset=0x11b4000
+    1253376 bytes in size
+CPU11 data recorded at offset=0x12e6000
+    1241088 bytes in size
+CPU12 data recorded at offset=0x1415000
+    1277952 bytes in size
+CPU13 data recorded at offset=0x154d000
+    1245184 bytes in size
+CPU14 data recorded at offset=0x167d000
+    1245184 bytes in size
+CPU15 data recorded at offset=0x17ad000
+    1245184 bytes in size
+CPU16 data recorded at offset=0x18dd000
+    1318912 bytes in size
+CPU17 data recorded at offset=0x1a1f000
+    1245184 bytes in size
+CPU18 data recorded at offset=0x1b4f000
+    1273856 bytes in size
+CPU19 data recorded at offset=0x1c86000
+    1253376 bytes in size
+CPU20 data recorded at offset=0x1db8000
+    1245184 bytes in size
+CPU21 data recorded at offset=0x1ee8000
+    1245184 bytes in size
+CPU22 data recorded at offset=0x2018000
+    1277952 bytes in size
+CPU23 data recorded at offset=0x2150000
+    1241088 bytes in size
+CPU24 data recorded at offset=0x227f000
+    1765376 bytes in size
+CPU25 data recorded at offset=0x242e000
+    1245184 bytes in size
+CPU26 data recorded at offset=0x255e000
+    1257472 bytes in size
+CPU27 data recorded at offset=0x2691000
+    1241088 bytes in size
+CPU28 data recorded at offset=0x27c0000
+    1249280 bytes in size
+CPU29 data recorded at offset=0x28f1000
+    1236992 bytes in size
+CPU30 data recorded at offset=0x2a1f000
+    1249280 bytes in size
+CPU31 data recorded at offset=0x2b50000
+    1241088 bytes in size
+CPU32 data recorded at offset=0x2c7f000
+    1245184 bytes in size
+CPU33 data recorded at offset=0x2daf000
+    1253376 bytes in size
+CPU34 data recorded at offset=0x2ee1000
+    1265664 bytes in size
+CPU35 data recorded at offset=0x3016000
+    1253376 bytes in size
+CPU36 data recorded at offset=0x3148000
+    1245184 bytes in size
+CPU37 data recorded at offset=0x3278000
+    1249280 bytes in size
+CPU38 data recorded at offset=0x33a9000
+    1249280 bytes in size
+CPU39 data recorded at offset=0x34da000
+    1261568 bytes in size
+CPU40 data recorded at offset=0x360e000
+    1249280 bytes in size
+CPU41 data recorded at offset=0x373f000
+    1249280 bytes in size
+CPU42 data recorded at offset=0x3870000
+    1249280 bytes in size
+CPU43 data recorded at offset=0x39a1000
+    1241088 bytes in size
+CPU44 data recorded at offset=0x3ad0000
+    1261568 bytes in size
+CPU45 data recorded at offset=0x3c04000
+    1245184 bytes in size
+CPU46 data recorded at offset=0x3d34000
+    1253376 bytes in size
+CPU47 data recorded at offset=0x3e66000
+    1245184 bytes in size
+CPU48 data recorded at offset=0x3f96000
+    1249280 bytes in size
+CPU49 data recorded at offset=0x40c7000
+    1249280 bytes in size
+CPU50 data recorded at offset=0x41f8000
+    1249280 bytes in size
+CPU51 data recorded at offset=0x4329000
+    1249280 bytes in size
+CPU52 data recorded at offset=0x445a000
+    1245184 bytes in size
+CPU53 data recorded at offset=0x458a000
+    1245184 bytes in size
+CPU54 data recorded at offset=0x46ba000
+    1257472 bytes in size
+CPU55 data recorded at offset=0x47ed000
+    1253376 bytes in size
+CPU56 data recorded at offset=0x491f000
+    1253376 bytes in size
+CPU57 data recorded at offset=0x4a51000
+    1245184 bytes in size
+CPU58 data recorded at offset=0x4b81000
+    1245184 bytes in size
+CPU59 data recorded at offset=0x4cb1000
+    1245184 bytes in size
+CPU60 data recorded at offset=0x4de1000
+    1249280 bytes in size
+CPU61 data recorded at offset=0x4f12000
+    1249280 bytes in size
+CPU62 data recorded at offset=0x5043000
+    1748992 bytes in size
+CPU63 data recorded at offset=0x51ee000
+    1241088 bytes in size
+Running ft.A.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - FT Benchmark
+
+ Size                :  256x 256x 128
+ Iterations                  :      6
+ Number of available threads :     64
+
+ T =    1     Checksum =    5.046735008193D+02    5.114047905510D+02
+ T =    2     Checksum =    5.059412319734D+02    5.098809666433D+02
+ T =    3     Checksum =    5.069376896287D+02    5.098144042213D+02
+ T =    4     Checksum =    5.077892868474D+02    5.101336130759D+02
+ T =    5     Checksum =    5.085233095391D+02    5.104914655194D+02
+ T =    6     Checksum =    5.091487099959D+02    5.107917842803D+02
+ Result verification successful
+ class = A
+
+
+ FT Benchmark Completed.
+ Class           =                        A
+ Size            =            256x 256x 128
+ Iterations      =                        6
+ Time in seconds =                     0.31
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 22656.74
+ Mop/s/thread    =                   354.01
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    16384 bytes in size
+CPU1 data recorded at offset=0x583000
+    12288 bytes in size
+CPU2 data recorded at offset=0x586000
+    16384 bytes in size
+CPU3 data recorded at offset=0x58a000
+    12288 bytes in size
+CPU4 data recorded at offset=0x58d000
+    12288 bytes in size
+CPU5 data recorded at offset=0x590000
+    12288 bytes in size
+CPU6 data recorded at offset=0x593000
+    24576 bytes in size
+CPU7 data recorded at offset=0x599000
+    8192 bytes in size
+CPU8 data recorded at offset=0x59b000
+    16384 bytes in size
+CPU9 data recorded at offset=0x59f000
+    12288 bytes in size
+CPU10 data recorded at offset=0x5a2000
+    16384 bytes in size
+CPU11 data recorded at offset=0x5a6000
+    57344 bytes in size
+CPU12 data recorded at offset=0x5b4000
+    16384 bytes in size
+CPU13 data recorded at offset=0x5b8000
+    8192 bytes in size
+CPU14 data recorded at offset=0x5ba000
+    16384 bytes in size
+CPU15 data recorded at offset=0x5be000
+    8192 bytes in size
+CPU16 data recorded at offset=0x5c0000
+    16384 bytes in size
+CPU17 data recorded at offset=0x5c4000
+    8192 bytes in size
+CPU18 data recorded at offset=0x5c6000
+    16384 bytes in size
+CPU19 data recorded at offset=0x5ca000
+    8192 bytes in size
+CPU20 data recorded at offset=0x5cc000
+    12288 bytes in size
+CPU21 data recorded at offset=0x5cf000
+    8192 bytes in size
+CPU22 data recorded at offset=0x5d1000
+    16384 bytes in size
+CPU23 data recorded at offset=0x5d5000
+    8192 bytes in size
+CPU24 data recorded at offset=0x5d7000
+    16384 bytes in size
+CPU25 data recorded at offset=0x5db000
+    8192 bytes in size
+CPU26 data recorded at offset=0x5dd000
+    16384 bytes in size
+CPU27 data recorded at offset=0x5e1000
+    8192 bytes in size
+CPU28 data recorded at offset=0x5e3000
+    12288 bytes in size
+CPU29 data recorded at offset=0x5e6000
+    8192 bytes in size
+CPU30 data recorded at offset=0x5e8000
+    16384 bytes in size
+CPU31 data recorded at offset=0x5ec000
+    8192 bytes in size
+CPU32 data recorded at offset=0x5ee000
+    16384 bytes in size
+CPU33 data recorded at offset=0x5f2000
+    12288 bytes in size
+CPU34 data recorded at offset=0x5f5000
+    16384 bytes in size
+CPU35 data recorded at offset=0x5f9000
+    8192 bytes in size
+CPU36 data recorded at offset=0x5fb000
+    12288 bytes in size
+CPU37 data recorded at offset=0x5fe000
+    8192 bytes in size
+CPU38 data recorded at offset=0x600000
+    12288 bytes in size
+CPU39 data recorded at offset=0x603000
+    12288 bytes in size
+CPU40 data recorded at offset=0x606000
+    16384 bytes in size
+CPU41 data recorded at offset=0x60a000
+    8192 bytes in size
+CPU42 data recorded at offset=0x60c000
+    12288 bytes in size
+CPU43 data recorded at offset=0x60f000
+    8192 bytes in size
+CPU44 data recorded at offset=0x611000
+    20480 bytes in size
+CPU45 data recorded at offset=0x616000
+    8192 bytes in size
+CPU46 data recorded at offset=0x618000
+    16384 bytes in size
+CPU47 data recorded at offset=0x61c000
+    8192 bytes in size
+CPU48 data recorded at offset=0x61e000
+    16384 bytes in size
+CPU49 data recorded at offset=0x622000
+    8192 bytes in size
+CPU50 data recorded at offset=0x624000
+    12288 bytes in size
+CPU51 data recorded at offset=0x627000
+    8192 bytes in size
+CPU52 data recorded at offset=0x629000
+    12288 bytes in size
+CPU53 data recorded at offset=0x62c000
+    4096 bytes in size
+CPU54 data recorded at offset=0x62d000
+    12288 bytes in size
+CPU55 data recorded at offset=0x630000
+    4096 bytes in size
+CPU56 data recorded at offset=0x631000
+    16384 bytes in size
+CPU57 data recorded at offset=0x635000
+    4096 bytes in size
+CPU58 data recorded at offset=0x636000
+    16384 bytes in size
+CPU59 data recorded at offset=0x63a000
+    4096 bytes in size
+CPU60 data recorded at offset=0x63b000
+    12288 bytes in size
+CPU61 data recorded at offset=0x63e000
+    8192 bytes in size
+CPU62 data recorded at offset=0x640000
+    16384 bytes in size
+CPU63 data recorded at offset=0x644000
+    4096 bytes in size
+Running ft.B.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - FT Benchmark
+
+ Size                :  512x 256x 256
+ Iterations                  :     20
+ Number of available threads :     64
+
+ T =    1     Checksum =    5.177643571579D+02    5.077803458597D+02
+ T =    2     Checksum =    5.154521291263D+02    5.088249431599D+02
+ T =    3     Checksum =    5.146409228650D+02    5.096208912659D+02
+ T =    4     Checksum =    5.142378756213D+02    5.101023387619D+02
+ T =    5     Checksum =    5.139626667737D+02    5.103976610618D+02
+ T =    6     Checksum =    5.137423460082D+02    5.105948019802D+02
+ T =    7     Checksum =    5.135547056878D+02    5.107404165783D+02
+ T =    8     Checksum =    5.133910925467D+02    5.108576573661D+02
+ T =    9     Checksum =    5.132470705390D+02    5.109577278523D+02
+ T =   10     Checksum =    5.131197729984D+02    5.110460304483D+02
+ T =   11     Checksum =    5.130070319283D+02    5.111252433800D+02
+ T =   12     Checksum =    5.129070537032D+02    5.111968077719D+02
+ T =   13     Checksum =    5.128182883503D+02    5.112616233064D+02
+ T =   14     Checksum =    5.127393733383D+02    5.113203605551D+02
+ T =   15     Checksum =    5.126691062021D+02    5.113735928093D+02
+ T =   16     Checksum =    5.126064276005D+02    5.114218460548D+02
+ T =   17     Checksum =    5.125504076570D+02    5.114656139760D+02
+ T =   18     Checksum =    5.125002331721D+02    5.115053595966D+02
+ T =   19     Checksum =    5.124551951846D+02    5.115415130407D+02
+ T =   20     Checksum =    5.124146770029D+02    5.115744692211D+02
+ Result verification successful
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                     2.02
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 45675.68
+ Mop/s/thread    =                   713.68
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    45056 bytes in size
+CPU1 data recorded at offset=0x58a000
+    36864 bytes in size
+CPU2 data recorded at offset=0x593000
+    36864 bytes in size
+CPU3 data recorded at offset=0x59c000
+    36864 bytes in size
+CPU4 data recorded at offset=0x5a5000
+    36864 bytes in size
+CPU5 data recorded at offset=0x5ae000
+    36864 bytes in size
+CPU6 data recorded at offset=0x5b7000
+    36864 bytes in size
+CPU7 data recorded at offset=0x5c0000
+    36864 bytes in size
+CPU8 data recorded at offset=0x5c9000
+    36864 bytes in size
+CPU9 data recorded at offset=0x5d2000
+    36864 bytes in size
+CPU10 data recorded at offset=0x5db000
+    36864 bytes in size
+CPU11 data recorded at offset=0x5e4000
+    36864 bytes in size
+CPU12 data recorded at offset=0x5ed000
+    40960 bytes in size
+CPU13 data recorded at offset=0x5f7000
+    36864 bytes in size
+CPU14 data recorded at offset=0x600000
+    36864 bytes in size
+CPU15 data recorded at offset=0x609000
+    36864 bytes in size
+CPU16 data recorded at offset=0x612000
+    36864 bytes in size
+CPU17 data recorded at offset=0x61b000
+    36864 bytes in size
+CPU18 data recorded at offset=0x624000
+    36864 bytes in size
+CPU19 data recorded at offset=0x62d000
+    36864 bytes in size
+CPU20 data recorded at offset=0x636000
+    36864 bytes in size
+CPU21 data recorded at offset=0x63f000
+    36864 bytes in size
+CPU22 data recorded at offset=0x648000
+    36864 bytes in size
+CPU23 data recorded at offset=0x651000
+    32768 bytes in size
+CPU24 data recorded at offset=0x659000
+    40960 bytes in size
+CPU25 data recorded at offset=0x663000
+    36864 bytes in size
+CPU26 data recorded at offset=0x66c000
+    36864 bytes in size
+CPU27 data recorded at offset=0x675000
+    40960 bytes in size
+CPU28 data recorded at offset=0x67f000
+    36864 bytes in size
+CPU29 data recorded at offset=0x688000
+    98304 bytes in size
+CPU30 data recorded at offset=0x6a0000
+    36864 bytes in size
+CPU31 data recorded at offset=0x6a9000
+    36864 bytes in size
+CPU32 data recorded at offset=0x6b2000
+    36864 bytes in size
+CPU33 data recorded at offset=0x6bb000
+    32768 bytes in size
+CPU34 data recorded at offset=0x6c3000
+    36864 bytes in size
+CPU35 data recorded at offset=0x6cc000
+    36864 bytes in size
+CPU36 data recorded at offset=0x6d5000
+    40960 bytes in size
+CPU37 data recorded at offset=0x6df000
+    32768 bytes in size
+CPU38 data recorded at offset=0x6e7000
+    36864 bytes in size
+CPU39 data recorded at offset=0x6f0000
+    32768 bytes in size
+CPU40 data recorded at offset=0x6f8000
+    36864 bytes in size
+CPU41 data recorded at offset=0x701000
+    32768 bytes in size
+CPU42 data recorded at offset=0x709000
+    36864 bytes in size
+CPU43 data recorded at offset=0x712000
+    36864 bytes in size
+CPU44 data recorded at offset=0x71b000
+    49152 bytes in size
+CPU45 data recorded at offset=0x727000
+    36864 bytes in size
+CPU46 data recorded at offset=0x730000
+    36864 bytes in size
+CPU47 data recorded at offset=0x739000
+    32768 bytes in size
+CPU48 data recorded at offset=0x741000
+    36864 bytes in size
+CPU49 data recorded at offset=0x74a000
+    32768 bytes in size
+CPU50 data recorded at offset=0x752000
+    36864 bytes in size
+CPU51 data recorded at offset=0x75b000
+    36864 bytes in size
+CPU52 data recorded at offset=0x764000
+    36864 bytes in size
+CPU53 data recorded at offset=0x76d000
+    36864 bytes in size
+CPU54 data recorded at offset=0x776000
+    36864 bytes in size
+CPU55 data recorded at offset=0x77f000
+    32768 bytes in size
+CPU56 data recorded at offset=0x787000
+    36864 bytes in size
+CPU57 data recorded at offset=0x790000
+    32768 bytes in size
+CPU58 data recorded at offset=0x798000
+    36864 bytes in size
+CPU59 data recorded at offset=0x7a1000
+    36864 bytes in size
+CPU60 data recorded at offset=0x7aa000
+    36864 bytes in size
+CPU61 data recorded at offset=0x7b3000
+    32768 bytes in size
+CPU62 data recorded at offset=0x7bb000
+    36864 bytes in size
+CPU63 data recorded at offset=0x7c4000
+    32768 bytes in size
+Running ft.C.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - FT Benchmark
+
+ Size                :  512x 512x 512
+ Iterations                  :     20
+ Number of available threads :     64
+
+ T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
+ T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
+ T =    3     Checksum =    5.144678022222D+02    5.122251847514D+02
+ T =    4     Checksum =    5.140150594328D+02    5.121090289018D+02
+ T =    5     Checksum =    5.137550426810D+02    5.121143685824D+02
+ T =    6     Checksum =    5.135811056728D+02    5.121496764568D+02
+ T =    7     Checksum =    5.134569343165D+02    5.121870921893D+02
+ T =    8     Checksum =    5.133651975661D+02    5.122193250322D+02
+ T =    9     Checksum =    5.132955192805D+02    5.122454735794D+02
+ T =   10     Checksum =    5.132410471738D+02    5.122663649603D+02
+ T =   11     Checksum =    5.131971141679D+02    5.122830879827D+02
+ T =   12     Checksum =    5.131605205716D+02    5.122965869718D+02
+ T =   13     Checksum =    5.131290734194D+02    5.123075927445D+02
+ T =   14     Checksum =    5.131012720314D+02    5.123166486553D+02
+ T =   15     Checksum =    5.130760908195D+02    5.123241541685D+02
+ T =   16     Checksum =    5.130528295923D+02    5.123304037599D+02
+ T =   17     Checksum =    5.130310107773D+02    5.123356167976D+02
+ T =   18     Checksum =    5.130103090133D+02    5.123399592211D+02
+ T =   19     Checksum =    5.129905029333D+02    5.123435588985D+02
+ T =   20     Checksum =    5.129714421109D+02    5.123465164008D+02
+ Result verification successful
+ class = C
+
+
+ FT Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                     8.87
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 44666.51
+ Mop/s/thread    =                   697.91
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    196608 bytes in size
+CPU1 data recorded at offset=0x5af000
+    167936 bytes in size
+CPU2 data recorded at offset=0x5d8000
+    176128 bytes in size
+CPU3 data recorded at offset=0x603000
+    167936 bytes in size
+CPU4 data recorded at offset=0x62c000
+    172032 bytes in size
+CPU5 data recorded at offset=0x656000
+    167936 bytes in size
+CPU6 data recorded at offset=0x67f000
+    167936 bytes in size
+CPU7 data recorded at offset=0x6a8000
+    176128 bytes in size
+CPU8 data recorded at offset=0x6d3000
+    167936 bytes in size
+CPU9 data recorded at offset=0x6fc000
+    176128 bytes in size
+CPU10 data recorded at offset=0x727000
+    184320 bytes in size
+CPU11 data recorded at offset=0x754000
+    167936 bytes in size
+CPU12 data recorded at offset=0x77d000
+    176128 bytes in size
+CPU13 data recorded at offset=0x7a8000
+    172032 bytes in size
+CPU14 data recorded at offset=0x7d2000
+    172032 bytes in size
+CPU15 data recorded at offset=0x7fc000
+    155648 bytes in size
+CPU16 data recorded at offset=0x822000
+    204800 bytes in size
+CPU17 data recorded at offset=0x854000
+    159744 bytes in size
+CPU18 data recorded at offset=0x87b000
+    167936 bytes in size
+CPU19 data recorded at offset=0x8a4000
+    159744 bytes in size
+CPU20 data recorded at offset=0x8cb000
+    167936 bytes in size
+CPU21 data recorded at offset=0x8f4000
+    172032 bytes in size
+CPU22 data recorded at offset=0x91e000
+    167936 bytes in size
+CPU23 data recorded at offset=0x947000
+    163840 bytes in size
+CPU24 data recorded at offset=0x96f000
+    188416 bytes in size
+CPU25 data recorded at offset=0x99d000
+    188416 bytes in size
+CPU26 data recorded at offset=0x9cb000
+    163840 bytes in size
+CPU27 data recorded at offset=0x9f3000
+    180224 bytes in size
+CPU28 data recorded at offset=0xa1f000
+    167936 bytes in size
+CPU29 data recorded at offset=0xa48000
+    167936 bytes in size
+CPU30 data recorded at offset=0xa71000
+    221184 bytes in size
+CPU31 data recorded at offset=0xaa7000
+    180224 bytes in size
+CPU32 data recorded at offset=0xad3000
+    172032 bytes in size
+CPU33 data recorded at offset=0xafd000
+    200704 bytes in size
+CPU34 data recorded at offset=0xb2e000
+    159744 bytes in size
+CPU35 data recorded at offset=0xb55000
+    176128 bytes in size
+CPU36 data recorded at offset=0xb80000
+    172032 bytes in size
+CPU37 data recorded at offset=0xbaa000
+    159744 bytes in size
+CPU38 data recorded at offset=0xbd1000
+    159744 bytes in size
+CPU39 data recorded at offset=0xbf8000
+    167936 bytes in size
+CPU40 data recorded at offset=0xc21000
+    172032 bytes in size
+CPU41 data recorded at offset=0xc4b000
+    163840 bytes in size
+CPU42 data recorded at offset=0xc73000
+    217088 bytes in size
+CPU43 data recorded at offset=0xca8000
+    172032 bytes in size
+CPU44 data recorded at offset=0xcd2000
+    192512 bytes in size
+CPU45 data recorded at offset=0xd01000
+    167936 bytes in size
+CPU46 data recorded at offset=0xd2a000
+    167936 bytes in size
+CPU47 data recorded at offset=0xd53000
+    159744 bytes in size
+CPU48 data recorded at offset=0xd7a000
+    167936 bytes in size
+CPU49 data recorded at offset=0xda3000
+    167936 bytes in size
+CPU50 data recorded at offset=0xdcc000
+    163840 bytes in size
+CPU51 data recorded at offset=0xdf4000
+    176128 bytes in size
+CPU52 data recorded at offset=0xe1f000
+    167936 bytes in size
+CPU53 data recorded at offset=0xe48000
+    172032 bytes in size
+CPU54 data recorded at offset=0xe72000
+    163840 bytes in size
+CPU55 data recorded at offset=0xe9a000
+    167936 bytes in size
+CPU56 data recorded at offset=0xec3000
+    172032 bytes in size
+CPU57 data recorded at offset=0xeed000
+    167936 bytes in size
+CPU58 data recorded at offset=0xf16000
+    163840 bytes in size
+CPU59 data recorded at offset=0xf3e000
+    172032 bytes in size
+CPU60 data recorded at offset=0xf68000
+    167936 bytes in size
+CPU61 data recorded at offset=0xf91000
+    172032 bytes in size
+CPU62 data recorded at offset=0xfbb000
+    167936 bytes in size
+CPU63 data recorded at offset=0xfe4000
+    159744 bytes in size
+Running is.A.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:  10
+ Number of available threads:  64
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.03
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  2712.47
+ Mop/s/thread    =                    42.38
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    8192 bytes in size
+CPU1 data recorded at offset=0x581000
+    4096 bytes in size
+CPU2 data recorded at offset=0x582000
+    4096 bytes in size
+CPU3 data recorded at offset=0x583000
+    4096 bytes in size
+CPU4 data recorded at offset=0x584000
+    4096 bytes in size
+CPU5 data recorded at offset=0x585000
+    4096 bytes in size
+CPU6 data recorded at offset=0x586000
+    4096 bytes in size
+CPU7 data recorded at offset=0x587000
+    4096 bytes in size
+CPU8 data recorded at offset=0x588000
+    4096 bytes in size
+CPU9 data recorded at offset=0x589000
+    4096 bytes in size
+CPU10 data recorded at offset=0x58a000
+    4096 bytes in size
+CPU11 data recorded at offset=0x58b000
+    4096 bytes in size
+CPU12 data recorded at offset=0x58c000
+    4096 bytes in size
+CPU13 data recorded at offset=0x58d000
+    4096 bytes in size
+CPU14 data recorded at offset=0x58e000
+    4096 bytes in size
+CPU15 data recorded at offset=0x58f000
+    4096 bytes in size
+CPU16 data recorded at offset=0x590000
+    4096 bytes in size
+CPU17 data recorded at offset=0x591000
+    4096 bytes in size
+CPU18 data recorded at offset=0x592000
+    4096 bytes in size
+CPU19 data recorded at offset=0x593000
+    4096 bytes in size
+CPU20 data recorded at offset=0x594000
+    4096 bytes in size
+CPU21 data recorded at offset=0x595000
+    4096 bytes in size
+CPU22 data recorded at offset=0x596000
+    4096 bytes in size
+CPU23 data recorded at offset=0x597000
+    8192 bytes in size
+CPU24 data recorded at offset=0x599000
+    8192 bytes in size
+CPU25 data recorded at offset=0x59b000
+    4096 bytes in size
+CPU26 data recorded at offset=0x59c000
+    4096 bytes in size
+CPU27 data recorded at offset=0x59d000
+    4096 bytes in size
+CPU28 data recorded at offset=0x59e000
+    4096 bytes in size
+CPU29 data recorded at offset=0x59f000
+    4096 bytes in size
+CPU30 data recorded at offset=0x5a0000
+    4096 bytes in size
+CPU31 data recorded at offset=0x5a1000
+    4096 bytes in size
+CPU32 data recorded at offset=0x5a2000
+    4096 bytes in size
+CPU33 data recorded at offset=0x5a3000
+    4096 bytes in size
+CPU34 data recorded at offset=0x5a4000
+    4096 bytes in size
+CPU35 data recorded at offset=0x5a5000
+    4096 bytes in size
+CPU36 data recorded at offset=0x5a6000
+    4096 bytes in size
+CPU37 data recorded at offset=0x5a7000
+    4096 bytes in size
+CPU38 data recorded at offset=0x5a8000
+    16384 bytes in size
+CPU39 data recorded at offset=0x5ac000
+    4096 bytes in size
+CPU40 data recorded at offset=0x5ad000
+    4096 bytes in size
+CPU41 data recorded at offset=0x5ae000
+    4096 bytes in size
+CPU42 data recorded at offset=0x5af000
+    4096 bytes in size
+CPU43 data recorded at offset=0x5b0000
+    4096 bytes in size
+CPU44 data recorded at offset=0x5b1000
+    4096 bytes in size
+CPU45 data recorded at offset=0x5b2000
+    4096 bytes in size
+CPU46 data recorded at offset=0x5b3000
+    4096 bytes in size
+CPU47 data recorded at offset=0x5b4000
+    4096 bytes in size
+CPU48 data recorded at offset=0x5b5000
+    4096 bytes in size
+CPU49 data recorded at offset=0x5b6000
+    4096 bytes in size
+CPU50 data recorded at offset=0x5b7000
+    4096 bytes in size
+CPU51 data recorded at offset=0x5b8000
+    4096 bytes in size
+CPU52 data recorded at offset=0x5b9000
+    4096 bytes in size
+CPU53 data recorded at offset=0x5ba000
+    4096 bytes in size
+CPU54 data recorded at offset=0x5bb000
+    53248 bytes in size
+CPU55 data recorded at offset=0x5c8000
+    4096 bytes in size
+CPU56 data recorded at offset=0x5c9000
+    4096 bytes in size
+CPU57 data recorded at offset=0x5ca000
+    4096 bytes in size
+CPU58 data recorded at offset=0x5cb000
+    4096 bytes in size
+CPU59 data recorded at offset=0x5cc000
+    4096 bytes in size
+CPU60 data recorded at offset=0x5cd000
+    4096 bytes in size
+CPU61 data recorded at offset=0x5ce000
+    4096 bytes in size
+CPU62 data recorded at offset=0x5cf000
+    4096 bytes in size
+CPU63 data recorded at offset=0x5d0000
+    4096 bytes in size
+Running is.B.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:  10
+ Number of available threads:  64
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     0.10
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  3523.69
+ Mop/s/thread    =                    55.06
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    8192 bytes in size
+CPU1 data recorded at offset=0x581000
+    8192 bytes in size
+CPU2 data recorded at offset=0x583000
+    8192 bytes in size
+CPU3 data recorded at offset=0x585000
+    8192 bytes in size
+CPU4 data recorded at offset=0x587000
+    12288 bytes in size
+CPU5 data recorded at offset=0x58a000
+    4096 bytes in size
+CPU6 data recorded at offset=0x58b000
+    8192 bytes in size
+CPU7 data recorded at offset=0x58d000
+    4096 bytes in size
+CPU8 data recorded at offset=0x58e000
+    8192 bytes in size
+CPU9 data recorded at offset=0x590000
+    4096 bytes in size
+CPU10 data recorded at offset=0x591000
+    8192 bytes in size
+CPU11 data recorded at offset=0x593000
+    4096 bytes in size
+CPU12 data recorded at offset=0x594000
+    8192 bytes in size
+CPU13 data recorded at offset=0x596000
+    4096 bytes in size
+CPU14 data recorded at offset=0x597000
+    8192 bytes in size
+CPU15 data recorded at offset=0x599000
+    8192 bytes in size
+CPU16 data recorded at offset=0x59b000
+    12288 bytes in size
+CPU17 data recorded at offset=0x59e000
+    8192 bytes in size
+CPU18 data recorded at offset=0x5a0000
+    8192 bytes in size
+CPU19 data recorded at offset=0x5a2000
+    4096 bytes in size
+CPU20 data recorded at offset=0x5a3000
+    8192 bytes in size
+CPU21 data recorded at offset=0x5a5000
+    4096 bytes in size
+CPU22 data recorded at offset=0x5a6000
+    8192 bytes in size
+CPU23 data recorded at offset=0x5a8000
+    4096 bytes in size
+CPU24 data recorded at offset=0x5a9000
+    8192 bytes in size
+CPU25 data recorded at offset=0x5ab000
+    8192 bytes in size
+CPU26 data recorded at offset=0x5ad000
+    12288 bytes in size
+CPU27 data recorded at offset=0x5b0000
+    8192 bytes in size
+CPU28 data recorded at offset=0x5b2000
+    20480 bytes in size
+CPU29 data recorded at offset=0x5b7000
+    4096 bytes in size
+CPU30 data recorded at offset=0x5b8000
+    8192 bytes in size
+CPU31 data recorded at offset=0x5ba000
+    4096 bytes in size
+CPU32 data recorded at offset=0x5bb000
+    8192 bytes in size
+CPU33 data recorded at offset=0x5bd000
+    8192 bytes in size
+CPU34 data recorded at offset=0x5bf000
+    8192 bytes in size
+CPU35 data recorded at offset=0x5c1000
+    4096 bytes in size
+CPU36 data recorded at offset=0x5c2000
+    8192 bytes in size
+CPU37 data recorded at offset=0x5c4000
+    4096 bytes in size
+CPU38 data recorded at offset=0x5c5000
+    8192 bytes in size
+CPU39 data recorded at offset=0x5c7000
+    4096 bytes in size
+CPU40 data recorded at offset=0x5c8000
+    8192 bytes in size
+CPU41 data recorded at offset=0x5ca000
+    4096 bytes in size
+CPU42 data recorded at offset=0x5cb000
+    8192 bytes in size
+CPU43 data recorded at offset=0x5cd000
+    4096 bytes in size
+CPU44 data recorded at offset=0x5ce000
+    57344 bytes in size
+CPU45 data recorded at offset=0x5dc000
+    8192 bytes in size
+CPU46 data recorded at offset=0x5de000
+    8192 bytes in size
+CPU47 data recorded at offset=0x5e0000
+    8192 bytes in size
+CPU48 data recorded at offset=0x5e2000
+    8192 bytes in size
+CPU49 data recorded at offset=0x5e4000
+    8192 bytes in size
+CPU50 data recorded at offset=0x5e6000
+    8192 bytes in size
+CPU51 data recorded at offset=0x5e8000
+    8192 bytes in size
+CPU52 data recorded at offset=0x5ea000
+    8192 bytes in size
+CPU53 data recorded at offset=0x5ec000
+    12288 bytes in size
+CPU54 data recorded at offset=0x5ef000
+    8192 bytes in size
+CPU55 data recorded at offset=0x5f1000
+    8192 bytes in size
+CPU56 data recorded at offset=0x5f3000
+    12288 bytes in size
+CPU57 data recorded at offset=0x5f6000
+    8192 bytes in size
+CPU58 data recorded at offset=0x5f8000
+    12288 bytes in size
+CPU59 data recorded at offset=0x5fb000
+    8192 bytes in size
+CPU60 data recorded at offset=0x5fd000
+    8192 bytes in size
+CPU61 data recorded at offset=0x5ff000
+    8192 bytes in size
+CPU62 data recorded at offset=0x601000
+    12288 bytes in size
+CPU63 data recorded at offset=0x604000
+    8192 bytes in size
+Running is.C.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:  10
+ Number of available threads:  64
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                     0.37
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  3675.77
+ Mop/s/thread    =                    57.43
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    24576 bytes in size
+CPU1 data recorded at offset=0x585000
+    16384 bytes in size
+CPU2 data recorded at offset=0x589000
+    16384 bytes in size
+CPU3 data recorded at offset=0x58d000
+    16384 bytes in size
+CPU4 data recorded at offset=0x591000
+    16384 bytes in size
+CPU5 data recorded at offset=0x595000
+    16384 bytes in size
+CPU6 data recorded at offset=0x599000
+    16384 bytes in size
+CPU7 data recorded at offset=0x59d000
+    12288 bytes in size
+CPU8 data recorded at offset=0x5a0000
+    16384 bytes in size
+CPU9 data recorded at offset=0x5a4000
+    12288 bytes in size
+CPU10 data recorded at offset=0x5a7000
+    20480 bytes in size
+CPU11 data recorded at offset=0x5ac000
+    12288 bytes in size
+CPU12 data recorded at offset=0x5af000
+    16384 bytes in size
+CPU13 data recorded at offset=0x5b3000
+    12288 bytes in size
+CPU14 data recorded at offset=0x5b6000
+    28672 bytes in size
+CPU15 data recorded at offset=0x5bd000
+    16384 bytes in size
+CPU16 data recorded at offset=0x5c1000
+    16384 bytes in size
+CPU17 data recorded at offset=0x5c5000
+    16384 bytes in size
+CPU18 data recorded at offset=0x5c9000
+    16384 bytes in size
+CPU19 data recorded at offset=0x5cd000
+    16384 bytes in size
+CPU20 data recorded at offset=0x5d1000
+    20480 bytes in size
+CPU21 data recorded at offset=0x5d6000
+    16384 bytes in size
+CPU22 data recorded at offset=0x5da000
+    20480 bytes in size
+CPU23 data recorded at offset=0x5df000
+    16384 bytes in size
+CPU24 data recorded at offset=0x5e3000
+    20480 bytes in size
+CPU25 data recorded at offset=0x5e8000
+    12288 bytes in size
+CPU26 data recorded at offset=0x5eb000
+    20480 bytes in size
+CPU27 data recorded at offset=0x5f0000
+    16384 bytes in size
+CPU28 data recorded at offset=0x5f4000
+    16384 bytes in size
+CPU29 data recorded at offset=0x5f8000
+    16384 bytes in size
+CPU30 data recorded at offset=0x5fc000
+    16384 bytes in size
+CPU31 data recorded at offset=0x600000
+    16384 bytes in size
+CPU32 data recorded at offset=0x604000
+    20480 bytes in size
+CPU33 data recorded at offset=0x609000
+    12288 bytes in size
+CPU34 data recorded at offset=0x60c000
+    32768 bytes in size
+CPU35 data recorded at offset=0x614000
+    65536 bytes in size
+CPU36 data recorded at offset=0x624000
+    16384 bytes in size
+CPU37 data recorded at offset=0x628000
+    16384 bytes in size
+CPU38 data recorded at offset=0x62c000
+    16384 bytes in size
+CPU39 data recorded at offset=0x630000
+    16384 bytes in size
+CPU40 data recorded at offset=0x634000
+    16384 bytes in size
+CPU41 data recorded at offset=0x638000
+    16384 bytes in size
+CPU42 data recorded at offset=0x63c000
+    16384 bytes in size
+CPU43 data recorded at offset=0x640000
+    16384 bytes in size
+CPU44 data recorded at offset=0x644000
+    20480 bytes in size
+CPU45 data recorded at offset=0x649000
+    16384 bytes in size
+CPU46 data recorded at offset=0x64d000
+    20480 bytes in size
+CPU47 data recorded at offset=0x652000
+    12288 bytes in size
+CPU48 data recorded at offset=0x655000
+    16384 bytes in size
+CPU49 data recorded at offset=0x659000
+    16384 bytes in size
+CPU50 data recorded at offset=0x65d000
+    16384 bytes in size
+CPU51 data recorded at offset=0x661000
+    12288 bytes in size
+CPU52 data recorded at offset=0x664000
+    20480 bytes in size
+CPU53 data recorded at offset=0x669000
+    12288 bytes in size
+CPU54 data recorded at offset=0x66c000
+    20480 bytes in size
+CPU55 data recorded at offset=0x671000
+    12288 bytes in size
+CPU56 data recorded at offset=0x674000
+    16384 bytes in size
+CPU57 data recorded at offset=0x678000
+    12288 bytes in size
+CPU58 data recorded at offset=0x67b000
+    16384 bytes in size
+CPU59 data recorded at offset=0x67f000
+    16384 bytes in size
+CPU60 data recorded at offset=0x683000
+    20480 bytes in size
+CPU61 data recorded at offset=0x688000
+    12288 bytes in size
+CPU62 data recorded at offset=0x68b000
+    16384 bytes in size
+CPU63 data recorded at offset=0x68f000
+    12288 bytes in size
+Running lu.A.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - LU Benchmark
+
+ Size:   64x  64x  64
+ Iterations:                    250
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class A
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.7790210760669E+03 0.7790210760669E+03 0.1444761544997E-13
+           2   0.6340276525969E+02 0.6340276525969E+02 0.3922383455949E-14
+           3   0.1949924972729E+03 0.1949924972729E+03 0.8891235814207E-14
+           4   0.1784530116042E+03 0.1784530116042E+03 0.3185343769198E-15
+           5   0.1838476034946E+04 0.1838476034946E+04 0.1150178267993E-13
+ Comparison of RMS-norms of solution error
+           1   0.2996408568547E+02 0.2996408568547E+02 0.1185657295234E-14
+           2   0.2819457636500E+01 0.2819457636500E+01 0.1181315523510E-13
+           3   0.7347341269878E+01 0.7347341269877E+01 0.7132175413867E-14
+           4   0.6713922568778E+01 0.6713922568778E+01 0.9260233305063E-15
+           5   0.7071531568839E+02 0.7071531568839E+02 0.1004793274050E-13
+ Comparison of surface integral
+               0.2603092560489E+02 0.2603092560489E+02 0.1364804975715E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      250
+ Time in seconds =                     1.89
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 63012.28
+ Mop/s/thread    =                   984.57
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    40960 bytes in size
+CPU1 data recorded at offset=0x589000
+    36864 bytes in size
+CPU2 data recorded at offset=0x592000
+    36864 bytes in size
+CPU3 data recorded at offset=0x59b000
+    110592 bytes in size
+CPU4 data recorded at offset=0x5b6000
+    36864 bytes in size
+CPU5 data recorded at offset=0x5bf000
+    36864 bytes in size
+CPU6 data recorded at offset=0x5c8000
+    36864 bytes in size
+CPU7 data recorded at offset=0x5d1000
+    36864 bytes in size
+CPU8 data recorded at offset=0x5da000
+    36864 bytes in size
+CPU9 data recorded at offset=0x5e3000
+    32768 bytes in size
+CPU10 data recorded at offset=0x5eb000
+    40960 bytes in size
+CPU11 data recorded at offset=0x5f5000
+    32768 bytes in size
+CPU12 data recorded at offset=0x5fd000
+    36864 bytes in size
+CPU13 data recorded at offset=0x606000
+    36864 bytes in size
+CPU14 data recorded at offset=0x60f000
+    36864 bytes in size
+CPU15 data recorded at offset=0x618000
+    32768 bytes in size
+CPU16 data recorded at offset=0x620000
+    40960 bytes in size
+CPU17 data recorded at offset=0x62a000
+    32768 bytes in size
+CPU18 data recorded at offset=0x632000
+    36864 bytes in size
+CPU19 data recorded at offset=0x63b000
+    32768 bytes in size
+CPU20 data recorded at offset=0x643000
+    36864 bytes in size
+CPU21 data recorded at offset=0x64c000
+    32768 bytes in size
+CPU22 data recorded at offset=0x654000
+    36864 bytes in size
+CPU23 data recorded at offset=0x65d000
+    32768 bytes in size
+CPU24 data recorded at offset=0x665000
+    40960 bytes in size
+CPU25 data recorded at offset=0x66f000
+    32768 bytes in size
+CPU26 data recorded at offset=0x677000
+    36864 bytes in size
+CPU27 data recorded at offset=0x680000
+    32768 bytes in size
+CPU28 data recorded at offset=0x688000
+    36864 bytes in size
+CPU29 data recorded at offset=0x691000
+    32768 bytes in size
+CPU30 data recorded at offset=0x699000
+    36864 bytes in size
+CPU31 data recorded at offset=0x6a2000
+    32768 bytes in size
+CPU32 data recorded at offset=0x6aa000
+    36864 bytes in size
+CPU33 data recorded at offset=0x6b3000
+    32768 bytes in size
+CPU34 data recorded at offset=0x6bb000
+    36864 bytes in size
+CPU35 data recorded at offset=0x6c4000
+    32768 bytes in size
+CPU36 data recorded at offset=0x6cc000
+    36864 bytes in size
+CPU37 data recorded at offset=0x6d5000
+    32768 bytes in size
+CPU38 data recorded at offset=0x6dd000
+    36864 bytes in size
+CPU39 data recorded at offset=0x6e6000
+    32768 bytes in size
+CPU40 data recorded at offset=0x6ee000
+    36864 bytes in size
+CPU41 data recorded at offset=0x6f7000
+    32768 bytes in size
+CPU42 data recorded at offset=0x6ff000
+    36864 bytes in size
+CPU43 data recorded at offset=0x708000
+    32768 bytes in size
+CPU44 data recorded at offset=0x710000
+    36864 bytes in size
+CPU45 data recorded at offset=0x719000
+    32768 bytes in size
+CPU46 data recorded at offset=0x721000
+    49152 bytes in size
+CPU47 data recorded at offset=0x72d000
+    32768 bytes in size
+CPU48 data recorded at offset=0x735000
+    36864 bytes in size
+CPU49 data recorded at offset=0x73e000
+    32768 bytes in size
+CPU50 data recorded at offset=0x746000
+    36864 bytes in size
+CPU51 data recorded at offset=0x74f000
+    32768 bytes in size
+CPU52 data recorded at offset=0x757000
+    36864 bytes in size
+CPU53 data recorded at offset=0x760000
+    32768 bytes in size
+CPU54 data recorded at offset=0x768000
+    36864 bytes in size
+CPU55 data recorded at offset=0x771000
+    32768 bytes in size
+CPU56 data recorded at offset=0x779000
+    36864 bytes in size
+CPU57 data recorded at offset=0x782000
+    32768 bytes in size
+CPU58 data recorded at offset=0x78a000
+    36864 bytes in size
+CPU59 data recorded at offset=0x793000
+    32768 bytes in size
+CPU60 data recorded at offset=0x79b000
+    36864 bytes in size
+CPU61 data recorded at offset=0x7a4000
+    28672 bytes in size
+CPU62 data recorded at offset=0x7ab000
+    36864 bytes in size
+CPU63 data recorded at offset=0x7b4000
+    28672 bytes in size
+Running lu.B.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - LU Benchmark
+
+ Size:  102x 102x 102
+ Iterations:                    250
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class B
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.3553267296998E+04 0.3553267296998E+04 0.1279800569101E-15
+           2   0.2621475079531E+03 0.2621475079531E+03 0.4336750656503E-14
+           3   0.8833372185095E+03 0.8833372185095E+03 0.1158313629331E-14
+           4   0.7781277473943E+03 0.7781277473943E+03 0.1607133557601E-14
+           5   0.7308796959255E+04 0.7308796959255E+04 0.5724164525953E-14
+ Comparison of RMS-norms of solution error
+           1   0.1140117638021E+03 0.1140117638021E+03 0.4985750326560E-15
+           2   0.8109896365542E+01 0.8109896365542E+01 0.7666249551988E-14
+           3   0.2848059731770E+02 0.2848059731770E+02 0.1995864701387E-14
+           4   0.2590539456783E+02 0.2590539456783E+02 0.3017120651413E-14
+           5   0.2605490750486E+03 0.2605490750486E+03 0.6545034042076E-15
+ Comparison of surface integral
+               0.4788716270331E+02 0.4788716270331E+02 0.1335406873333E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      250
+ Time in seconds =                     7.32
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 68156.27
+ Mop/s/thread    =                  1064.94
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    139264 bytes in size
+CPU1 data recorded at offset=0x5a1000
+    118784 bytes in size
+CPU2 data recorded at offset=0x5be000
+    118784 bytes in size
+CPU3 data recorded at offset=0x5db000
+    118784 bytes in size
+CPU4 data recorded at offset=0x5f8000
+    118784 bytes in size
+CPU5 data recorded at offset=0x615000
+    118784 bytes in size
+CPU6 data recorded at offset=0x632000
+    118784 bytes in size
+CPU7 data recorded at offset=0x64f000
+    118784 bytes in size
+CPU8 data recorded at offset=0x66c000
+    118784 bytes in size
+CPU9 data recorded at offset=0x689000
+    118784 bytes in size
+CPU10 data recorded at offset=0x6a6000
+    118784 bytes in size
+CPU11 data recorded at offset=0x6c3000
+    114688 bytes in size
+CPU12 data recorded at offset=0x6df000
+    126976 bytes in size
+CPU13 data recorded at offset=0x6fe000
+    114688 bytes in size
+CPU14 data recorded at offset=0x71a000
+    118784 bytes in size
+CPU15 data recorded at offset=0x737000
+    114688 bytes in size
+CPU16 data recorded at offset=0x753000
+    126976 bytes in size
+CPU17 data recorded at offset=0x772000
+    114688 bytes in size
+CPU18 data recorded at offset=0x78e000
+    126976 bytes in size
+CPU19 data recorded at offset=0x7ad000
+    114688 bytes in size
+CPU20 data recorded at offset=0x7c9000
+    122880 bytes in size
+CPU21 data recorded at offset=0x7e7000
+    114688 bytes in size
+CPU22 data recorded at offset=0x803000
+    118784 bytes in size
+CPU23 data recorded at offset=0x820000
+    114688 bytes in size
+CPU24 data recorded at offset=0x83c000
+    135168 bytes in size
+CPU25 data recorded at offset=0x85d000
+    114688 bytes in size
+CPU26 data recorded at offset=0x879000
+    118784 bytes in size
+CPU27 data recorded at offset=0x896000
+    118784 bytes in size
+CPU28 data recorded at offset=0x8b3000
+    118784 bytes in size
+CPU29 data recorded at offset=0x8d0000
+    114688 bytes in size
+CPU30 data recorded at offset=0x8ec000
+    118784 bytes in size
+CPU31 data recorded at offset=0x909000
+    114688 bytes in size
+CPU32 data recorded at offset=0x925000
+    118784 bytes in size
+CPU33 data recorded at offset=0x942000
+    114688 bytes in size
+CPU34 data recorded at offset=0x95e000
+    118784 bytes in size
+CPU35 data recorded at offset=0x97b000
+    118784 bytes in size
+CPU36 data recorded at offset=0x998000
+    118784 bytes in size
+CPU37 data recorded at offset=0x9b5000
+    110592 bytes in size
+CPU38 data recorded at offset=0x9d0000
+    118784 bytes in size
+CPU39 data recorded at offset=0x9ed000
+    192512 bytes in size
+CPU40 data recorded at offset=0xa1c000
+    118784 bytes in size
+CPU41 data recorded at offset=0xa39000
+    114688 bytes in size
+CPU42 data recorded at offset=0xa55000
+    118784 bytes in size
+CPU43 data recorded at offset=0xa72000
+    114688 bytes in size
+CPU44 data recorded at offset=0xa8e000
+    118784 bytes in size
+CPU45 data recorded at offset=0xaab000
+    114688 bytes in size
+CPU46 data recorded at offset=0xac7000
+    118784 bytes in size
+CPU47 data recorded at offset=0xae4000
+    114688 bytes in size
+CPU48 data recorded at offset=0xb00000
+    122880 bytes in size
+CPU49 data recorded at offset=0xb1e000
+    114688 bytes in size
+CPU50 data recorded at offset=0xb3a000
+    135168 bytes in size
+CPU51 data recorded at offset=0xb5b000
+    114688 bytes in size
+CPU52 data recorded at offset=0xb77000
+    118784 bytes in size
+CPU53 data recorded at offset=0xb94000
+    110592 bytes in size
+CPU54 data recorded at offset=0xbaf000
+    122880 bytes in size
+CPU55 data recorded at offset=0xbcd000
+    114688 bytes in size
+CPU56 data recorded at offset=0xbe9000
+    118784 bytes in size
+CPU57 data recorded at offset=0xc06000
+    114688 bytes in size
+CPU58 data recorded at offset=0xc22000
+    118784 bytes in size
+CPU59 data recorded at offset=0xc3f000
+    114688 bytes in size
+CPU60 data recorded at offset=0xc5b000
+    118784 bytes in size
+CPU61 data recorded at offset=0xc78000
+    114688 bytes in size
+CPU62 data recorded at offset=0xc94000
+    118784 bytes in size
+CPU63 data recorded at offset=0xcb1000
+    110592 bytes in size
+Running lu.C.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.1752955899723E-15
+           2   0.8922124588010E+03 0.8922124588010E+03 0.7645275736749E-15
+           3   0.2562388145827E+04 0.2562388145827E+04 0.5324103824322E-15
+           4   0.2191943438578E+04 0.2191943438578E+04 0.2074630863566E-15
+           5   0.1780780572611E+05 0.1780780572611E+05 0.6128737357728E-15
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.3947708207690E-15
+           2   0.1557895592399E+02 0.1557895592399E+02 0.2280456852266E-15
+           3   0.5413188630772E+02 0.5413188630772E+02 0.9188298227862E-15
+           4   0.4822626431540E+02 0.4822626431540E+02 0.8840113318084E-15
+           5   0.4559029100433E+03 0.4559029100433E+03 0.6234158371068E-15
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1066233314210E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                    27.95
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 72959.41
+ Mop/s/thread    =                  1139.99
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    483328 bytes in size
+CPU1 data recorded at offset=0x5f5000
+    425984 bytes in size
+CPU2 data recorded at offset=0x65d000
+    421888 bytes in size
+CPU3 data recorded at offset=0x6c4000
+    425984 bytes in size
+CPU4 data recorded at offset=0x72c000
+    421888 bytes in size
+CPU5 data recorded at offset=0x793000
+    425984 bytes in size
+CPU6 data recorded at offset=0x7fb000
+    421888 bytes in size
+CPU7 data recorded at offset=0x862000
+    425984 bytes in size
+CPU8 data recorded at offset=0x8ca000
+    425984 bytes in size
+CPU9 data recorded at offset=0x932000
+    430080 bytes in size
+CPU10 data recorded at offset=0x99b000
+    425984 bytes in size
+CPU11 data recorded at offset=0xa03000
+    421888 bytes in size
+CPU12 data recorded at offset=0xa6a000
+    434176 bytes in size
+CPU13 data recorded at offset=0xad4000
+    421888 bytes in size
+CPU14 data recorded at offset=0xb3b000
+    421888 bytes in size
+CPU15 data recorded at offset=0xba2000
+    425984 bytes in size
+CPU16 data recorded at offset=0xc0a000
+    438272 bytes in size
+CPU17 data recorded at offset=0xc75000
+    421888 bytes in size
+CPU18 data recorded at offset=0xcdc000
+    434176 bytes in size
+CPU19 data recorded at offset=0xd46000
+    434176 bytes in size
+CPU20 data recorded at offset=0xdb0000
+    438272 bytes in size
+CPU21 data recorded at offset=0xe1b000
+    425984 bytes in size
+CPU22 data recorded at offset=0xe83000
+    421888 bytes in size
+CPU23 data recorded at offset=0xeea000
+    425984 bytes in size
+CPU24 data recorded at offset=0xf52000
+    495616 bytes in size
+CPU25 data recorded at offset=0xfcb000
+    425984 bytes in size
+CPU26 data recorded at offset=0x1033000
+    421888 bytes in size
+CPU27 data recorded at offset=0x109a000
+    434176 bytes in size
+CPU28 data recorded at offset=0x1104000
+    425984 bytes in size
+CPU29 data recorded at offset=0x116c000
+    421888 bytes in size
+CPU30 data recorded at offset=0x11d3000
+    499712 bytes in size
+CPU31 data recorded at offset=0x124d000
+    425984 bytes in size
+CPU32 data recorded at offset=0x12b5000
+    417792 bytes in size
+CPU33 data recorded at offset=0x131b000
+    421888 bytes in size
+CPU34 data recorded at offset=0x1382000
+    421888 bytes in size
+CPU35 data recorded at offset=0x13e9000
+    438272 bytes in size
+CPU36 data recorded at offset=0x1454000
+    536576 bytes in size
+CPU37 data recorded at offset=0x14d7000
+    425984 bytes in size
+CPU38 data recorded at offset=0x153f000
+    425984 bytes in size
+CPU39 data recorded at offset=0x15a7000
+    425984 bytes in size
+CPU40 data recorded at offset=0x160f000
+    417792 bytes in size
+CPU41 data recorded at offset=0x1675000
+    425984 bytes in size
+CPU42 data recorded at offset=0x16dd000
+    425984 bytes in size
+CPU43 data recorded at offset=0x1745000
+    425984 bytes in size
+CPU44 data recorded at offset=0x17ad000
+    417792 bytes in size
+CPU45 data recorded at offset=0x1813000
+    425984 bytes in size
+CPU46 data recorded at offset=0x187b000
+    421888 bytes in size
+CPU47 data recorded at offset=0x18e2000
+    425984 bytes in size
+CPU48 data recorded at offset=0x194a000
+    581632 bytes in size
+CPU49 data recorded at offset=0x19d8000
+    421888 bytes in size
+CPU50 data recorded at offset=0x1a3f000
+    430080 bytes in size
+CPU51 data recorded at offset=0x1aa8000
+    425984 bytes in size
+CPU52 data recorded at offset=0x1b10000
+    421888 bytes in size
+CPU53 data recorded at offset=0x1b77000
+    442368 bytes in size
+CPU54 data recorded at offset=0x1be3000
+    417792 bytes in size
+CPU55 data recorded at offset=0x1c49000
+    434176 bytes in size
+CPU56 data recorded at offset=0x1cb3000
+    421888 bytes in size
+CPU57 data recorded at offset=0x1d1a000
+    425984 bytes in size
+CPU58 data recorded at offset=0x1d82000
+    421888 bytes in size
+CPU59 data recorded at offset=0x1de9000
+    425984 bytes in size
+CPU60 data recorded at offset=0x1e51000
+    417792 bytes in size
+CPU61 data recorded at offset=0x1eb7000
+    425984 bytes in size
+CPU62 data recorded at offset=0x1f1f000
+    417792 bytes in size
+CPU63 data recorded at offset=0x1f85000
+    425984 bytes in size
+Running mg.A.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class A)
+ Iterations:                      4
+ Number of available threads:    64
+
+ Initialization time:           0.223 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.2433365309069E-05
+ Error is    0.1902318176187E-12
+
+
+ MG Benchmark Completed.
+ Class           =                        A
+ Size            =            256x 256x 256
+ Iterations      =                        4
+ Time in seconds =                     0.11
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 36261.07
+ Mop/s/thread    =                   566.58
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    8192 bytes in size
+CPU1 data recorded at offset=0x581000
+    8192 bytes in size
+CPU2 data recorded at offset=0x583000
+    8192 bytes in size
+CPU3 data recorded at offset=0x585000
+    8192 bytes in size
+CPU4 data recorded at offset=0x587000
+    61440 bytes in size
+CPU5 data recorded at offset=0x596000
+    8192 bytes in size
+CPU6 data recorded at offset=0x598000
+    8192 bytes in size
+CPU7 data recorded at offset=0x59a000
+    8192 bytes in size
+CPU8 data recorded at offset=0x59c000
+    8192 bytes in size
+CPU9 data recorded at offset=0x59e000
+    8192 bytes in size
+CPU10 data recorded at offset=0x5a0000
+    8192 bytes in size
+CPU11 data recorded at offset=0x5a2000
+    8192 bytes in size
+CPU12 data recorded at offset=0x5a4000
+    20480 bytes in size
+CPU13 data recorded at offset=0x5a9000
+    8192 bytes in size
+CPU14 data recorded at offset=0x5ab000
+    8192 bytes in size
+CPU15 data recorded at offset=0x5ad000
+    8192 bytes in size
+CPU16 data recorded at offset=0x5af000
+    8192 bytes in size
+CPU17 data recorded at offset=0x5b1000
+    8192 bytes in size
+CPU18 data recorded at offset=0x5b3000
+    8192 bytes in size
+CPU19 data recorded at offset=0x5b5000
+    8192 bytes in size
+CPU20 data recorded at offset=0x5b7000
+    8192 bytes in size
+CPU21 data recorded at offset=0x5b9000
+    4096 bytes in size
+CPU22 data recorded at offset=0x5ba000
+    8192 bytes in size
+CPU23 data recorded at offset=0x5bc000
+    4096 bytes in size
+CPU24 data recorded at offset=0x5bd000
+    8192 bytes in size
+CPU25 data recorded at offset=0x5bf000
+    8192 bytes in size
+CPU26 data recorded at offset=0x5c1000
+    8192 bytes in size
+CPU27 data recorded at offset=0x5c3000
+    8192 bytes in size
+CPU28 data recorded at offset=0x5c5000
+    12288 bytes in size
+CPU29 data recorded at offset=0x5c8000
+    4096 bytes in size
+CPU30 data recorded at offset=0x5c9000
+    8192 bytes in size
+CPU31 data recorded at offset=0x5cb000
+    8192 bytes in size
+CPU32 data recorded at offset=0x5cd000
+    8192 bytes in size
+CPU33 data recorded at offset=0x5cf000
+    8192 bytes in size
+CPU34 data recorded at offset=0x5d1000
+    8192 bytes in size
+CPU35 data recorded at offset=0x5d3000
+    8192 bytes in size
+CPU36 data recorded at offset=0x5d5000
+    8192 bytes in size
+CPU37 data recorded at offset=0x5d7000
+    4096 bytes in size
+CPU38 data recorded at offset=0x5d8000
+    8192 bytes in size
+CPU39 data recorded at offset=0x5da000
+    8192 bytes in size
+CPU40 data recorded at offset=0x5dc000
+    8192 bytes in size
+CPU41 data recorded at offset=0x5de000
+    8192 bytes in size
+CPU42 data recorded at offset=0x5e0000
+    8192 bytes in size
+CPU43 data recorded at offset=0x5e2000
+    4096 bytes in size
+CPU44 data recorded at offset=0x5e3000
+    8192 bytes in size
+CPU45 data recorded at offset=0x5e5000
+    4096 bytes in size
+CPU46 data recorded at offset=0x5e6000
+    8192 bytes in size
+CPU47 data recorded at offset=0x5e8000
+    4096 bytes in size
+CPU48 data recorded at offset=0x5e9000
+    8192 bytes in size
+CPU49 data recorded at offset=0x5eb000
+    4096 bytes in size
+CPU50 data recorded at offset=0x5ec000
+    8192 bytes in size
+CPU51 data recorded at offset=0x5ee000
+    4096 bytes in size
+CPU52 data recorded at offset=0x5ef000
+    12288 bytes in size
+CPU53 data recorded at offset=0x5f2000
+    4096 bytes in size
+CPU54 data recorded at offset=0x5f3000
+    8192 bytes in size
+CPU55 data recorded at offset=0x5f5000
+    4096 bytes in size
+CPU56 data recorded at offset=0x5f6000
+    8192 bytes in size
+CPU57 data recorded at offset=0x5f8000
+    4096 bytes in size
+CPU58 data recorded at offset=0x5f9000
+    8192 bytes in size
+CPU59 data recorded at offset=0x5fb000
+    4096 bytes in size
+CPU60 data recorded at offset=0x5fc000
+    8192 bytes in size
+CPU61 data recorded at offset=0x5fe000
+    4096 bytes in size
+CPU62 data recorded at offset=0x5ff000
+    8192 bytes in size
+CPU63 data recorded at offset=0x601000
+    4096 bytes in size
+Running mg.B.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:                     20
+ Number of available threads:    64
+
+ Initialization time:           0.293 seconds
+
+  iter   1
+  iter   5
+  iter  10
+  iter  15
+  iter  20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9655500924772E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                     0.51
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 38102.23
+ Mop/s/thread    =                   595.35
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    16384 bytes in size
+CPU1 data recorded at offset=0x583000
+    16384 bytes in size
+CPU2 data recorded at offset=0x587000
+    16384 bytes in size
+CPU3 data recorded at offset=0x58b000
+    16384 bytes in size
+CPU4 data recorded at offset=0x58f000
+    16384 bytes in size
+CPU5 data recorded at offset=0x593000
+    16384 bytes in size
+CPU6 data recorded at offset=0x597000
+    16384 bytes in size
+CPU7 data recorded at offset=0x59b000
+    16384 bytes in size
+CPU8 data recorded at offset=0x59f000
+    16384 bytes in size
+CPU9 data recorded at offset=0x5a3000
+    16384 bytes in size
+CPU10 data recorded at offset=0x5a7000
+    12288 bytes in size
+CPU11 data recorded at offset=0x5aa000
+    16384 bytes in size
+CPU12 data recorded at offset=0x5ae000
+    12288 bytes in size
+CPU13 data recorded at offset=0x5b1000
+    16384 bytes in size
+CPU14 data recorded at offset=0x5b5000
+    16384 bytes in size
+CPU15 data recorded at offset=0x5b9000
+    16384 bytes in size
+CPU16 data recorded at offset=0x5bd000
+    16384 bytes in size
+CPU17 data recorded at offset=0x5c1000
+    16384 bytes in size
+CPU18 data recorded at offset=0x5c5000
+    16384 bytes in size
+CPU19 data recorded at offset=0x5c9000
+    16384 bytes in size
+CPU20 data recorded at offset=0x5cd000
+    12288 bytes in size
+CPU21 data recorded at offset=0x5d0000
+    16384 bytes in size
+CPU22 data recorded at offset=0x5d4000
+    12288 bytes in size
+CPU23 data recorded at offset=0x5d7000
+    16384 bytes in size
+CPU24 data recorded at offset=0x5db000
+    12288 bytes in size
+CPU25 data recorded at offset=0x5de000
+    16384 bytes in size
+CPU26 data recorded at offset=0x5e2000
+    12288 bytes in size
+CPU27 data recorded at offset=0x5e5000
+    16384 bytes in size
+CPU28 data recorded at offset=0x5e9000
+    12288 bytes in size
+CPU29 data recorded at offset=0x5ec000
+    16384 bytes in size
+CPU30 data recorded at offset=0x5f0000
+    12288 bytes in size
+CPU31 data recorded at offset=0x5f3000
+    16384 bytes in size
+CPU32 data recorded at offset=0x5f7000
+    12288 bytes in size
+CPU33 data recorded at offset=0x5fa000
+    16384 bytes in size
+CPU34 data recorded at offset=0x5fe000
+    12288 bytes in size
+CPU35 data recorded at offset=0x601000
+    16384 bytes in size
+CPU36 data recorded at offset=0x605000
+    12288 bytes in size
+CPU37 data recorded at offset=0x608000
+    16384 bytes in size
+CPU38 data recorded at offset=0x60c000
+    12288 bytes in size
+CPU39 data recorded at offset=0x60f000
+    28672 bytes in size
+CPU40 data recorded at offset=0x616000
+    12288 bytes in size
+CPU41 data recorded at offset=0x619000
+    16384 bytes in size
+CPU42 data recorded at offset=0x61d000
+    12288 bytes in size
+CPU43 data recorded at offset=0x620000
+    16384 bytes in size
+CPU44 data recorded at offset=0x624000
+    12288 bytes in size
+CPU45 data recorded at offset=0x627000
+    16384 bytes in size
+CPU46 data recorded at offset=0x62b000
+    12288 bytes in size
+CPU47 data recorded at offset=0x62e000
+    16384 bytes in size
+CPU48 data recorded at offset=0x632000
+    12288 bytes in size
+CPU49 data recorded at offset=0x635000
+    16384 bytes in size
+CPU50 data recorded at offset=0x639000
+    61440 bytes in size
+CPU51 data recorded at offset=0x648000
+    16384 bytes in size
+CPU52 data recorded at offset=0x64c000
+    12288 bytes in size
+CPU53 data recorded at offset=0x64f000
+    16384 bytes in size
+CPU54 data recorded at offset=0x653000
+    12288 bytes in size
+CPU55 data recorded at offset=0x656000
+    16384 bytes in size
+CPU56 data recorded at offset=0x65a000
+    16384 bytes in size
+CPU57 data recorded at offset=0x65e000
+    16384 bytes in size
+CPU58 data recorded at offset=0x662000
+    16384 bytes in size
+CPU59 data recorded at offset=0x666000
+    16384 bytes in size
+CPU60 data recorded at offset=0x66a000
+    16384 bytes in size
+CPU61 data recorded at offset=0x66e000
+    16384 bytes in size
+CPU62 data recorded at offset=0x672000
+    16384 bytes in size
+CPU63 data recorded at offset=0x676000
+    16384 bytes in size
+Running mg.C.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  512x 512x 512  (class C)
+ Iterations:                     20
+ Number of available threads:    64
+
+ Initialization time:           0.555 seconds
+
+  iter   1
+  iter   5
+  iter  10
+  iter  15
+  iter  20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.5706732285740E-06
+ Error is    0.5603117889155E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                     4.03
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 38666.72
+ Mop/s/thread    =                   604.17
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    77824 bytes in size
+CPU1 data recorded at offset=0x592000
+    69632 bytes in size
+CPU2 data recorded at offset=0x5a3000
+    69632 bytes in size
+CPU3 data recorded at offset=0x5b4000
+    69632 bytes in size
+CPU4 data recorded at offset=0x5c5000
+    65536 bytes in size
+CPU5 data recorded at offset=0x5d5000
+    73728 bytes in size
+CPU6 data recorded at offset=0x5e7000
+    69632 bytes in size
+CPU7 data recorded at offset=0x5f8000
+    73728 bytes in size
+CPU8 data recorded at offset=0x60a000
+    69632 bytes in size
+CPU9 data recorded at offset=0x61b000
+    73728 bytes in size
+CPU10 data recorded at offset=0x62d000
+    69632 bytes in size
+CPU11 data recorded at offset=0x63e000
+    69632 bytes in size
+CPU12 data recorded at offset=0x64f000
+    69632 bytes in size
+CPU13 data recorded at offset=0x660000
+    73728 bytes in size
+CPU14 data recorded at offset=0x672000
+    69632 bytes in size
+CPU15 data recorded at offset=0x683000
+    73728 bytes in size
+CPU16 data recorded at offset=0x695000
+    73728 bytes in size
+CPU17 data recorded at offset=0x6a7000
+    69632 bytes in size
+CPU18 data recorded at offset=0x6b8000
+    69632 bytes in size
+CPU19 data recorded at offset=0x6c9000
+    77824 bytes in size
+CPU20 data recorded at offset=0x6dc000
+    69632 bytes in size
+CPU21 data recorded at offset=0x6ed000
+    73728 bytes in size
+CPU22 data recorded at offset=0x6ff000
+    69632 bytes in size
+CPU23 data recorded at offset=0x710000
+    69632 bytes in size
+CPU24 data recorded at offset=0x721000
+    77824 bytes in size
+CPU25 data recorded at offset=0x734000
+    73728 bytes in size
+CPU26 data recorded at offset=0x746000
+    69632 bytes in size
+CPU27 data recorded at offset=0x757000
+    73728 bytes in size
+CPU28 data recorded at offset=0x769000
+    69632 bytes in size
+CPU29 data recorded at offset=0x77a000
+    69632 bytes in size
+CPU30 data recorded at offset=0x78b000
+    69632 bytes in size
+CPU31 data recorded at offset=0x79c000
+    73728 bytes in size
+CPU32 data recorded at offset=0x7ae000
+    69632 bytes in size
+CPU33 data recorded at offset=0x7bf000
+    69632 bytes in size
+CPU34 data recorded at offset=0x7d0000
+    69632 bytes in size
+CPU35 data recorded at offset=0x7e1000
+    69632 bytes in size
+CPU36 data recorded at offset=0x7f2000
+    69632 bytes in size
+CPU37 data recorded at offset=0x803000
+    69632 bytes in size
+CPU38 data recorded at offset=0x814000
+    69632 bytes in size
+CPU39 data recorded at offset=0x825000
+    73728 bytes in size
+CPU40 data recorded at offset=0x837000
+    69632 bytes in size
+CPU41 data recorded at offset=0x848000
+    69632 bytes in size
+CPU42 data recorded at offset=0x859000
+    69632 bytes in size
+CPU43 data recorded at offset=0x86a000
+    69632 bytes in size
+CPU44 data recorded at offset=0x87b000
+    69632 bytes in size
+CPU45 data recorded at offset=0x88c000
+    69632 bytes in size
+CPU46 data recorded at offset=0x89d000
+    69632 bytes in size
+CPU47 data recorded at offset=0x8ae000
+    69632 bytes in size
+CPU48 data recorded at offset=0x8bf000
+    69632 bytes in size
+CPU49 data recorded at offset=0x8d0000
+    73728 bytes in size
+CPU50 data recorded at offset=0x8e2000
+    69632 bytes in size
+CPU51 data recorded at offset=0x8f3000
+    73728 bytes in size
+CPU52 data recorded at offset=0x905000
+    69632 bytes in size
+CPU53 data recorded at offset=0x916000
+    69632 bytes in size
+CPU54 data recorded at offset=0x927000
+    69632 bytes in size
+CPU55 data recorded at offset=0x938000
+    69632 bytes in size
+CPU56 data recorded at offset=0x949000
+    69632 bytes in size
+CPU57 data recorded at offset=0x95a000
+    69632 bytes in size
+CPU58 data recorded at offset=0x96b000
+    77824 bytes in size
+CPU59 data recorded at offset=0x97e000
+    73728 bytes in size
+CPU60 data recorded at offset=0x990000
+    69632 bytes in size
+CPU61 data recorded at offset=0x9a1000
+    69632 bytes in size
+CPU62 data recorded at offset=0x9b2000
+    69632 bytes in size
+CPU63 data recorded at offset=0x9c3000
+    139264 bytes in size
+Running mg.D.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size: 1024x1024x1024  (class D)
+ Iterations:                     50
+ Number of available threads:    64
+
+ Initialization time:           2.852 seconds
+
+  iter   1
+  iter   5
+  iter  10
+  iter  15
+  iter  20
+  iter  25
+  iter  30
+  iter  35
+  iter  40
+  iter  45
+  iter  50
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1583275060419E-09
+ Error is    0.1307918640595E-10
+
+
+ MG Benchmark Completed.
+ Class           =                        D
+ Size            =           1024x1024x1024
+ Iterations      =                       50
+ Time in seconds =                    63.12
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 49331.12
+ Mop/s/thread    =                   770.80
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    1183744 bytes in size
+CPU1 data recorded at offset=0x6a0000
+    995328 bytes in size
+CPU2 data recorded at offset=0x793000
+    1003520 bytes in size
+CPU3 data recorded at offset=0x888000
+    1003520 bytes in size
+CPU4 data recorded at offset=0x97d000
+    987136 bytes in size
+CPU5 data recorded at offset=0xa6e000
+    991232 bytes in size
+CPU6 data recorded at offset=0xb60000
+    983040 bytes in size
+CPU7 data recorded at offset=0xc50000
+    991232 bytes in size
+CPU8 data recorded at offset=0xd42000
+    1093632 bytes in size
+CPU9 data recorded at offset=0xe4d000
+    995328 bytes in size
+CPU10 data recorded at offset=0xf40000
+    987136 bytes in size
+CPU11 data recorded at offset=0x1031000
+    983040 bytes in size
+CPU12 data recorded at offset=0x1121000
+    1060864 bytes in size
+CPU13 data recorded at offset=0x1224000
+    987136 bytes in size
+CPU14 data recorded at offset=0x1315000
+    983040 bytes in size
+CPU15 data recorded at offset=0x1405000
+    991232 bytes in size
+CPU16 data recorded at offset=0x14f7000
+    1036288 bytes in size
+CPU17 data recorded at offset=0x15f4000
+    991232 bytes in size
+CPU18 data recorded at offset=0x16e6000
+    978944 bytes in size
+CPU19 data recorded at offset=0x17d5000
+    987136 bytes in size
+CPU20 data recorded at offset=0x18c6000
+    974848 bytes in size
+CPU21 data recorded at offset=0x19b4000
+    983040 bytes in size
+CPU22 data recorded at offset=0x1aa4000
+    966656 bytes in size
+CPU23 data recorded at offset=0x1b90000
+    995328 bytes in size
+CPU24 data recorded at offset=0x1c83000
+    1089536 bytes in size
+CPU25 data recorded at offset=0x1d8d000
+    991232 bytes in size
+CPU26 data recorded at offset=0x1e7f000
+    978944 bytes in size
+CPU27 data recorded at offset=0x1f6e000
+    991232 bytes in size
+CPU28 data recorded at offset=0x2060000
+    978944 bytes in size
+CPU29 data recorded at offset=0x214f000
+    1007616 bytes in size
+CPU30 data recorded at offset=0x2245000
+    974848 bytes in size
+CPU31 data recorded at offset=0x2333000
+    995328 bytes in size
+CPU32 data recorded at offset=0x2426000
+    995328 bytes in size
+CPU33 data recorded at offset=0x2519000
+    1011712 bytes in size
+CPU34 data recorded at offset=0x2610000
+    966656 bytes in size
+CPU35 data recorded at offset=0x26fc000
+    995328 bytes in size
+CPU36 data recorded at offset=0x27ef000
+    966656 bytes in size
+CPU37 data recorded at offset=0x28db000
+    983040 bytes in size
+CPU38 data recorded at offset=0x29cb000
+    966656 bytes in size
+CPU39 data recorded at offset=0x2ab7000
+    1064960 bytes in size
+CPU40 data recorded at offset=0x2bbb000
+    1077248 bytes in size
+CPU41 data recorded at offset=0x2cc2000
+    1019904 bytes in size
+CPU42 data recorded at offset=0x2dbb000
+    991232 bytes in size
+CPU43 data recorded at offset=0x2ead000
+    1077248 bytes in size
+CPU44 data recorded at offset=0x2fb4000
+    995328 bytes in size
+CPU45 data recorded at offset=0x30a7000
+    1015808 bytes in size
+CPU46 data recorded at offset=0x319f000
+    970752 bytes in size
+CPU47 data recorded at offset=0x328c000
+    995328 bytes in size
+CPU48 data recorded at offset=0x337f000
+    999424 bytes in size
+CPU49 data recorded at offset=0x3473000
+    983040 bytes in size
+CPU50 data recorded at offset=0x3563000
+    987136 bytes in size
+CPU51 data recorded at offset=0x3654000
+    995328 bytes in size
+CPU52 data recorded at offset=0x3747000
+    958464 bytes in size
+CPU53 data recorded at offset=0x3831000
+    987136 bytes in size
+CPU54 data recorded at offset=0x3922000
+    962560 bytes in size
+CPU55 data recorded at offset=0x3a0d000
+    987136 bytes in size
+CPU56 data recorded at offset=0x3afe000
+    987136 bytes in size
+CPU57 data recorded at offset=0x3bef000
+    1003520 bytes in size
+CPU58 data recorded at offset=0x3ce4000
+    974848 bytes in size
+CPU59 data recorded at offset=0x3dd2000
+    1085440 bytes in size
+CPU60 data recorded at offset=0x3edb000
+    978944 bytes in size
+CPU61 data recorded at offset=0x3fca000
+    999424 bytes in size
+CPU62 data recorded at offset=0x40be000
+    978944 bytes in size
+CPU63 data recorded at offset=0x41ad000
+    1097728 bytes in size
+Running sp.A.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  400    dt:    0.0015000
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2479982239930E+01 0.2479982239930E+01 0.4136505730713E-13
+           2 0.1127633796437E+01 0.1127633796437E+01 0.9983437446865E-13
+           3 0.1502897788877E+01 0.1502897788877E+01 0.4373231735667E-13
+           4 0.1421781621170E+01 0.1421781621170E+01 0.7902378847720E-13
+           5 0.2129211303514E+01 0.2129211303514E+01 0.3900255559648E-13
+ Comparison of RMS-norms of solution error
+           1 0.1090014029782E-03 0.1090014029782E-03 0.4231069385531E-12
+           2 0.3734395176929E-04 0.3734395176928E-04 0.1233897060903E-12
+           3 0.5009278540654E-04 0.5009278540654E-04 0.1663873177213E-13
+           4 0.4767109393954E-04 0.4767109393953E-04 0.2336883088192E-12
+           5 0.1362161339921E-03 0.1362161339921E-03 0.5193525148700E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      400
+ Time in seconds =                     1.39
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 61123.99
+ Mop/s/thread    =                   955.06
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    32768 bytes in size
+CPU1 data recorded at offset=0x587000
+    28672 bytes in size
+CPU2 data recorded at offset=0x58e000
+    28672 bytes in size
+CPU3 data recorded at offset=0x595000
+    28672 bytes in size
+CPU4 data recorded at offset=0x59c000
+    28672 bytes in size
+CPU5 data recorded at offset=0x5a3000
+    28672 bytes in size
+CPU6 data recorded at offset=0x5aa000
+    28672 bytes in size
+CPU7 data recorded at offset=0x5b1000
+    28672 bytes in size
+CPU8 data recorded at offset=0x5b8000
+    28672 bytes in size
+CPU9 data recorded at offset=0x5bf000
+    28672 bytes in size
+CPU10 data recorded at offset=0x5c6000
+    28672 bytes in size
+CPU11 data recorded at offset=0x5cd000
+    28672 bytes in size
+CPU12 data recorded at offset=0x5d4000
+    28672 bytes in size
+CPU13 data recorded at offset=0x5db000
+    28672 bytes in size
+CPU14 data recorded at offset=0x5e2000
+    28672 bytes in size
+CPU15 data recorded at offset=0x5e9000
+    28672 bytes in size
+CPU16 data recorded at offset=0x5f0000
+    28672 bytes in size
+CPU17 data recorded at offset=0x5f7000
+    28672 bytes in size
+CPU18 data recorded at offset=0x5fe000
+    28672 bytes in size
+CPU19 data recorded at offset=0x605000
+    28672 bytes in size
+CPU20 data recorded at offset=0x60c000
+    28672 bytes in size
+CPU21 data recorded at offset=0x613000
+    28672 bytes in size
+CPU22 data recorded at offset=0x61a000
+    28672 bytes in size
+CPU23 data recorded at offset=0x621000
+    28672 bytes in size
+CPU24 data recorded at offset=0x628000
+    28672 bytes in size
+CPU25 data recorded at offset=0x62f000
+    28672 bytes in size
+CPU26 data recorded at offset=0x636000
+    28672 bytes in size
+CPU27 data recorded at offset=0x63d000
+    24576 bytes in size
+CPU28 data recorded at offset=0x643000
+    28672 bytes in size
+CPU29 data recorded at offset=0x64a000
+    24576 bytes in size
+CPU30 data recorded at offset=0x650000
+    28672 bytes in size
+CPU31 data recorded at offset=0x657000
+    28672 bytes in size
+CPU32 data recorded at offset=0x65e000
+    28672 bytes in size
+CPU33 data recorded at offset=0x665000
+    24576 bytes in size
+CPU34 data recorded at offset=0x66b000
+    28672 bytes in size
+CPU35 data recorded at offset=0x672000
+    24576 bytes in size
+CPU36 data recorded at offset=0x678000
+    28672 bytes in size
+CPU37 data recorded at offset=0x67f000
+    24576 bytes in size
+CPU38 data recorded at offset=0x685000
+    28672 bytes in size
+CPU39 data recorded at offset=0x68c000
+    24576 bytes in size
+CPU40 data recorded at offset=0x692000
+    118784 bytes in size
+CPU41 data recorded at offset=0x6af000
+    24576 bytes in size
+CPU42 data recorded at offset=0x6b5000
+    28672 bytes in size
+CPU43 data recorded at offset=0x6bc000
+    24576 bytes in size
+CPU44 data recorded at offset=0x6c2000
+    28672 bytes in size
+CPU45 data recorded at offset=0x6c9000
+    24576 bytes in size
+CPU46 data recorded at offset=0x6cf000
+    28672 bytes in size
+CPU47 data recorded at offset=0x6d6000
+    24576 bytes in size
+CPU48 data recorded at offset=0x6dc000
+    32768 bytes in size
+CPU49 data recorded at offset=0x6e4000
+    24576 bytes in size
+CPU50 data recorded at offset=0x6ea000
+    28672 bytes in size
+CPU51 data recorded at offset=0x6f1000
+    24576 bytes in size
+CPU52 data recorded at offset=0x6f7000
+    28672 bytes in size
+CPU53 data recorded at offset=0x6fe000
+    24576 bytes in size
+CPU54 data recorded at offset=0x704000
+    28672 bytes in size
+CPU55 data recorded at offset=0x70b000
+    24576 bytes in size
+CPU56 data recorded at offset=0x711000
+    28672 bytes in size
+CPU57 data recorded at offset=0x718000
+    24576 bytes in size
+CPU58 data recorded at offset=0x71e000
+    28672 bytes in size
+CPU59 data recorded at offset=0x725000
+    24576 bytes in size
+CPU60 data recorded at offset=0x72b000
+    28672 bytes in size
+CPU61 data recorded at offset=0x732000
+    24576 bytes in size
+CPU62 data recorded at offset=0x738000
+    28672 bytes in size
+CPU63 data recorded at offset=0x73f000
+    24576 bytes in size
+Running sp.B.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:    0.0010000
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5269917561717E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.8161129784027E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1118627709074E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3732181017827E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5766449813413E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4951297316808E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3911416568021E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1517355573667E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.1065979786634E-12
+           5 0.1847456263981E-01 0.1847456263981E-01 0.8281798793518E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                     7.30
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 48608.29
+ Mop/s/thread    =                   759.50
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    135168 bytes in size
+CPU1 data recorded at offset=0x5a0000
+    114688 bytes in size
+CPU2 data recorded at offset=0x5bc000
+    118784 bytes in size
+CPU3 data recorded at offset=0x5d9000
+    118784 bytes in size
+CPU4 data recorded at offset=0x5f6000
+    118784 bytes in size
+CPU5 data recorded at offset=0x613000
+    114688 bytes in size
+CPU6 data recorded at offset=0x62f000
+    118784 bytes in size
+CPU7 data recorded at offset=0x64c000
+    114688 bytes in size
+CPU8 data recorded at offset=0x668000
+    118784 bytes in size
+CPU9 data recorded at offset=0x685000
+    114688 bytes in size
+CPU10 data recorded at offset=0x6a1000
+    118784 bytes in size
+CPU11 data recorded at offset=0x6be000
+    196608 bytes in size
+CPU12 data recorded at offset=0x6ee000
+    122880 bytes in size
+CPU13 data recorded at offset=0x70c000
+    114688 bytes in size
+CPU14 data recorded at offset=0x728000
+    122880 bytes in size
+CPU15 data recorded at offset=0x746000
+    114688 bytes in size
+CPU16 data recorded at offset=0x762000
+    118784 bytes in size
+CPU17 data recorded at offset=0x77f000
+    114688 bytes in size
+CPU18 data recorded at offset=0x79b000
+    131072 bytes in size
+CPU19 data recorded at offset=0x7bb000
+    114688 bytes in size
+CPU20 data recorded at offset=0x7d7000
+    118784 bytes in size
+CPU21 data recorded at offset=0x7f4000
+    114688 bytes in size
+CPU22 data recorded at offset=0x810000
+    118784 bytes in size
+CPU23 data recorded at offset=0x82d000
+    114688 bytes in size
+CPU24 data recorded at offset=0x849000
+    118784 bytes in size
+CPU25 data recorded at offset=0x866000
+    122880 bytes in size
+CPU26 data recorded at offset=0x884000
+    118784 bytes in size
+CPU27 data recorded at offset=0x8a1000
+    114688 bytes in size
+CPU28 data recorded at offset=0x8bd000
+    118784 bytes in size
+CPU29 data recorded at offset=0x8da000
+    114688 bytes in size
+CPU30 data recorded at offset=0x8f6000
+    118784 bytes in size
+CPU31 data recorded at offset=0x913000
+    114688 bytes in size
+CPU32 data recorded at offset=0x92f000
+    118784 bytes in size
+CPU33 data recorded at offset=0x94c000
+    114688 bytes in size
+CPU34 data recorded at offset=0x968000
+    118784 bytes in size
+CPU35 data recorded at offset=0x985000
+    118784 bytes in size
+CPU36 data recorded at offset=0x9a2000
+    118784 bytes in size
+CPU37 data recorded at offset=0x9bf000
+    114688 bytes in size
+CPU38 data recorded at offset=0x9db000
+    118784 bytes in size
+CPU39 data recorded at offset=0x9f8000
+    110592 bytes in size
+CPU40 data recorded at offset=0xa13000
+    118784 bytes in size
+CPU41 data recorded at offset=0xa30000
+    114688 bytes in size
+CPU42 data recorded at offset=0xa4c000
+    118784 bytes in size
+CPU43 data recorded at offset=0xa69000
+    114688 bytes in size
+CPU44 data recorded at offset=0xa85000
+    118784 bytes in size
+CPU45 data recorded at offset=0xaa2000
+    114688 bytes in size
+CPU46 data recorded at offset=0xabe000
+    118784 bytes in size
+CPU47 data recorded at offset=0xadb000
+    110592 bytes in size
+CPU48 data recorded at offset=0xaf6000
+    114688 bytes in size
+CPU49 data recorded at offset=0xb12000
+    114688 bytes in size
+CPU50 data recorded at offset=0xb2e000
+    118784 bytes in size
+CPU51 data recorded at offset=0xb4b000
+    114688 bytes in size
+CPU52 data recorded at offset=0xb67000
+    118784 bytes in size
+CPU53 data recorded at offset=0xb84000
+    114688 bytes in size
+CPU54 data recorded at offset=0xba0000
+    118784 bytes in size
+CPU55 data recorded at offset=0xbbd000
+    114688 bytes in size
+CPU56 data recorded at offset=0xbd9000
+    118784 bytes in size
+CPU57 data recorded at offset=0xbf6000
+    114688 bytes in size
+CPU58 data recorded at offset=0xc12000
+    118784 bytes in size
+CPU59 data recorded at offset=0xc2f000
+    114688 bytes in size
+CPU60 data recorded at offset=0xc4b000
+    118784 bytes in size
+CPU61 data recorded at offset=0xc68000
+    114688 bytes in size
+CPU62 data recorded at offset=0xc84000
+    118784 bytes in size
+CPU63 data recorded at offset=0xca1000
+    110592 bytes in size
+Running sp.C.x with policy cfs (0)
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.6997074682115E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4643507064576E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3503282458390E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1383309604693E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3771241842882E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1666539252407E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1691277253369E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3947402797574E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.7940768511153E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7248449399049E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    26.65
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 54416.94
+ Mop/s/thread    =                   850.26
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+CPU0 data recorded at offset=0x57f000
+    544768 bytes in size
+CPU1 data recorded at offset=0x604000
+    438272 bytes in size
+CPU2 data recorded at offset=0x66f000
+    405504 bytes in size
+CPU3 data recorded at offset=0x6d2000
+    405504 bytes in size
+CPU4 data recorded at offset=0x735000
+    405504 bytes in size
+CPU5 data recorded at offset=0x798000
+    401408 bytes in size
+CPU6 data recorded at offset=0x7fa000
+    413696 bytes in size
+CPU7 data recorded at offset=0x85f000
+    405504 bytes in size
+CPU8 data recorded at offset=0x8c2000
+    401408 bytes in size
+CPU9 data recorded at offset=0x924000
+    405504 bytes in size
+CPU10 data recorded at offset=0x987000
+    409600 bytes in size
+CPU11 data recorded at offset=0x9eb000
+    405504 bytes in size
+CPU12 data recorded at offset=0xa4e000
+    425984 bytes in size
+CPU13 data recorded at offset=0xab6000
+    401408 bytes in size
+CPU14 data recorded at offset=0xb18000
+    409600 bytes in size
+CPU15 data recorded at offset=0xb7c000
+    581632 bytes in size
+CPU16 data recorded at offset=0xc0a000
+    417792 bytes in size
+CPU17 data recorded at offset=0xc70000
+    401408 bytes in size
+CPU18 data recorded at offset=0xcd2000
+    421888 bytes in size
+CPU19 data recorded at offset=0xd39000
+    401408 bytes in size
+CPU20 data recorded at offset=0xd9b000
+    413696 bytes in size
+CPU21 data recorded at offset=0xe00000
+    401408 bytes in size
+CPU22 data recorded at offset=0xe62000
+    409600 bytes in size
+CPU23 data recorded at offset=0xec6000
+    401408 bytes in size
+CPU24 data recorded at offset=0xf28000
+    446464 bytes in size
+CPU25 data recorded at offset=0xf95000
+    397312 bytes in size
+CPU26 data recorded at offset=0xff6000
+    417792 bytes in size
+CPU27 data recorded at offset=0x105c000
+    405504 bytes in size
+CPU28 data recorded at offset=0x10bf000
+    401408 bytes in size
+CPU29 data recorded at offset=0x1121000
+    401408 bytes in size
+CPU30 data recorded at offset=0x1183000
+    413696 bytes in size
+CPU31 data recorded at offset=0x11e8000
+    401408 bytes in size
+CPU32 data recorded at offset=0x124a000
+    401408 bytes in size
+CPU33 data recorded at offset=0x12ac000
+    401408 bytes in size
+CPU34 data recorded at offset=0x130e000
+    405504 bytes in size
+CPU35 data recorded at offset=0x1371000
+    401408 bytes in size
+CPU36 data recorded at offset=0x13d3000
+    401408 bytes in size
+CPU37 data recorded at offset=0x1435000
+    397312 bytes in size
+CPU38 data recorded at offset=0x1496000
+    401408 bytes in size
+CPU39 data recorded at offset=0x14f8000
+    401408 bytes in size
+CPU40 data recorded at offset=0x155a000
+    401408 bytes in size
+CPU41 data recorded at offset=0x15bc000
+    401408 bytes in size
+CPU42 data recorded at offset=0x161e000
+    413696 bytes in size
+CPU43 data recorded at offset=0x1683000
+    397312 bytes in size
+CPU44 data recorded at offset=0x16e4000
+    401408 bytes in size
+CPU45 data recorded at offset=0x1746000
+    405504 bytes in size
+CPU46 data recorded at offset=0x17a9000
+    401408 bytes in size
+CPU47 data recorded at offset=0x180b000
+    401408 bytes in size
+CPU48 data recorded at offset=0x186d000
+    409600 bytes in size
+CPU49 data recorded at offset=0x18d1000
+    413696 bytes in size
+CPU50 data recorded at offset=0x1936000
+    413696 bytes in size
+CPU51 data recorded at offset=0x199b000
+    401408 bytes in size
+CPU52 data recorded at offset=0x19fd000
+    401408 bytes in size
+CPU53 data recorded at offset=0x1a5f000
+    397312 bytes in size
+CPU54 data recorded at offset=0x1ac0000
+    417792 bytes in size
+CPU55 data recorded at offset=0x1b26000
+    401408 bytes in size
+CPU56 data recorded at offset=0x1b88000
+    401408 bytes in size
+CPU57 data recorded at offset=0x1bea000
+    405504 bytes in size
+CPU58 data recorded at offset=0x1c4d000
+    405504 bytes in size
+CPU59 data recorded at offset=0x1cb0000
+    438272 bytes in size
+CPU60 data recorded at offset=0x1d1b000
+    401408 bytes in size
+CPU61 data recorded at offset=0x1d7d000
+    409600 bytes in size
+CPU62 data recorded at offset=0x1de1000
+    405504 bytes in size
+CPU63 data recorded at offset=0x1e44000
+    401408 bytes in size
+

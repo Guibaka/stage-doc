@@ -1,0 +1,1935 @@
+performance
+1
+/home/gvacherias/ipanema/nas-ipanema/nas-run /home/gvacherias/ipanema/nas-ipanema
+Running bt.A.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.A.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  200       dt:   0.0008000
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1080634671464E+03 0.1080634671464E+03 0.7364263659738E-14
+           2 0.1131973090122E+02 0.1131973090122E+02 0.4707771381408E-15
+           3 0.2597435451158E+02 0.2597435451158E+02 0.3009110424621E-14
+           4 0.2366562254468E+02 0.2366562254468E+02 0.8256670703047E-14
+           5 0.2527896321175E+03 0.2527896321175E+03 0.1394160013545E-13
+ Comparison of RMS-norms of solution error
+           1 0.4234841604053E+01 0.4234841604053E+01 0.8389248078135E-15
+           2 0.4439028249700E+00 0.4439028249700E+00 0.6627781689508E-14
+           3 0.9669248013635E+00 0.9669248013635E+00 0.1377839959914E-14
+           4 0.8830206303977E+00 0.8830206303977E+00 0.8801109402026E-15
+           5 0.9737990177083E+01 0.9737990177083E+01 0.4560378494683E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      200
+ Time in seconds =                     1.98
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 84832.81
+ Mop/s/thread    =                  1325.51
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running bt.B.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.B.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  200       dt:   0.0003000
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.1423359722929E+04 0.1423359722929E+04 0.9744405422333E-14
+           2 0.9933052259015E+02 0.9933052259015E+02 0.3719724944162E-14
+           3 0.3564602564454E+03 0.3564602564454E+03 0.9727447836926E-14
+           4 0.3248544795908E+03 0.3248544795908E+03 0.8574077622964E-14
+           5 0.3270754125466E+04 0.3270754125466E+04 0.8481098651866E-14
+ Comparison of RMS-norms of solution error
+           1 0.5296984714094E+02 0.5296984714094E+02 0.3353524571581E-14
+           2 0.4463289611567E+01 0.4463289611567E+01 0.1213877841610E-13
+           3 0.1312257334221E+02 0.1312257334221E+02 0.8798822574656E-14
+           4 0.1200692532356E+02 0.1200692532356E+02 0.9912271879154E-14
+           5 0.1245957615104E+03 0.1245957615104E+03 0.1163367969648E-13
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      200
+ Time in seconds =                     8.76
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 80148.61
+ Mop/s/thread    =                  1252.32
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running bt.C.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.C.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - BT Benchmark
+
+ No input file inputbt.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  200       dt:   0.0001000
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6239811655176E+04 0.6239811655176E+04 0.1020297288481E-14
+           2 0.5079323919042E+03 0.5079323919042E+03 0.4476455509971E-15
+           3 0.1542353009301E+04 0.1542353009301E+04 0.5896799865453E-15
+           4 0.1330238792929E+04 0.1330238792929E+04 0.1025561771248E-14
+           5 0.1160408742844E+05 0.1160408742844E+05 0.1567541967228E-14
+ Comparison of RMS-norms of solution error
+           1 0.1646200836909E+03 0.1646200836909E+03 0.3453006315289E-15
+           2 0.1149710790382E+02 0.1149710790382E+02 0.7725233398955E-15
+           3 0.4120744620746E+02 0.4120744620746E+02 0.0000000000000E+00
+           4 0.3708765105969E+02 0.3708765105969E+02 0.5747541692110E-15
+           5 0.3621105305184E+03 0.3621105305184E+03 0.1412802795364E-14
+ Verification Successful
+
+
+ BT Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      200
+ Time in seconds =                    35.36
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 81057.89
+ Mop/s/thread    =                  1266.53
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running cg.A.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.A.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - CG Benchmark
+
+ Size:       14000
+ Iterations:                     15
+ Number of available threads:    64
+
+ Initialization time =           0.036 seconds
+
+   iteration           ||r||                 zeta
+        1       0.25885403972348E-12    19.9997581277040
+        2       0.25697931611151E-14    17.1140495745506
+        3       0.25476593053675E-14    17.1296668946143
+        4       0.25706120370611E-14    17.1302113581192
+        5       0.25142533045857E-14    17.1302338856353
+        6       0.25592023327418E-14    17.1302349879482
+        7       0.25087181954561E-14    17.1302350498916
+        8       0.24866915051022E-14    17.1302350537510
+        9       0.24692047027735E-14    17.1302350540101
+       10       0.24663876918120E-14    17.1302350540284
+       11       0.24432577031430E-14    17.1302350540298
+       12       0.24345874196279E-14    17.1302350540299
+       13       0.24020942430458E-14    17.1302350540299
+       14       0.24314450628928E-14    17.1302350540299
+       15       0.23653449310436E-14    17.1302350540299
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.1713023505403E+02
+ Error is    0.5205597766559E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        A
+ Size            =                    14000
+ Iterations      =                       15
+ Time in seconds =                     0.09
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 15944.96
+ Mop/s/thread    =                   249.14
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running cg.B.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.B.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - CG Benchmark
+
+ Size:       75000
+ Iterations:                     75
+ Number of available threads:    64
+
+ Initialization time =           0.239 seconds
+
+   iteration           ||r||                 zeta
+        1       0.22750861857027E-12    59.9994751578754
+        2       0.84983050084247E-15    21.7627846142538
+        3       0.86127221748681E-15    22.2876617043225
+        4       0.86059193349923E-15    22.5230738188352
+        5       0.87031621212276E-15    22.6275390653890
+        6       0.86857104753875E-15    22.6740259189537
+        7       0.87472372835498E-15    22.6949056826253
+        8       0.88441363946448E-15    22.7044023166871
+        9       0.88089712957948E-15    22.7087834345616
+       10       0.88571604034809E-15    22.7108351397172
+       11       0.87815471660022E-15    22.7118107121337
+       12       0.88569836021468E-15    22.7122816240972
+       13       0.87843145280797E-15    22.7125122663245
+       14       0.88654630559195E-15    22.7126268007597
+       15       0.87498464257924E-15    22.7126844161817
+       16       0.87891280605620E-15    22.7127137461758
+       17       0.87962284606539E-15    22.7127288401997
+       18       0.88160231886542E-15    22.7127366848298
+       19       0.87937172621664E-15    22.7127407981220
+       20       0.87745672827618E-15    22.7127429721363
+       21       0.87502970604515E-15    22.7127441294028
+       22       0.87819590465012E-15    22.7127447493899
+       23       0.87753487181401E-15    22.7127450834529
+       24       0.87778967588778E-15    22.7127452643880
+       25       0.87633300333790E-15    22.7127453628459
+       26       0.87892115583021E-15    22.7127454166513
+       27       0.87924379934057E-15    22.7127454461692
+       28       0.87988793904368E-15    22.7127454624205
+       29       0.88130263624473E-15    22.7127454713971
+       30       0.87744414165439E-15    22.7127454763704
+       31       0.88272599294813E-15    22.7127454791336
+       32       0.87972398028697E-15    22.7127454806729
+       33       0.87404915214601E-15    22.7127454815324
+       34       0.87332608404901E-15    22.7127454820135
+       35       0.87011782811379E-15    22.7127454822834
+       36       0.87329319357062E-15    22.7127454824351
+       37       0.87261336328345E-15    22.7127454825205
+       38       0.87319186731195E-15    22.7127454825687
+       39       0.87548732681458E-15    22.7127454825960
+       40       0.87132833657963E-15    22.7127454826114
+       41       0.87276876690802E-15    22.7127454826201
+       42       0.87081970267500E-15    22.7127454826251
+       43       0.87284692402082E-15    22.7127454826279
+       44       0.87006714664121E-15    22.7127454826296
+       45       0.87442448404197E-15    22.7127454826304
+       46       0.86447011996287E-15    22.7127454826310
+       47       0.86999588656658E-15    22.7127454826313
+       48       0.86574128045717E-15    22.7127454826314
+       49       0.86931076819124E-15    22.7127454826316
+       50       0.86787033592059E-15    22.7127454826316
+       51       0.86947818365326E-15    22.7127454826317
+       52       0.87229357134655E-15    22.7127454826317
+       53       0.87137426954122E-15    22.7127454826317
+       54       0.86825008151978E-15    22.7127454826317
+       55       0.86814062681596E-15    22.7127454826317
+       56       0.86472284216499E-15    22.7127454826317
+       57       0.87006448213557E-15    22.7127454826317
+       58       0.86419086830385E-15    22.7127454826317
+       59       0.86209219356734E-15    22.7127454826317
+       60       0.86003664401746E-15    22.7127454826317
+       61       0.86691753545720E-15    22.7127454826317
+       62       0.87104874441423E-15    22.7127454826317
+       63       0.86490444590493E-15    22.7127454826317
+       64       0.86306664019388E-15    22.7127454826317
+       65       0.86568690098029E-15    22.7127454826317
+       66       0.85883827187724E-15    22.7127454826317
+       67       0.86017111936295E-15    22.7127454826317
+       68       0.86053097103641E-15    22.7127454826317
+       69       0.85465645973351E-15    22.7127454826317
+       70       0.85822219838061E-15    22.7127454826317
+       71       0.86137018018871E-15    22.7127454826317
+       72       0.85880013982604E-15    22.7127454826317
+       73       0.86476698335900E-15    22.7127454826317
+       74       0.86137946848946E-15    22.7127454826317
+       75       0.85941201239439E-15    22.7127454826317
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2271274548263E+02
+ Error is    0.2909400559973E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        B
+ Size            =                    75000
+ Iterations      =                       75
+ Time in seconds =                     2.06
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 26525.29
+ Mop/s/thread    =                   414.46
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running cg.C.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.C.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - CG Benchmark
+
+ Size:      150000
+ Iterations:                     75
+ Number of available threads:    64
+
+ Initialization time =           0.726 seconds
+
+   iteration           ||r||                 zeta
+        1       0.35323196744906E-12   109.9994423237398
+        2       0.80375024451063E-15    27.3920437146521
+        3       0.85367493129938E-15    28.0339761840269
+        4       0.87747736508893E-15    28.4191507551292
+        5       0.89254942514676E-15    28.6471670038896
+        6       0.89622528894823E-15    28.7812969418413
+        7       0.90024553836811E-15    28.8600458537346
+        8       0.90789230033354E-15    28.9063145572687
+        9       0.90779469838468E-15    28.9335649214617
+       10       0.91132960905728E-15    28.9496695448999
+       11       0.90973301212627E-15    28.9592263353752
+       12       0.90901015875260E-15    28.9649233484893
+       13       0.90864286305256E-15    28.9683359248931
+       14       0.91498983698332E-15    28.9703903960004
+       15       0.90673292554981E-15    28.9716336228372
+       16       0.91318626110753E-15    28.9723898600854
+       17       0.90968011518138E-15    28.9728522692227
+       18       0.91081144858516E-15    28.9731364797775
+       19       0.90647822451780E-15    28.9733120569287
+       20       0.91581132493933E-15    28.9734210663749
+       21       0.91603105525597E-15    28.9734890760554
+       22       0.91554278829176E-15    28.9735317064875
+       23       0.90892282027909E-15    28.9735585497254
+       24       0.91353480504668E-15    28.9735755256646
+       25       0.90832942802044E-15    28.9735863059383
+       26       0.90318829739628E-15    28.9735931787372
+       27       0.91542244709995E-15    28.9735975767371
+       28       0.90979433662204E-15    28.9736004009988
+       29       0.90797980509139E-15    28.9736022206774
+       30       0.90905321345026E-15    28.9736033967630
+       31       0.91166617730681E-15    28.9736041591152
+       32       0.90876497958154E-15    28.9736046546409
+       33       0.91466583257929E-15    28.9736049775619
+       34       0.91388270798132E-15    28.9736051885102
+       35       0.90862524294135E-15    28.9736053266249
+       36       0.90577170438602E-15    28.9736054172454
+       37       0.90863123197398E-15    28.9736054768225
+       38       0.90780842775760E-15    28.9736055160641
+       39       0.90746511897559E-15    28.9736055419568
+       40       0.90718536950085E-15    28.9736055590699
+       41       0.91013151620858E-15    28.9736055703980
+       42       0.90774954889597E-15    28.9736055779078
+       43       0.91208176055093E-15    28.9736055828932
+       44       0.90675839633644E-15    28.9736055862071
+       45       0.91050759118351E-15    28.9736055884128
+       46       0.90533064104051E-15    28.9736055898825
+       47       0.90584744505787E-15    28.9736055908629
+       48       0.90828983008242E-15    28.9736055915177
+       49       0.90633420710260E-15    28.9736055919555
+       50       0.91010596142169E-15    28.9736055922485
+       51       0.90651746192207E-15    28.9736055924445
+       52       0.90265251666801E-15    28.9736055925761
+       53       0.90441751775611E-15    28.9736055926643
+       54       0.90873042650878E-15    28.9736055927236
+       55       0.90418893582763E-15    28.9736055927634
+       56       0.90416618581701E-15    28.9736055927902
+       57       0.90438032047708E-15    28.9736055928082
+       58       0.90528396995456E-15    28.9736055928203
+       59       0.90675564640748E-15    28.9736055928285
+       60       0.90839858721616E-15    28.9736055928340
+       61       0.90590030060182E-15    28.9736055928377
+       62       0.90672529738155E-15    28.9736055928402
+       63       0.90542878002635E-15    28.9736055928420
+       64       0.90442781720833E-15    28.9736055928432
+       65       0.90793125652857E-15    28.9736055928439
+       66       0.91008221784122E-15    28.9736055928444
+       67       0.90648280048566E-15    28.9736055928448
+       68       0.90512877027567E-15    28.9736055928450
+       69       0.90967614809947E-15    28.9736055928452
+       70       0.90161089014827E-15    28.9736055928454
+       71       0.90928833644329E-15    28.9736055928454
+       72       0.90787335388444E-15    28.9736055928455
+       73       0.90516099176582E-15    28.9736055928455
+       74       0.90499593923036E-15    28.9736055928455
+       75       0.90233576569231E-15    28.9736055928455
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ Zeta is     0.2897360559285E+02
+ Error is    0.1777975066912E-13
+
+
+ CG Benchmark Completed.
+ Class           =                        C
+ Size            =                   150000
+ Iterations      =                       75
+ Time in seconds =                     8.50
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 16872.55
+ Mop/s/thread    =                   263.63
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running dc.A.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/dc.A.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - DC Benchmark
+
+ No Paramter file. Using compiled defaults
+********************* ADC paramters
+ id		0
+ attributes 	15
+ measures   	1
+ tuples     	1000000
+ class		A
+ filename       ADC
+***********************************
+
+GenerateADC: writing 1000000 tuples of 15 attributes and 1 measures to ADC.dat.0
+Prime 	Generator 	Seed
+ 421	 16		 211
+ 601	 151		 301
+ 631	 98		 316
+ 701	 581		 351
+ 883	 729		 442
+ 419	 334		 210
+ 443	 123		 222
+ 647	 300		 324
+ 21737	 14249		 10869
+ 31769	 21291		 15885
+ 1427	 489		 714
+ 18353	 8936		 9177
+ 22817	 4767		 11409
+ 34337	 6733		 17169
+ 98717	 14136		 49359
+Binary ADC file ADC.dat.0 have been generated.
+View sizes are written into ADC.view.sz.0
+Estimated rb-tree size = 125000000 
+
+Number of available threads:  64
+
+*** DC Benchmark Results:
+ Benchmark Time   =               18.170
+ Input Tuples     =              1000000
+ Number of Views  =                  512
+ Number of Tasks  =                   64
+ Tuples Generated =            454765673
+ Tuples/s         =          25028957.95
+ Checksum         =   7.141688178042e+12
+
+
+ DC Benchmark Completed
+ Class           =                        A
+ Size            =                  1000000
+ Iterations      =                        1
+ Time in seconds =                    18.17
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                    25.03
+ Mop/s/thread    =                     0.39
+ Operation type  =         Tuples generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running dc.B.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/dc.B.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - DC Benchmark
+
+ No Paramter file. Using compiled defaults
+********************* ADC paramters
+ id		0
+ attributes 	20
+ measures   	1
+ tuples     	10000000
+ class		B
+ filename       ADC
+***********************************
+
+GenerateADC: writing 10000000 tuples of 20 attributes and 1 measures to ADC.dat.0
+Prime 	Generator 	Seed
+ 421	 383		 211
+ 601	 151		 301
+ 631	 562		 316
+ 701	 210		 351
+ 883	 545		 442
+ 419	 334		 210
+ 443	 123		 222
+ 647	 300		 324
+ 21737	 14249		 10869
+ 31769	 21291		 15885
+ 1427	 965		 714
+ 18353	 13735		 9177
+ 22817	 10906		 11409
+ 34337	 7511		 17169
+ 98717	 68726		 49359
+ 3527	 1488		 1764
+ 8693	 16		 4347
+ 9677	 16		 4839
+ 11093	 6741		 5547
+ 18233	 1791		 9117
+Binary ADC file ADC.dat.0 have been generated.
+View sizes are written into ADC.view.sz.0
+Estimated rb-tree size = 1500000000 
+
+Number of available threads:  64
+
+*** DC Benchmark Results:
+ Benchmark Time   =               26.568
+ Input Tuples     =             10000000
+ Number of Views  =                   64
+ Number of Tasks  =                   64
+ Tuples Generated =            595267023
+ Tuples/s         =          22405627.09
+ Checksum         =   9.348365700453e+12
+
+
+ DC Benchmark Completed
+ Class           =                        B
+ Size            =                 10000000
+ Iterations      =                        1
+ Time in seconds =                    26.57
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                    22.41
+ Mop/s/thread    =                     0.35
+ Operation type  =         Tuples generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running ep.A.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.A.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - EP Benchmark
+
+ Number of random numbers generated:       536870912
+ Number of available threads:                     64
+
+EP Benchmark Results:
+
+CPU Time =     0.344
+N = 2^   28
+No. Gaussian Pairs =     210832767.
+Sums =     1.682235632304701D+08    1.682195123368289D+08
+Counts:
+  0      98257395.
+  1      93827014.
+  2      17611549.
+  3       1110028.
+  4         26536.
+  5           245.
+  6             0.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        A
+ Size            =                536870912
+ Iterations      =                        0
+ Time in seconds =                     0.34
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  1561.97
+ Mop/s/thread    =                    24.41
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running ep.B.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.B.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - EP Benchmark
+
+ Number of random numbers generated:      2147483648
+ Number of available threads:                     64
+
+EP Benchmark Results:
+
+CPU Time =     1.341
+N = 2^   30
+No. Gaussian Pairs =     843345606.
+Sums =     6.728927543422959D+08    6.728951822504265D+08
+Counts:
+  0     393058470.
+  1     375280898.
+  2      70460742.
+  3       4438852.
+  4        105691.
+  5           948.
+  6             5.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        B
+ Size            =               2147483648
+ Iterations      =                        0
+ Time in seconds =                     1.34
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  1601.12
+ Mop/s/thread    =                    25.02
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running ep.C.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.C.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - EP Benchmark
+
+ Number of random numbers generated:      8589934592
+ Number of available threads:                     64
+
+EP Benchmark Results:
+
+CPU Time =     5.316
+N = 2^   32
+No. Gaussian Pairs =    3373275903.
+Sums =     2.691444083862867D+09    2.691519118724558D+09
+Counts:
+  0    1572172634.
+  1    1501108549.
+  2     281805648.
+  3      17761221.
+  4        424017.
+  5          3821.
+  6            13.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        C
+ Size            =               8589934592
+ Iterations      =                        0
+ Time in seconds =                     5.32
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  1615.83
+ Mop/s/thread    =                    25.25
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running ep.D.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.D.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - EP Benchmark
+
+ Number of random numbers generated:    137438953472
+ Number of available threads:                     64
+
+EP Benchmark Results:
+
+CPU Time =    85.312
+N = 2^   36
+No. Gaussian Pairs =   53972171957.
+Sums =     4.306350280812263D+10    4.306347571858263D+10
+Counts:
+  0   25154622775.
+  1   24017899906.
+  2    4508609839.
+  3     284201296.
+  4       6776403.
+  5         61541.
+  6           197.
+  7             0.
+  8             0.
+  9             0.
+
+
+ EP Benchmark Completed.
+ Class           =                        D
+ Size            =             137438953472
+ Iterations      =                        0
+ Time in seconds =                    85.31
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  1611.02
+ Mop/s/thread    =                    25.17
+ Operation type  = Random numbers generated
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running ft.A.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.A.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - FT Benchmark
+
+ Size                :  256x 256x 128
+ Iterations                  :      6
+ Number of available threads :     64
+
+ T =    1     Checksum =    5.046735008193D+02    5.114047905510D+02
+ T =    2     Checksum =    5.059412319734D+02    5.098809666433D+02
+ T =    3     Checksum =    5.069376896287D+02    5.098144042213D+02
+ T =    4     Checksum =    5.077892868474D+02    5.101336130759D+02
+ T =    5     Checksum =    5.085233095391D+02    5.104914655194D+02
+ T =    6     Checksum =    5.091487099959D+02    5.107917842803D+02
+ Result verification successful
+ class = A
+
+
+ FT Benchmark Completed.
+ Class           =                        A
+ Size            =            256x 256x 128
+ Iterations      =                        6
+ Time in seconds =                     0.13
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 54338.33
+ Mop/s/thread    =                   849.04
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running ft.B.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.B.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - FT Benchmark
+
+ Size                :  512x 256x 256
+ Iterations                  :     20
+ Number of available threads :     64
+
+ T =    1     Checksum =    5.177643571579D+02    5.077803458597D+02
+ T =    2     Checksum =    5.154521291263D+02    5.088249431599D+02
+ T =    3     Checksum =    5.146409228650D+02    5.096208912659D+02
+ T =    4     Checksum =    5.142378756213D+02    5.101023387619D+02
+ T =    5     Checksum =    5.139626667737D+02    5.103976610618D+02
+ T =    6     Checksum =    5.137423460082D+02    5.105948019802D+02
+ T =    7     Checksum =    5.135547056878D+02    5.107404165783D+02
+ T =    8     Checksum =    5.133910925467D+02    5.108576573661D+02
+ T =    9     Checksum =    5.132470705390D+02    5.109577278523D+02
+ T =   10     Checksum =    5.131197729984D+02    5.110460304483D+02
+ T =   11     Checksum =    5.130070319283D+02    5.111252433800D+02
+ T =   12     Checksum =    5.129070537032D+02    5.111968077719D+02
+ T =   13     Checksum =    5.128182883503D+02    5.112616233064D+02
+ T =   14     Checksum =    5.127393733383D+02    5.113203605551D+02
+ T =   15     Checksum =    5.126691062021D+02    5.113735928093D+02
+ T =   16     Checksum =    5.126064276005D+02    5.114218460548D+02
+ T =   17     Checksum =    5.125504076570D+02    5.114656139760D+02
+ T =   18     Checksum =    5.125002331721D+02    5.115053595966D+02
+ T =   19     Checksum =    5.124551951846D+02    5.115415130407D+02
+ T =   20     Checksum =    5.124146770029D+02    5.115744692211D+02
+ Result verification successful
+ class = B
+
+
+ FT Benchmark Completed.
+ Class           =                        B
+ Size            =            512x 256x 256
+ Iterations      =                       20
+ Time in seconds =                     1.63
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 56384.95
+ Mop/s/thread    =                   881.01
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running ft.C.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.C.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - FT Benchmark
+
+ Size                :  512x 512x 512
+ Iterations                  :     20
+ Number of available threads :     64
+
+ T =    1     Checksum =    5.195078707457D+02    5.149019699238D+02
+ T =    2     Checksum =    5.155422171134D+02    5.127578201997D+02
+ T =    3     Checksum =    5.144678022222D+02    5.122251847514D+02
+ T =    4     Checksum =    5.140150594328D+02    5.121090289018D+02
+ T =    5     Checksum =    5.137550426810D+02    5.121143685824D+02
+ T =    6     Checksum =    5.135811056728D+02    5.121496764568D+02
+ T =    7     Checksum =    5.134569343165D+02    5.121870921893D+02
+ T =    8     Checksum =    5.133651975661D+02    5.122193250322D+02
+ T =    9     Checksum =    5.132955192805D+02    5.122454735794D+02
+ T =   10     Checksum =    5.132410471738D+02    5.122663649603D+02
+ T =   11     Checksum =    5.131971141679D+02    5.122830879827D+02
+ T =   12     Checksum =    5.131605205716D+02    5.122965869718D+02
+ T =   13     Checksum =    5.131290734194D+02    5.123075927445D+02
+ T =   14     Checksum =    5.131012720314D+02    5.123166486553D+02
+ T =   15     Checksum =    5.130760908195D+02    5.123241541685D+02
+ T =   16     Checksum =    5.130528295923D+02    5.123304037599D+02
+ T =   17     Checksum =    5.130310107773D+02    5.123356167976D+02
+ T =   18     Checksum =    5.130103090133D+02    5.123399592211D+02
+ T =   19     Checksum =    5.129905029333D+02    5.123435588985D+02
+ T =   20     Checksum =    5.129714421109D+02    5.123465164008D+02
+ Result verification successful
+ class = C
+
+
+ FT Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                     7.72
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 51370.90
+ Mop/s/thread    =                   802.67
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running is.A.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.A.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - IS Benchmark
+
+ Size:  8388608  (class A)
+ Iterations:  10
+ Number of available threads:  64
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        A
+ Size            =                  8388608
+ Iterations      =                       10
+ Time in seconds =                     0.03
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  2691.35
+ Mop/s/thread    =                    42.05
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running is.B.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.B.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - IS Benchmark
+
+ Size:  33554432  (class B)
+ Iterations:  10
+ Number of available threads:  64
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        B
+ Size            =                 33554432
+ Iterations      =                       10
+ Time in seconds =                     0.09
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  3568.71
+ Mop/s/thread    =                    55.76
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running is.C.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.C.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - IS Benchmark
+
+ Size:  134217728  (class C)
+ Iterations:  10
+ Number of available threads:  64
+
+
+   iteration
+        1
+        2
+        3
+        4
+        5
+        6
+        7
+        8
+        9
+        10
+
+
+ IS Benchmark Completed
+ Class           =                        C
+ Size            =                134217728
+ Iterations      =                       10
+ Time in seconds =                     0.36
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                  3686.86
+ Mop/s/thread    =                    57.61
+ Operation type  =              keys ranked
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    CC           = gcc
+    CLINK        = $(CC)
+    C_LIB        = -lm
+    C_INC        = (none)
+    CFLAGS       = -O3 -fopenmp
+    CLINKFLAGS   = $(CFLAGS)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running lu.A.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.A.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - LU Benchmark
+
+ Size:   64x  64x  64
+ Iterations:                    250
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class A
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.7790210760669E+03 0.7790210760669E+03 0.1444761544997E-13
+           2   0.6340276525969E+02 0.6340276525969E+02 0.4034451554690E-14
+           3   0.1949924972729E+03 0.1949924972729E+03 0.8891235814207E-14
+           4   0.1784530116042E+03 0.1784530116042E+03 0.4778015653798E-15
+           5   0.1838476034946E+04 0.1838476034946E+04 0.1137810759735E-13
+ Comparison of RMS-norms of solution error
+           1   0.2996408568547E+02 0.2996408568547E+02 0.8299601066640E-15
+           2   0.2819457636500E+01 0.2819457636500E+01 0.1181315523510E-13
+           3   0.7347341269878E+01 0.7347341269877E+01 0.7132175413867E-14
+           4   0.6713922568778E+01 0.6713922568778E+01 0.9260233305063E-15
+           5   0.7071531568839E+02 0.7071531568839E+02 0.1004793274050E-13
+ Comparison of surface integral
+               0.2603092560489E+02 0.2603092560489E+02 0.2729609951429E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      250
+ Time in seconds =                     1.80
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 66213.24
+ Mop/s/thread    =                  1034.58
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running lu.B.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.B.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - LU Benchmark
+
+ Size:  102x 102x 102
+ Iterations:                    250
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class B
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.3553267296998E+04 0.3553267296998E+04 0.1279800569101E-15
+           2   0.2621475079531E+03 0.2621475079531E+03 0.4336750656503E-14
+           3   0.8833372185095E+03 0.8833372185095E+03 0.1158313629331E-14
+           4   0.7781277473943E+03 0.7781277473943E+03 0.1461030506910E-14
+           5   0.7308796959255E+04 0.7308796959255E+04 0.6097479603732E-14
+ Comparison of RMS-norms of solution error
+           1   0.1140117638021E+03 0.1140117638021E+03 0.4985750326560E-15
+           2   0.8109896365542E+01 0.8109896365542E+01 0.7666249551988E-14
+           3   0.2848059731770E+02 0.2848059731770E+02 0.1995864701387E-14
+           4   0.2590539456783E+02 0.2590539456783E+02 0.3154262499205E-14
+           5   0.2605490750486E+03 0.2605490750486E+03 0.8726712056101E-15
+ Comparison of surface integral
+               0.4788716270331E+02 0.4788716270331E+02 0.1335406873333E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      250
+ Time in seconds =                     6.93
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 72019.38
+ Mop/s/thread    =                  1125.30
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running lu.C.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.C.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.0000000000000E+00
+           2   0.8922124588010E+03 0.8922124588010E+03 0.8919488359541E-15
+           3   0.2562388145827E+04 0.2562388145827E+04 0.8873506373871E-15
+           4   0.2191943438578E+04 0.2191943438578E+04 0.2074630863566E-15
+           5   0.1780780572611E+05 0.1780780572611E+05 0.1021456226288E-14
+ Comparison of RMS-norms of solution error
+           1   0.2159863997169E+03 0.2159863997169E+03 0.5263610943587E-15
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1140228426133E-15
+           3   0.5413188630772E+02 0.5413188630772E+02 0.7875684195310E-15
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1178681775745E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3740495022641E-15
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.8529866513682E-15
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                    24.68
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 82613.64
+ Mop/s/thread    =                  1290.84
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running mg.A.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.A.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class A)
+ Iterations:                      4
+ Number of available threads:    64
+
+ Initialization time:           0.060 seconds
+
+  iter   1
+  iter   4
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.2433365309069E-05
+ Error is    0.1898837264611E-12
+
+
+ MG Benchmark Completed.
+ Class           =                        A
+ Size            =            256x 256x 256
+ Iterations      =                        4
+ Time in seconds =                     0.08
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 50159.30
+ Mop/s/thread    =                   783.74
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running mg.B.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.B.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  256x 256x 256  (class B)
+ Iterations:                     20
+ Number of available threads:    64
+
+ Initialization time:           0.060 seconds
+
+  iter   1
+  iter   5
+  iter  10
+  iter  15
+  iter  20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1800564401355E-05
+ Error is    0.9643740265911E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        B
+ Size            =            256x 256x 256
+ Iterations      =                       20
+ Time in seconds =                     0.35
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 54974.34
+ Mop/s/thread    =                   858.97
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running mg.C.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.C.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  512x 512x 512  (class C)
+ Iterations:                     20
+ Number of available threads:    64
+
+ Initialization time:           0.324 seconds
+
+  iter   1
+  iter   5
+  iter  10
+  iter  15
+  iter  20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.5706732285740E-06
+ Error is    0.5621671259649E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                     2.70
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 57763.51
+ Mop/s/thread    =                   902.55
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running mg.D.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.D.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size: 1024x1024x1024  (class D)
+ Iterations:                     50
+ Number of available threads:    64
+
+ Initialization time:           2.340 seconds
+
+  iter   1
+  iter   5
+  iter  10
+  iter  15
+  iter  20
+  iter  25
+  iter  30
+  iter  35
+  iter  40
+  iter  45
+  iter  50
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.1583275060419E-09
+ Error is    0.1307934967129E-10
+
+
+ MG Benchmark Completed.
+ Class           =                        D
+ Size            =           1024x1024x1024
+ Iterations      =                       50
+ Time in seconds =                    52.14
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 59724.88
+ Mop/s/thread    =                   933.20
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = randi8
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running sp.A.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.A.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:   64x  64x  64
+ Iterations:  400    dt:    0.0015000
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class A
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.2479982239930E+01 0.2479982239930E+01 0.4154412681928E-13
+           2 0.1127633796437E+01 0.1127633796437E+01 0.1000312864499E-12
+           3 0.1502897788877E+01 0.1502897788877E+01 0.4388006167206E-13
+           4 0.1421781621170E+01 0.1421781621170E+01 0.7902378847720E-13
+           5 0.2129211303514E+01 0.2129211303514E+01 0.3879398578046E-13
+ Comparison of RMS-norms of solution error
+           1 0.1090014029782E-03 0.1090014029782E-03 0.4233556055755E-12
+           2 0.3734395176929E-04 0.3734395176928E-04 0.1233897060903E-12
+           3 0.5009278540654E-04 0.5009278540654E-04 0.1650345753008E-13
+           4 0.4767109393954E-04 0.4767109393953E-04 0.2335461626459E-12
+           5 0.1362161339921E-03 0.1362161339921E-03 0.5193525148700E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        A
+ Size            =             64x  64x  64
+ Iterations      =                      400
+ Time in seconds =                     1.09
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 78231.77
+ Mop/s/thread    =                  1222.37
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running sp.B.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.B.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  102x 102x 102
+ Iterations:  400    dt:    0.0010000
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class B
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.6903293579998E+02 0.6903293579998E+02 0.5290503177192E-13
+           2 0.3095134488084E+02 0.3095134488084E+02 0.8172608166283E-13
+           3 0.4103336647017E+02 0.4103336647017E+02 0.1118627709074E-12
+           4 0.3864769009604E+02 0.3864769009604E+02 0.3750566145994E-13
+           5 0.5643482272596E+02 0.5643482272596E+02 0.5766449813413E-13
+ Comparison of RMS-norms of solution error
+           1 0.9810006190188E-02 0.9810006190188E-02 0.4951297316808E-13
+           2 0.1022827905670E-02 0.1022827905670E-02 0.3911416568021E-12
+           3 0.1720597911692E-02 0.1720597911692E-02 0.1518615835771E-12
+           4 0.1694479428231E-02 0.1694479428231E-02 0.1068539161872E-12
+           5 0.1847456263981E-01 0.1847456263981E-01 0.8263019204417E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        B
+ Size            =            102x 102x 102
+ Iterations      =                      400
+ Time in seconds =                     5.06
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 70116.57
+ Mop/s/thread    =                  1095.57
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+Running sp.C.x with policy ule (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.C.x
+
+
+ NAS Parallel Benchmarks (NPB3.4-OMP) - SP Benchmark
+
+ No input file inputsp.data. Using compiled defaults
+ Size:  162x 162x 162
+ Iterations:  400    dt:    0.0006700
+ Number of available threads:    64
+
+ Time step    1
+ Time step   20
+ Time step   40
+ Time step   60
+ Time step   80
+ Time step  100
+ Time step  120
+ Time step  140
+ Time step  160
+ Time step  180
+ Time step  200
+ Time step  220
+ Time step  240
+ Time step  260
+ Time step  280
+ Time step  300
+ Time step  320
+ Time step  340
+ Time step  360
+ Time step  380
+ Time step  400
+ Verification being performed for class C
+ accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1 0.5881691581829E+03 0.5881691581829E+03 0.7016403617701E-13
+           2 0.2454417603569E+03 0.2454417603569E+03 0.4608767610227E-13
+           3 0.3293829191851E+03 0.3293829191851E+03 0.3503282458390E-13
+           4 0.3081924971891E+03 0.3081924971891E+03 0.1385154017499E-12
+           5 0.4597223799176E+03 0.4597223799176E+03 0.3783606570236E-13
+ Comparison of RMS-norms of solution error
+           1 0.2598120500183E+00 0.2598120500183E+00 0.1645173364556E-13
+           2 0.2590888922315E-01 0.2590888922315E-01 0.1691277253369E-12
+           3 0.5132886416320E-01 0.5132886416320E-01 0.3960921300305E-13
+           4 0.4806073419454E-01 0.4806073419454E-01 0.8085146120447E-14
+           5 0.5483377491301E+00 0.5483377491301E+00 0.7248449399049E-13
+ Verification Successful
+
+
+ SP Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      400
+ Time in seconds =                    23.53
+ Total threads   =                       64
+ Avail threads   =                       64
+ Mop/s total     =                 61631.54
+ Mop/s/thread    =                   962.99
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                    3.4.2
+ Compile date    =              01 Jun 2021
+
+ Compile options:
+    FC           = gfortran
+    FLINK        = $(FC)
+    F_LIB        = (none)
+    F_INC        = (none)
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = $(FFLAGS)
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+/home/gvacherias/ipanema/nas-ipanema

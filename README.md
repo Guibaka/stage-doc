@@ -12,6 +12,28 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+
+### 04/06/2021
+* J'ai poursuivi la recherche de l'erreur. L'erreur provient du compilateur, qui crée une boucle while où la condition n'est jamais satisfaite : 
+```shell=
+while (!(bitmap_empty(stealable_groups, __sd->___sched_group_idx) ||true))
+```
+* Il faudra regarder le fichier [steal2c.ml](https://gitlab.inria.fr/ipanema/compiler/-/blob/master/compiler/generator_new/steal2c.ml) pour effectuer les modifications. 
+* Il est aussi possible que l'erreur provient du code ipanema
+
+### 03/06/2021
+* Compréhension du code cfs_ipa.ipanema et le code généré cfs_ipa.c
+* J'ai comparé avec les code cfs_cwc_flat.ipanema ainsi que cfs_cwc_flat.c. La différence étant la définition de la fonction steal(). En effet, dans cfs_ipa.ipanema, il définit un steal_group() en plus du steal_core() de cfs_cwc_flat.ipanema. 
+
+### 02/06/2021
+* J'ai modifié le script trace.sh ainsi que le Makefile dans ipanema-kernel/kernel/sched/ipanema. Les fichiers *.ko* pourra directement être intégré dans /lib/modules/($shell -uname)/kernel/kernel/sched/ipanema/ ainsi pour changer de politique d'ordonnancement un simple **modprobe** suffirait.
+* J'ai continué à lancer des benchmark sur les politiques : *cfs cfs_wwc_flat ule* (politique d'ordonnancement écrit)
+* Il faudra regarder le code cfs_ipa.c ainsi que cfs_ipa.ipanema
+
+### 01/06/2021
+* J'ai réalisé les benchmark sur les politiques : *cfs_cwc_flat_ipa	cfs_cwc_ipa cfs_wwc_flat_4ms_ipa	ule_ipa	ule_cwc_ipa* (polique d'ordonnancement généré par le compilateur)
+* En essayant de réaliser un benchmark sur la politque cfs_ipa, le benchmark ne tourne plus. Il est possible que le code généré soit erroné. Il sera nécessaire pour la prochaine fois de jeter un coup d'oeuil
+
 ### 31/05/2021
 Rendez-vous en visio-conférence avec l’équipe travaillant sur ipanema : 
 * Risk condition : L'odre d'affectation des variables *ttw* et *number_running* que les fonctions *available_core()* et *load_balancing()* utilisent,  crée des IDLE core inattendu
