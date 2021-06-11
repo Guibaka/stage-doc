@@ -12,6 +12,32 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 11/06/2021
+Journée de travail au laboratoire de l’IMAG : 
+* Monsieur Palix m'a aidé a cerner le problème. Il va falloir donc regarder dans le fichier steal2c.ml (fichier générant le code C par le compilateur). 
+* Le générateur ne prends pas en compte les **until** sans le keyword **do**. 
+* Il va falloir que je rajoute dans ce fichier le cas non géré
+* J'ai pu modifier le code C généré pour avoir une meilleure compréhension du fontionnement hierachique entre *domain*, *groups*, *core*, *threads*. 
+* Il serait intéressant d'ajouter dans le fichier note.md les explications concernant la hierarchie des politique non **FLAT** 
+
+### 10/06/2021
+* J'ai comparé le code cfs_ipa et cfs_cwc_ipa. La seule différence observé : l'itération dans l'ensemble des *stealable_group* .
+* Dans cfs_ipa.c il n'est pas censé avoir une itération sur l'ensemble des stealable_groups.
+
+L'erreur pourrais être présent dans 3 cas : 
+* code cfs_ipa écrit en DSL Ipanema
+* le code généré par le compilateur 
+* le parsing ne fonctionne pas correctement
+### 09/06/2021
+* Problème avec &pos->cpus_masks 
+* Condition until génére n'est pas le même attendu que dans *cfs_ipa*
+* J'ai regardé une exécution en mode ocamldebug pour le fichier cfs_ipa
+
+### 08/06/2021
+* Exécution en mode débug sous ocamldebug
+* Potentiel problème dans fichier : compile_steal (voir compile_steal until) 
+* Génére un *AST.Or* mais avec une condition à **false** 
+* Il faudra regarder plus en détail ntm
 
 ### 04/06/2021
 * J'ai poursuivi la recherche de l'erreur. L'erreur provient du compilateur, qui crée une boucle while où la condition n'est jamais satisfaite : 
