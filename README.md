@@ -12,6 +12,45 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 22/06/2021
+Journée de travail au laboratoire de l’IMAG : 
+* Fix d'un problème de parenthèsage sur le code C généré
+* Il existe toujours le même problème du code C généré de la politque cfs_ipa (kernel soft/hard lock)
+
+Voici ce que affiche **sudo dmesg** : 
+```shell=
+BUG: unable to handle kernel NULL pointer dereference at 0000000000000030
+```
+
+
+### 21/06/2021
+Rendez-vous en visio-conférence avec l’équipe travaillant sur ipanema : 
+* Implémentation fini sur steal2c. 
+* Rédaction du script pour comparer la différence après le changement
+
+### 18/06/2021
+Journée de travail au laboratoire de l’IMAG : 
+* Fini l'implémetation. Il manque à tester les politiques générées. 
+### 17/06/2021
+* Modification du fichier steal2c.ml. J'utilise un flag pour voir si la condition est générée. Si oui, on remplace *continue* 
+* L'idée est de ne pas itérer sur les ensembles de groupes et de core
+### 16/06/2021
+* Modification du fichier steal2c.ml dans le répertoire generator_new du compilateur. La condition *while(unsatisfaible)* n'existe plus. Cependant, il manque encore : 
+```c=
+goto free_mem // replace with continue
+```
+
+### 15/06/2021
+Journée de travail au laboratoire de l’IMAG : 
+* Validation du code cfs_ipa.c qui est censé être généré par le compilateur. Manque plus qu'à implémenter 
+* Monsieur Palix m'a expliqué l'utilisation des variables en cache dans le fichier cfs.c
+```c=
+env.thief_grp_cload = grp_load(thief_group);
+env.thief_grp_runnable = runnable(thief_group);
+```
+* On pourra envisager à implémenter l'utilisation des variables en cache soit avec **flag** ou avec un mot clé dans le compilateur pour la génération de code
+* On pourra aussi envisager à écrire un script pour reporter plus facilement les résultats des benchmarks
+
 ### 11/06/2021
 Journée de travail au laboratoire de l’IMAG : 
 * Monsieur Palix m'a aidé a cerner le problème. Il va falloir donc regarder dans le fichier steal2c.ml (fichier générant le code C par le compilateur). 
