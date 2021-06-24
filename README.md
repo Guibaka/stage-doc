@@ -12,6 +12,16 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 24/06/2021
+* Monsieur Palix m'a donné une la commande **addr2line** permet de convertir l'adresse fournis dans la trace d'erreur. 
+* Le bug provient de la fonction **ipanema_cfs_ipa_attach** qui renvoie un boolean. Je ne vois pas à quel moment cette fonction est appelé. (C'est une transition du ipanema_state ?)
+* Modification du script pourcomparer la différence entre les code C généré avant la modification du fichier steal2c et après
+* Il fraudra aussi trouver un moyen pour interrompre le benchmark lorsque le kernel est en soft/hard lock
+
+### 23/06/2021
+* Le bug semblerait apparaître dans la fonction ipanema_cfs_ipa_unblock_prepare. Il se peut que find_idlest_cpu_group ne trouve aucun group et on choisi un core où un thread est bloqué 
+* J'essaye de faire des kprint mais ce n'est pas efficace. Faudrait trouver un moyen pour debugger les fichier module .ko
+
 ### 22/06/2021
 Journée de travail au laboratoire de l’IMAG : 
 * Fix d'un problème de parenthèsage sur le code C généré
@@ -76,7 +86,7 @@ L'erreur pourrais être présent dans 3 cas :
 * Exécution en mode débug sous ocamldebug
 * Potentiel problème dans fichier : compile_steal (voir compile_steal until) 
 * Génére un *AST.Or* mais avec une condition à **false** 
-* Il faudra regarder plus en détail ntm
+* Il faudra regarder plus en détail
 
 ### 04/06/2021
 * J'ai poursuivi la recherche de l'erreur. L'erreur provient du compilateur, qui crée une boucle while où la condition n'est jamais satisfaite : 
