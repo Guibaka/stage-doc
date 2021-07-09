@@ -12,6 +12,62 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 05/07/2021-09/07/2021
+* Modification du fichier steal2c pour générer le code C utilisant la fonction *migrate_from_to* pour la migration des threads. Cette modification affect les politique ule_ipa et ule_bsd_rand_ipa. On remarquera qu'il y a une hausse de performance en temps d'exécution pour la politique ule_ipa
+* J'ai commencé à lancer les benchmarks avec la commande hyperfine. Plus de détail sur la commande [ici](https://github.com/sharkdp/hyperfine). 
+* Modification du script deploy pour la réservation de noeud après 19h afin de faire tourner les benchmarks 
+* On pourra référer au fichier [steal2c.ml](https://gitlab.inria.fr/ipanema/compiler/-/blob/guillaume/compiler/generator_new/steal2c.ml). D'après la politique ule_ipa.ipanema nous avons : 
+```shell=
+steal = {
+			can_steal_core(core src, core dst) {
+			    dst.balanced ? false :
+			    src.balanced ? false :
+				src.cload > dst.cload
+			} => stealable_cores
+			do {
+			   select_core() {
+				first(stealable_cores order = { highest cload })
+			   } => busiest
+			   steal_thread(core here, thread t) {
+				here.balanced = true;
+				if(busiest.cload - here.cload >= 2) {
+					busiest.balanced = true;
+					if(t.prio == REGULAR)
+						t => here.timeshare;
+					else
+						t => here.realtime;
+				}
+			   } until ( here.balanced )
+			} until (true)
+		}
+
+```
+
+* Il faudra pour la semaine prochaine attaquer la partie variable en cache
+
+La modification permet d'obtenir le code C suivant pour la migration des threads dans un core idle : 
+```c=
+/* Special case for ule */
+        do{
+        	/* Step 4 : select_core*/
+                busiest = select_core(policy, NULL, stealable_cores);
+                if (!busiest)
+                	goto free_mem;
+                
+                /* Step 5: steal_thread */
+                migrate_from_to(policy, busiest, core_30);
+                /*Post Operation in core iteration*/
+                	cpumask_clear_cpu(busiest->id, stealable_cores);
+                
+        }while (!(cpumask_empty(stealable_cores) || busiest->balanced));
+```
+
+### 28/06/2021-02/07/2021
+* Petite modification sur le sript de comparaison sur le code C généré. J'ai remarqué que ma modification fonctionnait que sur une politique spécifique (cfs_ipa) alors que les poliques telles que (ule_ipa) présentent le même soucis
+* Avec l'aide de Monsieur Palix, j'ai pu localisé le problème du déférencement NULL. Cependant, j'ai fait certain changement évitant l'apparition du probème de pointeur NULL mais cela n'améliore pas la situation. 
+* Il sera envisageable de débugger grâce à Qemu pour regarder en détail l'éxécution du module
+* Rédaction d'un script pour reporter les résultats des benchmarks (NAS-benchmark)
+
 ### 24/06/2021
 * Monsieur Palix m'a donné une la commande **addr2line** permet de convertir l'adresse fournis dans la trace d'erreur. 
 * Le bug provient de la fonction **ipanema_cfs_ipa_attach** qui renvoie un boolean. Je ne vois pas à quel moment cette fonction est appelé. (C'est une transition du ipanema_state ?)

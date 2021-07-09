@@ -1,0 +1,176 @@
+Running bt.A.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.A.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.A.x
+  Time (mean ± σ):      5.906 s ±  3.783 s    [User: 283.065 s, System: 0.180 s]
+  Range (min … max):    2.914 s … 13.148 s    10 runs
+ 
+Running bt.B.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.B.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.B.x
+  Time (mean ± σ):     14.350 s ±  5.078 s    [User: 767.674 s, System: 0.369 s]
+  Range (min … max):    9.166 s … 20.127 s    10 runs
+ 
+Running bt.C.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.C.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.C.x
+  Time (mean ± σ):     41.139 s ±  3.196 s    [User: 2544.626 s, System: 0.580 s]
+  Range (min … max):   37.997 s … 49.217 s    10 runs
+ 
+Running cg.A.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.A.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.A.x
+  Time (mean ± σ):      1.649 s ±  1.541 s    [User: 69.438 s, System: 0.121 s]
+  Range (min … max):    0.212 s …  5.550 s    10 runs
+ 
+Running cg.B.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.B.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.B.x
+  Time (mean ± σ):      3.647 s ±  1.593 s    [User: 213.518 s, System: 0.267 s]
+  Range (min … max):    2.239 s …  6.468 s    10 runs
+ 
+Running cg.C.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.C.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.C.x
+  Time (mean ± σ):     13.548 s ±  2.801 s    [User: 816.767 s, System: 0.344 s]
+  Range (min … max):    9.953 s … 17.980 s    10 runs
+ 
+Running dc.A.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/dc.A.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/dc.A.x
+  Time (mean ± σ):     22.145 s ±  0.937 s    [User: 660.981 s, System: 33.695 s]
+  Range (min … max):   21.050 s … 23.940 s    10 runs
+ 
+Running dc.B.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/dc.B.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/dc.B.x
+  Time (mean ± σ):     56.907 s ±  0.963 s    [User: 1317.186 s, System: 72.097 s]
+  Range (min … max):   55.586 s … 58.809 s    10 runs
+ 
+Running ep.A.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.A.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.A.x
+  Time (mean ± σ):     515.2 ms ±  44.8 ms    [User: 26.855 s, System: 0.068 s]
+  Range (min … max):   392.3 ms … 551.4 ms    10 runs
+ 
+Running ep.B.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.B.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.B.x
+  Time (mean ± σ):      1.513 s ±  0.017 s    [User: 90.120 s, System: 0.048 s]
+  Range (min … max):    1.496 s …  1.551 s    10 runs
+ 
+Running ep.C.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.C.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.C.x
+  Time (mean ± σ):      5.476 s ±  0.040 s    [User: 342.284 s, System: 0.077 s]
+  Range (min … max):    5.405 s …  5.537 s    10 runs
+ 
+Running ep.D.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.D.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.D.x
+  Time (mean ± σ):     84.860 s ±  0.253 s    [User: 5386.171 s, System: 0.076 s]
+  Range (min … max):   84.377 s … 85.284 s    10 runs
+ 
+Running ft.A.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.A.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.A.x
+  Time (mean ± σ):      1.695 s ±  0.697 s    [User: 68.999 s, System: 0.219 s]
+  Range (min … max):    0.353 s …  2.131 s    10 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet PC without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Running ft.B.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.B.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.B.x
+  Time (mean ± σ):      4.511 s ±  1.859 s    [User: 199.282 s, System: 0.664 s]
+  Range (min … max):    2.216 s …  7.937 s    10 runs
+ 
+Running ft.C.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.C.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.C.x
+  Time (mean ± σ):     10.093 s ±  0.509 s    [User: 622.601 s, System: 2.553 s]
+  Range (min … max):    9.432 s … 10.982 s    10 runs
+ 
+Running is.A.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.A.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.A.x
+  Time (mean ± σ):      1.188 s ±  0.254 s    [User: 47.341 s, System: 0.104 s]
+  Range (min … max):    0.466 s …  1.283 s    10 runs
+ 
+  Warning: The first benchmarking run for this command was significantly slower than the rest (1.282 s). This could be caused by (filesystem) caches that were not filled until after the first run. You should consider using the '--warmup' option to fill those caches before the actual benchmark. Alternatively, use the '--prepare' option to clear the caches before each timing run.
+ 
+Running is.B.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.B.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.B.x
+  Time (mean ± σ):     801.4 ms ± 585.6 ms    [User: 35.079 s, System: 0.288 s]
+  Range (min … max):   332.3 ms … 1494.8 ms    10 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet PC without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Running is.C.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.C.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.C.x
+  Time (mean ± σ):      1.586 s ±  0.623 s    [User: 75.905 s, System: 0.719 s]
+  Range (min … max):    0.974 s …  2.316 s    10 runs
+ 
+Running lu.A.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.A.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.A.x
+  Time (mean ± σ):      2.386 s ±  0.171 s    [User: 142.144 s, System: 0.075 s]
+  Range (min … max):    1.905 s …  2.467 s    10 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet PC without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Running lu.B.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.B.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.B.x
+  Time (mean ± σ):      7.938 s ±  0.100 s    [User: 494.916 s, System: 0.158 s]
+  Range (min … max):    7.805 s …  8.098 s    10 runs
+ 
+Running lu.C.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.C.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.C.x
+  Time (mean ± σ):     28.259 s ±  0.728 s    [User: 1792.449 s, System: 0.389 s]
+  Range (min … max):   27.292 s … 29.287 s    10 runs
+ 
+Running mg.A.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.A.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.A.x
+  Time (mean ± σ):     394.8 ms ±  13.2 ms    [User: 19.949 s, System: 0.361 s]
+  Range (min … max):   380.2 ms … 422.3 ms    10 runs
+ 
+Running mg.B.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.B.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.B.x
+  Time (mean ± σ):     766.7 ms ±  24.0 ms    [User: 43.698 s, System: 0.408 s]
+  Range (min … max):   734.0 ms … 803.8 ms    10 runs
+ 
+Running mg.C.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.C.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.C.x
+  Time (mean ± σ):      4.097 s ±  0.423 s    [User: 253.171 s, System: 1.645 s]
+  Range (min … max):    3.082 s …  4.598 s    10 runs
+ 
+Running mg.D.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.D.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.D.x
+  Time (mean ± σ):     116.068 s ±  8.100 s    [User: 7168.092 s, System: 12.983 s]
+  Range (min … max):   98.233 s … 123.211 s    10 runs
+ 
+Running sp.A.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.A.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.A.x
+  Time (mean ± σ):      3.002 s ±  1.863 s    [User: 155.043 s, System: 0.154 s]
+  Range (min … max):    1.255 s …  7.248 s    10 runs
+ 
+Running sp.B.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.B.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.B.x
+  Time (mean ± σ):     10.513 s ±  3.689 s    [User: 580.190 s, System: 0.359 s]
+  Range (min … max):    6.578 s … 15.786 s    10 runs
+ 
+Running sp.C.x with policy ule_ipa (0)
+Run ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.C.x
+Benchmark #1: ipastart 0 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.C.x
+  Time (mean ± σ):     45.112 s ±  5.950 s    [User: 2607.906 s, System: 0.770 s]
+  Range (min … max):   37.570 s … 57.672 s    10 runs
+
