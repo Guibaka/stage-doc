@@ -12,6 +12,36 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 12/07/2021-16/07/2021
+* Implémentation des variables en cache lb_env (génération de la structure *struct* <politique_ipa> _lb_env fonctionne) : 
+```c=
+struct lb_env{
+ /* cache environments variable */
+ int busiest_grp_cload; // Internal
+ int thief_grp_cload; // Internal
+ int busiest_grp_runnable; // Internal
+ int thief_grp_runnable; // Internal
+}
+```
+
+Pour le choix de la génération du code C avec les variable en cache, on utilise un flag **cache** dans le fichier ipanema.ml.
+
+J'ai implémenté différente fonction en suivant le modéle de génération du code C du compilateur.
+
+Fichier bossa2c.ml : 
+* Définition de la fonction *pp_cachedstl* pour générer les champs de notre structure qui appel la fonction *pp_decls*
+* L'appel de cette fonction est effectué dans le point d'entrée de ce fichier
+* Modification de la fonction **pp_ipa_struct** pour faire appel à la fonction G.pp_cache_struct_cs défini dans génaux.ml
+* Question : Le module plazy sert est-il nécessaire dans l'implémentation de la structure lb_env ?
+
+Fichier objects.ml :
+* Ajout d'un champ *CACHE of identifier* dans le type **typ**
+* *CACHE of identifier* permettra de générer le code c puisque identifier est de type (string * int) où int permet d'intentifier l'objet. 
+
+Fichier genaux.ml : 
+* Définition d'une fonction **pp_cache_struct_cs** permettant de générer le nom de la structure selon le nom de la politique implémenté
+
+* Pour la prochaine fois il faudra utiliser cette structure dans les fonctions **migrate_from_to** et **steal_for_dom** 
 ### 05/07/2021-09/07/2021
 * Modification du fichier steal2c pour générer le code C utilisant la fonction *migrate_from_to* pour la migration des threads. Cette modification affect les politique ule_ipa et ule_bsd_rand_ipa. On remarquera qu'il y a une hausse de performance en temps d'exécution pour la politique ule_ipa
 * J'ai commencé à lancer les benchmarks avec la commande hyperfine. Plus de détail sur la commande [ici](https://github.com/sharkdp/hyperfine). 

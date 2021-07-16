@@ -1,0 +1,178 @@
+Running bt.A.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.A.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.A.x
+  Time (mean ± σ):      2.137 s ±  0.099 s    [User: 131.061 s, System: 0.172 s]
+  Range (min … max):    2.087 s …  2.416 s    10 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet PC without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Running bt.B.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.B.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.B.x
+  Time (mean ± σ):      8.791 s ±  0.072 s    [User: 556.955 s, System: 0.438 s]
+  Range (min … max):    8.697 s …  8.912 s    10 runs
+ 
+Running bt.C.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.C.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/bt.C.x
+  Time (mean ± σ):     36.144 s ±  0.256 s    [User: 2306.111 s, System: 0.966 s]
+  Range (min … max):   35.840 s … 36.470 s    10 runs
+ 
+Running cg.A.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.A.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.A.x
+  Time (mean ± σ):     237.5 ms ±  39.6 ms    [User: 9.275 s, System: 0.342 s]
+  Range (min … max):   210.0 ms … 327.8 ms    14 runs
+ 
+Running cg.B.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.B.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.B.x
+  Time (mean ± σ):      2.468 s ±  0.133 s    [User: 152.011 s, System: 0.434 s]
+  Range (min … max):    2.259 s …  2.661 s    10 runs
+ 
+Running cg.C.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.C.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/cg.C.x
+  Time (mean ± σ):      9.596 s ±  0.172 s    [User: 607.961 s, System: 0.562 s]
+  Range (min … max):    9.343 s …  9.945 s    10 runs
+ 
+Running dc.A.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/dc.A.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/dc.A.x
+  Time (mean ± σ):     18.878 s ±  0.337 s    [User: 546.694 s, System: 35.568 s]
+  Range (min … max):   18.232 s … 19.284 s    10 runs
+ 
+Running dc.B.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/dc.B.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/dc.B.x
+  Time (mean ± σ):     53.945 s ±  0.348 s    [User: 1177.399 s, System: 73.104 s]
+  Range (min … max):   53.664 s … 54.884 s    10 runs
+ 
+Running ep.A.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.A.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.A.x
+  Time (mean ± σ):     464.2 ms ±   6.4 ms    [User: 23.790 s, System: 0.043 s]
+  Range (min … max):   451.4 ms … 473.8 ms    10 runs
+ 
+Running ep.B.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.B.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.B.x
+  Time (mean ± σ):      1.458 s ±  0.010 s    [User: 87.527 s, System: 0.044 s]
+  Range (min … max):    1.440 s …  1.481 s    10 runs
+ 
+Running ep.C.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.C.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.C.x
+  Time (mean ± σ):      5.430 s ±  0.018 s    [User: 340.520 s, System: 0.070 s]
+  Range (min … max):    5.405 s …  5.462 s    10 runs
+ 
+Running ep.D.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.D.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ep.D.x
+  Time (mean ± σ):     84.863 s ±  0.382 s    [User: 5391.458 s, System: 0.082 s]
+  Range (min … max):   84.503 s … 85.426 s    10 runs
+ 
+Running ft.A.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.A.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.A.x
+  Time (mean ± σ):     281.3 ms ±  46.3 ms    [User: 12.182 s, System: 0.233 s]
+  Range (min … max):   262.7 ms … 420.5 ms    11 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet PC without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Running ft.B.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.B.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.B.x
+  Time (mean ± σ):      2.005 s ±  0.176 s    [User: 121.412 s, System: 0.562 s]
+  Range (min … max):    1.866 s …  2.411 s    10 runs
+ 
+Running ft.C.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.C.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/ft.C.x
+  Time (mean ± σ):      8.465 s ±  0.168 s    [User: 533.365 s, System: 2.416 s]
+  Range (min … max):    8.091 s …  8.668 s    10 runs
+ 
+Running is.A.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.A.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.A.x
+  Time (mean ± σ):     199.9 ms ±  15.7 ms    [User: 5.965 s, System: 0.096 s]
+  Range (min … max):   157.0 ms … 210.5 ms    14 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet PC without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Running is.B.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.B.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.B.x
+  Time (mean ± σ):     363.8 ms ±  11.6 ms    [User: 15.836 s, System: 0.265 s]
+  Range (min … max):   350.9 ms … 388.5 ms    10 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet PC without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Running is.C.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.C.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/is.C.x
+  Time (mean ± σ):      1.073 s ±  0.087 s    [User: 55.500 s, System: 1.044 s]
+  Range (min … max):    0.963 s …  1.163 s    10 runs
+ 
+Running lu.A.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.A.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.A.x
+  Time (mean ± σ):      1.908 s ±  0.020 s    [User: 117.143 s, System: 0.250 s]
+  Range (min … max):    1.885 s …  1.950 s    10 runs
+ 
+Running lu.B.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.B.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.B.x
+  Time (mean ± σ):      7.116 s ±  0.162 s    [User: 450.189 s, System: 0.097 s]
+  Range (min … max):    6.968 s …  7.536 s    10 runs
+ 
+Running lu.C.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.C.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/lu.C.x
+  Time (mean ± σ):     25.433 s ±  0.506 s    [User: 1621.192 s, System: 0.368 s]
+  Range (min … max):   25.073 s … 26.412 s    10 runs
+ 
+Running mg.A.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.A.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.A.x
+  Time (mean ± σ):     231.3 ms ±   7.8 ms    [User: 9.288 s, System: 0.468 s]
+  Range (min … max):   223.8 ms … 251.5 ms    13 runs
+ 
+Running mg.B.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.B.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.B.x
+  Time (mean ± σ):     522.0 ms ±   6.4 ms    [User: 28.024 s, System: 0.553 s]
+  Range (min … max):   514.6 ms … 533.4 ms    10 runs
+ 
+Running mg.C.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.C.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.C.x
+  Time (mean ± σ):      3.248 s ±  0.127 s    [User: 199.233 s, System: 1.865 s]
+  Range (min … max):    3.164 s …  3.585 s    10 runs
+ 
+  Warning: Statistical outliers were detected. Consider re-running this benchmark on a quiet PC without any interferences from other programs. It might help to use the '--warmup' or '--prepare' options.
+ 
+Running mg.D.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.D.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/mg.D.x
+  Time (mean ± σ):     55.437 s ±  0.449 s    [User: 3525.889 s, System: 12.685 s]
+  Range (min … max):   54.850 s … 56.472 s    10 runs
+ 
+Running sp.A.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.A.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.A.x
+  Time (mean ± σ):      1.294 s ±  0.110 s    [User: 77.710 s, System: 0.265 s]
+  Range (min … max):    1.197 s …  1.578 s    10 runs
+ 
+Running sp.B.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.B.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.B.x
+  Time (mean ± σ):      5.333 s ±  0.102 s    [User: 335.878 s, System: 0.578 s]
+  Range (min … max):    5.194 s …  5.503 s    10 runs
+ 
+Running sp.C.x with policy cfs_cwc_ipa (2)
+Run ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.C.x
+Benchmark #1: ipastart 2 /home/gvacherias/ipanema/NPB-3.4.2/NPB3.4-OMP/bin/sp.C.x
+  Time (mean ± σ):     24.073 s ±  0.181 s    [User: 1534.883 s, System: 0.657 s]
+  Range (min … max):   23.677 s … 24.361 s    10 runs
+
