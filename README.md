@@ -12,6 +12,27 @@ Vincent Danjean
 Les notes de compréhension se trouve dans [note.md](https://github.com/Guibaka/stage-doc/blob/main/note.md)
 
 ## Suivi de stage
+### 19/07/2021-23/07/2021
+* L'utilisation des variables implémentés dans la fonction **steal_for_dom** fonctionne (le code C généré est correct)
+* J'ai commencé à implémenter l'utilisation des variable en cache pour la fonction **migrate_from_to** 
+
+Pour généré le code C  dans la fonction **migrate_from_to**, ce dernier appel la fonction **pp_seq2** avec l'argument *migrstmt* de type **stmt** (statement). L'idée est donc de changer les variables généré par nos variable lb_env. Pour cela on doit donc modifier l'ast dans l'argument *migrstmt* 
+
+Fichier ipanema.ml : 
+* Ajout d'un flag lcache déterminant si on utilise le champs cload d'un core
+
+Fichier ast.ml : 
+* Ajout de la fonction **convert_to_cache** convertit les noms des variables par les noms des variables d lb_env
+* Ajout des fonctions auxilière utilisée **convert_exp** et **select_field**
+
+
+Fichier steal2c.ml : 
+* Modification pour utiliser les variables lors de la génération du code C pour la fonction **steal_for_dom**
+* Modification pour utiliser les variables lors de la génération du code C pour la fonction **migrate_from_to** (en cours)
+
+Question : Concernant l'implémentation des variables en cache, est-ce qu'il serait plus astucieux de déterminer les variables à mettre en cache au moment de la complétion d'ast (fichier compile.ml) ou au moment de générer le code C  ?
+
+Réponse : Sur le long terme, la phase de compilation est mieux, car plus souple et tu peux faire plusieurs passes sur l'arbre facilement. (peut-être plus couteux car on doit parcourir tout l'ast)
 ### 12/07/2021-16/07/2021
 * Implémentation des variables en cache lb_env (génération de la structure *struct* <politique_ipa> _lb_env fonctionne) : 
 ```c=
@@ -29,7 +50,7 @@ Pour le choix de la génération du code C avec les variable en cache, on utilis
 J'ai implémenté différente fonction en suivant le modéle de génération du code C du compilateur.
 
 Fichier bossa2c.ml : 
-* Définition de la fonction *pp_cachedstl* pour générer les champs de notre structure qui appel la fonction *pp_decls*
+* Définition de la fonction *pp_cacheddecls* pour générer les champs de notre structure qui appel la fonction *pp_decls*
 * L'appel de cette fonction est effectué dans le point d'entrée de ce fichier
 * Modification de la fonction **pp_ipa_struct** pour faire appel à la fonction G.pp_cache_struct_cs défini dans génaux.ml
 * Question : Le module plazy sert est-il nécessaire dans l'implémentation de la structure lb_env ?
